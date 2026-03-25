@@ -85,6 +85,12 @@ class PrefectureOption:
 
 
 @dataclass(frozen=True)
+class SearchTarget:
+    prefecture: PrefectureOption
+    city: str | None = None
+
+
+@dataclass(frozen=True)
 class CrawlSettings:
     pagination_sleep_seconds: float = 2.0
     prefecture_sleep_seconds: float = 5.0
@@ -104,6 +110,7 @@ def get_driver(*, headless: bool = True) -> webdriver.Chrome:
         options.add_argument("--headless=new")
     options.add_argument("--disable-gpu")
     options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--ignore-certificate-errors")
     options.add_argument("--window-size=1400,1600")
     options.add_argument(
@@ -148,6 +155,7 @@ def submit_search(
     *,
     category_value: str,
     prefecture_code: str,
+    city_name: str | None = None,
 ) -> None:
     """Fill the search form and submit it."""
     open_search_form(driver, wait)
@@ -168,6 +176,22 @@ def submit_search(
 
     next_button = driver.find_element(By.ID, "BTN_NEXT")
     driver.execute_script("arguments[0].click();", next_button)
+    wait.until(lambda d: d.current_url != BASE_URL)
+
+    if city_name is not None:
+        city_select = wait.until(
+            EC.presence_of_element_located((By.NAME, "MEI_KYOTEN_SIKUGUN"))
+        )
+        Select(city_select).select_by_visible_text(city_name)
+        search_button = wait.until(EC.element_to_be_clickable((By.ID, "BTN_SEARCH")))
+        driver.execute_script("arguments[0].click();", search_button)
+        wait.until(
+            lambda d: "@search" in d.current_url
+            or "0件" in d.page_source
+            or "該当" in d.page_source
+            or "店舗名" in d.page_source
+        )
+        return
 
     # Wait until either a result table appears or a page with explicit no-result
     # text appears.  Without the live DOM we keep this intentionally broad.
@@ -309,6 +333,39 @@ def deduplicate(points: Iterable[CollectionPoint]) -> List[CollectionPoint]:
     return unique
 
 
+def get_city_options_for_prefecture(
+    driver: webdriver.Chrome,
+    wait: WebDriverWait,
+    *,
+    category_value: str,
+    prefecture: PrefectureOption,
+) -> List[str]:
+    """Return city options required for a prefecture search.
+
+    Some prefectures require city/ward selection on an intermediate page.
+    If no city select is present, return an empty list.
+    """
+    submit_search(
+        driver,
+        wait,
+        category_value=category_value,
+        prefecture_code=prefecture.code,
+        city_name=None,
+    )
+    city_select_elements = driver.find_elements(By.NAME, "MEI_KYOTEN_SIKUGUN")
+    if not city_select_elements:
+        return []
+
+    city_select = Select(city_select_elements[0])
+    city_names: List[str] = []
+    for option in city_select.options:
+        name = option.text.strip()
+        if not name:
+            continue
+        city_names.append(name)
+    return city_names
+
+
 def scrape_category(
     driver: webdriver.Chrome,
     wait: WebDriverWait,
@@ -322,13 +379,18 @@ def scrape_category(
     errors: List[str] = []
 
     for prefecture in prefectures:
+        targets: List[SearchTarget]
         try:
-            submit_search(
+            city_names = get_city_options_for_prefecture(
                 driver,
                 wait,
                 category_value=category_value,
-                prefecture_code=prefecture.code,
+                prefecture=prefecture,
             )
+            if city_names:
+                targets = [SearchTarget(prefecture=prefecture, city=city) for city in city_names]
+            else:
+                targets = [SearchTarget(prefecture=prefecture)]
         except TimeoutException:
             errors.append(f"{category_label} / {prefecture.name}: 検索フォーム送信後の待機がタイムアウト")
             continue
@@ -339,34 +401,75 @@ def scrape_category(
             errors.append(f"{category_label} / {prefecture.name}: WebDriver例外: {exc}")
             continue
 
-        visited_pages: set[str] = set()
-        while True:
-            page_marker = driver.page_source
-            if page_marker in visited_pages:
-                errors.append(
-                    f"{category_label} / {prefecture.name}: 同一ページを再訪したためページングを中断"
-                )
-                break
-            visited_pages.add(page_marker)
-
-            parsed = parse_result_rows(
-                driver.page_source,
-                category=category_label,
-                prefecture=prefecture.name,
-            )
-            points.extend(parsed)
-
+        for target in targets:
             try:
-                moved = advance_to_next_page(driver, wait, settings)
+                submit_search(
+                    driver,
+                    wait,
+                    category_value=category_value,
+                    prefecture_code=target.prefecture.code,
+                    city_name=target.city,
+                )
             except TimeoutException:
-                errors.append(f"{category_label} / {prefecture.name}: 次ページ遷移待機がタイムアウト")
-                break
-            except (NoSuchElementException, StaleElementReferenceException, WebDriverException) as exc:
-                errors.append(f"{category_label} / {prefecture.name}: ページング失敗: {exc}")
-                break
+                location = (
+                    f"{target.prefecture.name} / {target.city}"
+                    if target.city
+                    else target.prefecture.name
+                )
+                errors.append(f"{category_label} / {location}: 検索フォーム送信後の待機がタイムアウト")
+                continue
+            except (NoSuchElementException, WebDriverException) as exc:
+                location = (
+                    f"{target.prefecture.name} / {target.city}"
+                    if target.city
+                    else target.prefecture.name
+                )
+                errors.append(f"{category_label} / {location}: WebDriver例外: {exc}")
+                continue
 
-            if not moved:
-                break
+            visited_pages: set[str] = set()
+            while True:
+                page_marker = driver.page_source
+                if page_marker in visited_pages:
+                    location = (
+                        f"{target.prefecture.name} / {target.city}"
+                        if target.city
+                        else target.prefecture.name
+                    )
+                    errors.append(
+                        f"{category_label} / {location}: 同一ページを再訪したためページングを中断"
+                    )
+                    break
+                visited_pages.add(page_marker)
+
+                parsed = parse_result_rows(
+                    driver.page_source,
+                    category=category_label,
+                    prefecture=target.prefecture.name,
+                )
+                points.extend(parsed)
+
+                try:
+                    moved = advance_to_next_page(driver, wait, settings)
+                except TimeoutException:
+                    location = (
+                        f"{target.prefecture.name} / {target.city}"
+                        if target.city
+                        else target.prefecture.name
+                    )
+                    errors.append(f"{category_label} / {location}: 次ページ遷移待機がタイムアウト")
+                    break
+                except (NoSuchElementException, StaleElementReferenceException, WebDriverException) as exc:
+                    location = (
+                        f"{target.prefecture.name} / {target.city}"
+                        if target.city
+                        else target.prefecture.name
+                    )
+                    errors.append(f"{category_label} / {location}: ページング失敗: {exc}")
+                    break
+
+                if not moved:
+                    break
 
         polite_sleep(settings.prefecture_sleep_seconds, settings.random_jitter_seconds)
 
