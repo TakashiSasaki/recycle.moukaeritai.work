@@ -37,7 +37,7 @@ import sys
 import time
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Iterable, List, Sequence, Tuple
+from typing import Iterable, List, Mapping, Sequence, Tuple
 
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -62,6 +62,7 @@ except ImportError:
 
 BASE_URL = "https://www.jbrc-sys.com/brsp/a2A/itiran.G01"
 DEFAULT_WAIT_SECONDS = 15
+ACCEPTABLE_CATEGORY_VALUES = "1,2,general,bicycle"
 
 
 @dataclass(frozen=True)
@@ -415,6 +416,15 @@ def build_argument_parser() -> argparse.ArgumentParser:
         help="random additional sleep in seconds",
     )
     parser.add_argument(
+        "--category",
+        action="append",
+        default=None,
+        help=(
+            "target category (repeatable). "
+            "accepted values: 1,2,general,bicycle"
+        ),
+    )
+    parser.add_argument(
         "--wait-seconds",
         type=int,
         default=DEFAULT_WAIT_SECONDS,
@@ -423,9 +433,51 @@ def build_argument_parser() -> argparse.ArgumentParser:
     return parser
 
 
+def resolve_categories(selected_categories: Sequence[str] | None) -> List[str]:
+    alias_map: Mapping[str, str] = {
+        "1": "1",
+        "general": "1",
+        "2": "2",
+        "bicycle": "2",
+    }
+    if not selected_categories:
+        return ["1", "2"]
+
+    resolved: List[str] = []
+    seen: set[str] = set()
+    for raw_value in selected_categories:
+        normalized = raw_value.strip().lower()
+        category_id = alias_map.get(normalized)
+        if category_id is None:
+            raise ValueError(
+                f"不正な --category 値: {raw_value!r}. "
+                f"受理可能値: {ACCEPTABLE_CATEGORY_VALUES}"
+            )
+        if category_id in seen:
+            continue
+        seen.add(category_id)
+        resolved.append(category_id)
+    return resolved
+
+
 def main(argv: Sequence[str] | None = None) -> int:
     parser = build_argument_parser()
     args = parser.parse_args(argv)
+
+    category_definitions: Mapping[str, Mapping[str, str]] = {
+        "1": {
+            "alias": "general",
+            "label": "電気製品販売店・自治体施設等",
+        },
+        "2": {
+            "alias": "bicycle",
+            "label": "自転車販売店",
+        },
+    }
+    try:
+        category_ids = resolve_categories(args.category)
+    except ValueError as exc:
+        parser.error(str(exc))
 
     settings = CrawlSettings(
         pagination_sleep_seconds=args.pagination_sleep,
@@ -433,11 +485,6 @@ def main(argv: Sequence[str] | None = None) -> int:
         random_jitter_seconds=args.jitter,
         wait_seconds=args.wait_seconds,
     )
-
-    categories = [
-        ("1", "電気製品販売店・自治体施設等"),
-        ("2", "自転車販売店"),
-    ]
 
     driver = get_driver(headless=not args.headful)
     wait = WebDriverWait(driver, settings.wait_seconds)
@@ -447,12 +494,14 @@ def main(argv: Sequence[str] | None = None) -> int:
 
     try:
         prefectures = get_prefecture_options(driver, wait)
-        for category_value, category_label in categories:
+        for category_id in category_ids:
+            category = category_definitions[category_id]
+            category_label = category["label"]
             print(f"[INFO] category={category_label}", file=sys.stderr)
             points, errors = scrape_category(
                 driver,
                 wait,
-                category_value=category_value,
+                category_value=category_id,
                 category_label=category_label,
                 prefectures=prefectures,
                 settings=settings,
