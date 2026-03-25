@@ -17,6 +17,7 @@ Dependencies:
 - beautifulsoup4>=4.0
 - webdriver-manager>=4.0  (optional; only needed when chromedriver is not
   already available in PATH)
+- Chrome/Chromium browser binary (required by Selenium WebDriver runtime)
 
 Example:
     python jbrc_scraper.py --output jbrc_locations.csv
@@ -103,6 +104,7 @@ def get_driver(*, headless: bool = True) -> webdriver.Chrome:
         options.add_argument("--headless=new")
     options.add_argument("--disable-gpu")
     options.add_argument("--no-sandbox")
+    options.add_argument("--ignore-certificate-errors")
     options.add_argument("--window-size=1400,1600")
     options.add_argument(
         "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -422,6 +424,8 @@ def build_argument_parser() -> argparse.ArgumentParser:
         "--dry-run",
         action="store_true",
         help="最初の検索ページ取得と都道府県一覧確認のみ。実クロールしない",
+    )
+    parser.add_argument(
         "--category",
         action="append",
         default=None,
@@ -429,10 +433,15 @@ def build_argument_parser() -> argparse.ArgumentParser:
             "target category (repeatable). "
             "accepted values: 1,2,general,bicycle"
         ),
+    )
+    parser.add_argument(
         "--prefecture",
         action="append",
         default=[],
-        help="filter prefectures (repeatable). Supports both numeric code (e.g. 13) and name (e.g. 東京都).",
+        help=(
+            "filter prefectures (repeatable). Supports both numeric code "
+            "(e.g. 13) and name (e.g. 東京都)."
+        ),
     )
     parser.add_argument(
         "--wait-seconds",
@@ -467,6 +476,9 @@ def resolve_categories(selected_categories: Sequence[str] | None) -> List[str]:
             continue
         seen.add(category_id)
         resolved.append(category_id)
+    return resolved
+
+
 def resolve_prefecture_filters(
     parser: argparse.ArgumentParser,
     selected_values: Sequence[str],
@@ -526,6 +538,10 @@ def main(argv: Sequence[str] | None = None) -> int:
         category_ids = resolve_categories(args.category)
     except ValueError as exc:
         parser.error(str(exc))
+    categories: List[Tuple[str, str]] = [
+        (category_id, category_definitions[category_id]["label"])
+        for category_id in category_ids
+    ]
 
     settings = CrawlSettings(
         pagination_sleep_seconds=args.pagination_sleep,
@@ -559,18 +575,17 @@ def main(argv: Sequence[str] | None = None) -> int:
                     file=sys.stderr,
                 )
             return 0
-        available_prefectures = get_prefecture_options(driver, wait)
         prefectures = resolve_prefecture_filters(
             parser,
             args.prefecture,
-            available_prefectures,
+            prefectures,
         )
         for category_value, category_label in categories:
             print(f"[INFO] category={category_label}", file=sys.stderr)
             points, errors = scrape_category(
                 driver,
                 wait,
-                category_value=category_id,
+                category_value=category_value,
                 category_label=category_label,
                 prefectures=prefectures,
                 settings=settings,
