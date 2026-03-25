@@ -1,45 +1,124 @@
-name: Scheduled JBRC Scrape
+name: scheduled-scrape
 
 on:
   schedule:
-    - cron: "0 20 * * 0" # JST Monday 05:00
+    - cron: '15 0 * * *'
   workflow_dispatch:
+    inputs:
+      category:
+        description: 'Category (1 or 2)'
+        required: true
+        default: '1'
+      prefecture:
+        description: 'Prefecture code (1-47)'
+        required: true
+        default: '13'
+
+permissions:
+  contents: read
 
 jobs:
-  scrape:
+  scheduled-sharded:
+    if: github.event_name == 'schedule'
     runs-on: ubuntu-latest
-    timeout-minutes: 30
-
+    strategy:
+      fail-fast: false
+      matrix:
+        slot: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.12'
 
-      - name: Set up uv
-        uses: astral-sh/setup-uv@v4
+      - name: Set up Chrome
+        uses: browser-actions/setup-chrome@v1
 
-      - name: Install Chromium
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Resolve daily target
+        id: target
         run: |
-          sudo apt-get update
-          sudo apt-get install -y chromium-browser
+          python - <<'PY'
+          from datetime import datetime, timezone
+          import os
 
-      - name: Sync dependencies
-        run: uv sync --frozen
+          slot = int(os.environ['SLOT'])
+          weekday = datetime.now(timezone.utc).weekday()  # Mon=0 .. Sun=6
+          task_index = weekday * 14 + slot
+
+          if task_index >= 94:
+              with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as f:
+                  f.write('skip=true\n')
+              raise SystemExit(0)
+
+          category = '1' if task_index < 47 else '2'
+          prefecture_code = str((task_index % 47) + 1)
+
+          with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as f:
+              f.write('skip=false\n')
+              f.write(f'category={category}\n')
+              f.write(f'prefecture={prefecture_code}\n')
+          PY
+        env:
+          SLOT: ${{ matrix.slot }}
 
       - name: Run scraper
-        env:
-          CHROME_BIN: /usr/bin/chromium-browser
+        if: steps.target.outputs.skip == 'false'
         run: |
-          mkdir -p data
-          uv run jbrc-scraper --output data/jbrc_locations.csv
+          uv run jbrc-scraper \
+            --category "${{ steps.target.outputs.category }}" \
+            --prefecture "${{ steps.target.outputs.prefecture }}" \
+            --output-dir docs/data \
+            --output-format csv \
+            --output-format json
 
-      - name: Upload CSV artifact
+      - name: Upload artifacts
+        if: steps.target.outputs.skip == 'false'
         uses: actions/upload-artifact@v4
         with:
-          name: jbrc-locations
-          path: data/jbrc_locations.csv
+          name: jbrc-${{ steps.target.outputs.category }}-${{ steps.target.outputs.prefecture }}
+          path: docs/data/${{ steps.target.outputs.category }}-${{ steps.target.outputs.prefecture }}.*
+          if-no-files-found: error
+
+  manual-single:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Set up Chrome
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Run scraper
+        run: |
+          uv run jbrc-scraper \
+            --category "${{ github.event.inputs.category }}" \
+            --prefecture "${{ github.event.inputs.prefecture }}" \
+            --output-dir docs/data \
+            --output-format csv \
+            --output-format json
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: jbrc-${{ github.event.inputs.category }}-${{ github.event.inputs.prefecture }}
+          path: docs/data/${{ github.event.inputs.category }}-${{ github.event.inputs.prefecture }}.*
           if-no-files-found: error
