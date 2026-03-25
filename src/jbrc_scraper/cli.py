@@ -67,6 +67,55 @@ except ImportError:
 BASE_URL = "https://www.jbrc-sys.com/brsp/a2A/itiran.G01"
 DEFAULT_WAIT_SECONDS = 15
 ACCEPTABLE_CATEGORY_VALUES = "1,2,general,bicycle"
+PREFECTURE_ROMANIZATION: Mapping[str, str] = {
+    "北海道": "hokkaido",
+    "青森県": "aomori",
+    "岩手県": "iwate",
+    "宮城県": "miyagi",
+    "秋田県": "akita",
+    "山形県": "yamagata",
+    "福島県": "fukushima",
+    "茨城県": "ibaraki",
+    "栃木県": "tochigi",
+    "群馬県": "gunma",
+    "埼玉県": "saitama",
+    "千葉県": "chiba",
+    "東京都": "tokyo",
+    "神奈川県": "kanagawa",
+    "新潟県": "niigata",
+    "富山県": "toyama",
+    "石川県": "ishikawa",
+    "福井県": "fukui",
+    "山梨県": "yamanashi",
+    "長野県": "nagano",
+    "岐阜県": "gifu",
+    "静岡県": "shizuoka",
+    "愛知県": "aichi",
+    "三重県": "mie",
+    "滋賀県": "shiga",
+    "京都府": "kyoto",
+    "大阪府": "osaka",
+    "兵庫県": "hyogo",
+    "奈良県": "nara",
+    "和歌山県": "wakayama",
+    "鳥取県": "tottori",
+    "島根県": "shimane",
+    "岡山県": "okayama",
+    "広島県": "hiroshima",
+    "山口県": "yamaguchi",
+    "徳島県": "tokushima",
+    "香川県": "kagawa",
+    "愛媛県": "ehime",
+    "高知県": "kochi",
+    "福岡県": "fukuoka",
+    "佐賀県": "saga",
+    "長崎県": "nagasaki",
+    "熊本県": "kumamoto",
+    "大分県": "oita",
+    "宮崎県": "miyazaki",
+    "鹿児島県": "kagoshima",
+    "沖縄県": "okinawa",
+}
 
 
 @dataclass(frozen=True)
@@ -497,8 +546,16 @@ def build_argument_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Scrape JBRC collection points to CSV.")
     parser.add_argument(
         "--output",
-        default="jbrc_locations.csv",
-        help="output CSV path (default: %(default)s)",
+        default=None,
+        help="output CSV path",
+    )
+    parser.add_argument(
+        "--output-dir",
+        default=None,
+        help=(
+            "output directory for auto-generated CSV files. "
+            "Only used when --output is not provided."
+        ),
     )
     parser.add_argument(
         "--headful",
@@ -645,6 +702,10 @@ def main(argv: Sequence[str] | None = None) -> int:
         (category_id, category_definitions[category_id]["label"])
         for category_id in category_ids
     ]
+    category_label_to_id = {
+        definitions["label"]: category_id
+        for category_id, definitions in category_definitions.items()
+    }
 
     settings = CrawlSettings(
         pagination_sleep_seconds=args.pagination_sleep,
@@ -699,9 +760,44 @@ def main(argv: Sequence[str] | None = None) -> int:
         driver.quit()
 
     unique_points = deduplicate(all_points)
-    write_csv(Path(args.output), unique_points)
+    output_path = Path(args.output) if args.output else None
+    output_dir_path = Path(args.output_dir) if args.output_dir else None
 
-    print(f"Saved {len(unique_points)} rows to {args.output}", file=sys.stderr)
+    if output_path and output_dir_path:
+        parser.error("Specify either --output or --output-dir, not both.")
+
+    if output_path is not None:
+        write_csv(output_path, unique_points)
+        print(f"Saved {len(unique_points)} rows to {output_path}", file=sys.stderr)
+    elif output_dir_path is not None:
+        output_dir_path.mkdir(parents=True, exist_ok=True)
+        saved_files: List[Path] = []
+        for category_id, _category_label in categories:
+            for prefecture in prefectures:
+                romanized_pref = PREFECTURE_ROMANIZATION.get(
+                    prefecture.name, prefecture.code
+                )
+                file_path = output_dir_path / f"{category_id}-{romanized_pref}.csv"
+                points_for_file = [
+                    point
+                    for point in unique_points
+                    if category_label_to_id.get(point.category) == category_id
+                    and point.prefecture == prefecture.name
+                ]
+                write_csv(file_path, points_for_file)
+                saved_files.append(file_path)
+        print(
+            f"Saved {len(unique_points)} rows across {len(saved_files)} files to "
+            f"{output_dir_path}",
+            file=sys.stderr,
+        )
+    else:
+        default_output = Path("jbrc_locations.csv")
+        write_csv(default_output, unique_points)
+        print(
+            f"Saved {len(unique_points)} rows to {default_output}",
+            file=sys.stderr,
+        )
     if all_errors:
         print("[WARN] failures:", file=sys.stderr)
         for error in all_errors:
