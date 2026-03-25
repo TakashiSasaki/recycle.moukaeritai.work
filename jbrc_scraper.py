@@ -21,6 +21,8 @@ Dependencies:
 Example:
     python jbrc_scraper.py --output jbrc_locations.csv
     python jbrc_scraper.py --dry-run  # 接続確認・事前検証用（実クロールなし）
+    python jbrc_scraper.py --prefecture 13
+    python jbrc_scraper.py --prefecture 東京都 --prefecture 14
 
 Notes:
 - Run only during the service availability window published by JBRC.
@@ -38,7 +40,7 @@ import sys
 import time
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Iterable, List, Sequence, Tuple
+from typing import Iterable, List, Mapping, Sequence, Tuple
 
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -63,6 +65,7 @@ except ImportError:
 
 BASE_URL = "https://www.jbrc-sys.com/brsp/a2A/itiran.G01"
 DEFAULT_WAIT_SECONDS = 15
+ACCEPTABLE_CATEGORY_VALUES = "1,2,general,bicycle"
 
 
 @dataclass(frozen=True)
@@ -419,6 +422,17 @@ def build_argument_parser() -> argparse.ArgumentParser:
         "--dry-run",
         action="store_true",
         help="最初の検索ページ取得と都道府県一覧確認のみ。実クロールしない",
+        "--category",
+        action="append",
+        default=None,
+        help=(
+            "target category (repeatable). "
+            "accepted values: 1,2,general,bicycle"
+        ),
+        "--prefecture",
+        action="append",
+        default=[],
+        help="filter prefectures (repeatable). Supports both numeric code (e.g. 13) and name (e.g. 東京都).",
     )
     parser.add_argument(
         "--wait-seconds",
@@ -429,9 +443,89 @@ def build_argument_parser() -> argparse.ArgumentParser:
     return parser
 
 
+def resolve_categories(selected_categories: Sequence[str] | None) -> List[str]:
+    alias_map: Mapping[str, str] = {
+        "1": "1",
+        "general": "1",
+        "2": "2",
+        "bicycle": "2",
+    }
+    if not selected_categories:
+        return ["1", "2"]
+
+    resolved: List[str] = []
+    seen: set[str] = set()
+    for raw_value in selected_categories:
+        normalized = raw_value.strip().lower()
+        category_id = alias_map.get(normalized)
+        if category_id is None:
+            raise ValueError(
+                f"不正な --category 値: {raw_value!r}. "
+                f"受理可能値: {ACCEPTABLE_CATEGORY_VALUES}"
+            )
+        if category_id in seen:
+            continue
+        seen.add(category_id)
+        resolved.append(category_id)
+def resolve_prefecture_filters(
+    parser: argparse.ArgumentParser,
+    selected_values: Sequence[str],
+    options: Sequence[PrefectureOption],
+) -> List[PrefectureOption]:
+    """Resolve user-specified prefecture filters to prefecture options."""
+    if not selected_values:
+        return list(options)
+
+    by_code = {option.code: option for option in options}
+    by_name = {option.name: option for option in options}
+
+    unresolved: List[str] = []
+    resolved: List[PrefectureOption] = []
+    seen_codes: set[str] = set()
+
+    for raw_value in selected_values:
+        value = raw_value.strip()
+        if not value:
+            unresolved.append(raw_value)
+            continue
+
+        option = by_code.get(value) or by_name.get(value)
+        if option is None:
+            unresolved.append(raw_value)
+            continue
+        if option.code in seen_codes:
+            continue
+        seen_codes.add(option.code)
+        resolved.append(option)
+
+    if unresolved:
+        candidates = ", ".join(f"{option.code}:{option.name}" for option in options)
+        unresolved_values = ", ".join(repr(value) for value in unresolved)
+        parser.error(
+            "argument --prefecture: invalid choice(s): "
+            f"{unresolved_values} (available code/name: {candidates})"
+        )
+    return resolved
+
+
 def main(argv: Sequence[str] | None = None) -> int:
     parser = build_argument_parser()
     args = parser.parse_args(argv)
+
+    category_definitions: Mapping[str, Mapping[str, str]] = {
+        "1": {
+            "alias": "general",
+            "label": "電気製品販売店・自治体施設等",
+        },
+        "2": {
+            "alias": "bicycle",
+            "label": "自転車販売店",
+        },
+    }
+    try:
+        category_ids = resolve_categories(args.category)
+    except ValueError as exc:
+        parser.error(str(exc))
 
     settings = CrawlSettings(
         pagination_sleep_seconds=args.pagination_sleep,
@@ -439,11 +533,6 @@ def main(argv: Sequence[str] | None = None) -> int:
         random_jitter_seconds=args.jitter,
         wait_seconds=args.wait_seconds,
     )
-
-    categories = [
-        ("1", "電気製品販売店・自治体施設等"),
-        ("2", "自転車販売店"),
-    ]
 
     driver = get_driver(headless=not args.headful)
     wait = WebDriverWait(driver, settings.wait_seconds)
@@ -470,12 +559,18 @@ def main(argv: Sequence[str] | None = None) -> int:
                     file=sys.stderr,
                 )
             return 0
+        available_prefectures = get_prefecture_options(driver, wait)
+        prefectures = resolve_prefecture_filters(
+            parser,
+            args.prefecture,
+            available_prefectures,
+        )
         for category_value, category_label in categories:
             print(f"[INFO] category={category_label}", file=sys.stderr)
             points, errors = scrape_category(
                 driver,
                 wait,
-                category_value=category_value,
+                category_value=category_id,
                 category_label=category_label,
                 prefectures=prefectures,
                 settings=settings,
