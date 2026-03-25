@@ -20,6 +20,8 @@ Dependencies:
 
 Example:
     python jbrc_scraper.py --output jbrc_locations.csv
+    python jbrc_scraper.py --prefecture 13
+    python jbrc_scraper.py --prefecture 東京都 --prefecture 14
 
 Notes:
 - Run only during the service availability window published by JBRC.
@@ -415,12 +417,59 @@ def build_argument_parser() -> argparse.ArgumentParser:
         help="random additional sleep in seconds",
     )
     parser.add_argument(
+        "--prefecture",
+        action="append",
+        default=[],
+        help="filter prefectures (repeatable). Supports both numeric code (e.g. 13) and name (e.g. 東京都).",
+    )
+    parser.add_argument(
         "--wait-seconds",
         type=int,
         default=DEFAULT_WAIT_SECONDS,
         help="explicit wait timeout in seconds",
     )
     return parser
+
+
+def resolve_prefecture_filters(
+    parser: argparse.ArgumentParser,
+    selected_values: Sequence[str],
+    options: Sequence[PrefectureOption],
+) -> List[PrefectureOption]:
+    """Resolve user-specified prefecture filters to prefecture options."""
+    if not selected_values:
+        return list(options)
+
+    by_code = {option.code: option for option in options}
+    by_name = {option.name: option for option in options}
+
+    unresolved: List[str] = []
+    resolved: List[PrefectureOption] = []
+    seen_codes: set[str] = set()
+
+    for raw_value in selected_values:
+        value = raw_value.strip()
+        if not value:
+            unresolved.append(raw_value)
+            continue
+
+        option = by_code.get(value) or by_name.get(value)
+        if option is None:
+            unresolved.append(raw_value)
+            continue
+        if option.code in seen_codes:
+            continue
+        seen_codes.add(option.code)
+        resolved.append(option)
+
+    if unresolved:
+        candidates = ", ".join(f"{option.code}:{option.name}" for option in options)
+        unresolved_values = ", ".join(repr(value) for value in unresolved)
+        parser.error(
+            "argument --prefecture: invalid choice(s): "
+            f"{unresolved_values} (available code/name: {candidates})"
+        )
+    return resolved
 
 
 def main(argv: Sequence[str] | None = None) -> int:
@@ -446,7 +495,12 @@ def main(argv: Sequence[str] | None = None) -> int:
     all_errors: List[str] = []
 
     try:
-        prefectures = get_prefecture_options(driver, wait)
+        available_prefectures = get_prefecture_options(driver, wait)
+        prefectures = resolve_prefecture_filters(
+            parser,
+            args.prefecture,
+            available_prefectures,
+        )
         for category_value, category_label in categories:
             print(f"[INFO] category={category_label}", file=sys.stderr)
             points, errors = scrape_category(
