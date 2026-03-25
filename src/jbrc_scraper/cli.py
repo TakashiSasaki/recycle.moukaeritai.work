@@ -40,6 +40,7 @@ import random
 import sys
 import time
 from dataclasses import dataclass
+from datetime import datetime
 from pathlib import Path
 from typing import Iterable, List, Mapping, Sequence, Tuple
 
@@ -145,6 +146,13 @@ class CrawlSettings:
     prefecture_sleep_seconds: float = 5.0
     random_jitter_seconds: float = 1.5
     wait_seconds: int = DEFAULT_WAIT_SECONDS
+
+
+@dataclass(frozen=True)
+class CrawlLogRecord:
+    category: str
+    prefecture: str
+    count: int
 
 
 def polite_sleep(base_seconds: float, jitter_seconds: float) -> None:
@@ -542,6 +550,42 @@ def write_csv(output_path: Path, points: Sequence[CollectionPoint]) -> None:
             )
 
 
+def append_log_records(
+    log_file: Path,
+    records: Sequence[CrawlLogRecord],
+    *,
+    started_at: datetime,
+    ended_at: datetime,
+    max_lines: int,
+) -> None:
+    if not records:
+        return
+
+    duration_seconds = ended_at.timestamp() - started_at.timestamp()
+    new_lines = [
+        (
+            f"start={started_at.isoformat(timespec='seconds')} "
+            f"end={ended_at.isoformat(timespec='seconds')} "
+            f"duration_seconds={duration_seconds:.3f} "
+            f"count={record.count} "
+            f"category={record.category} "
+            f"prefecture={record.prefecture}"
+        )
+        for record in records
+    ]
+
+    existing_lines: List[str] = []
+    if log_file.exists():
+        existing_lines = log_file.read_text(encoding="utf-8").splitlines()
+
+    merged_lines = [*existing_lines, *new_lines]
+    if len(merged_lines) > max_lines:
+        merged_lines = merged_lines[-max_lines:]
+
+    log_file.parent.mkdir(parents=True, exist_ok=True)
+    log_file.write_text("\n".join(merged_lines) + "\n", encoding="utf-8")
+
+
 def build_argument_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Scrape JBRC collection points to CSV.")
     parser.add_argument(
@@ -608,6 +652,17 @@ def build_argument_parser() -> argparse.ArgumentParser:
         type=int,
         default=DEFAULT_WAIT_SECONDS,
         help="explicit wait timeout in seconds",
+    )
+    parser.add_argument(
+        "--log-file",
+        default=None,
+        help="append execution summaries to this log file",
+    )
+    parser.add_argument(
+        "--log-max-lines",
+        type=int,
+        default=10000,
+        help="maximum number of lines kept in --log-file",
     )
     return parser
 
@@ -683,6 +738,9 @@ def resolve_prefecture_filters(
 def main(argv: Sequence[str] | None = None) -> int:
     parser = build_argument_parser()
     args = parser.parse_args(argv)
+    if args.log_max_lines <= 0:
+        parser.error("--log-max-lines must be a positive integer.")
+    started_at = datetime.now().astimezone()
 
     category_definitions: Mapping[str, Mapping[str, str]] = {
         "1": {
@@ -766,9 +824,29 @@ def main(argv: Sequence[str] | None = None) -> int:
     if output_path and output_dir_path:
         parser.error("Specify either --output or --output-dir, not both.")
 
+    log_records: List[CrawlLogRecord] = []
+
     if output_path is not None:
         write_csv(output_path, unique_points)
         print(f"Saved {len(unique_points)} rows to {output_path}", file=sys.stderr)
+        count_by_key: Mapping[Tuple[str, str], int] = {}
+        mutable_counts: dict[Tuple[str, str], int] = {}
+        for point in unique_points:
+            category_id = category_label_to_id.get(point.category)
+            if category_id is None:
+                continue
+            key = (category_id, point.prefecture)
+            mutable_counts[key] = mutable_counts.get(key, 0) + 1
+        count_by_key = mutable_counts
+        for category_id, _category_label in categories:
+            for prefecture in prefectures:
+                log_records.append(
+                    CrawlLogRecord(
+                        category=category_id,
+                        prefecture=prefecture.name,
+                        count=count_by_key.get((category_id, prefecture.name), 0),
+                    )
+                )
     elif output_dir_path is not None:
         output_dir_path.mkdir(parents=True, exist_ok=True)
         saved_files: List[Path] = []
@@ -786,6 +864,13 @@ def main(argv: Sequence[str] | None = None) -> int:
                 ]
                 write_csv(file_path, points_for_file)
                 saved_files.append(file_path)
+                log_records.append(
+                    CrawlLogRecord(
+                        category=category_id,
+                        prefecture=prefecture.name,
+                        count=len(points_for_file),
+                    )
+                )
         print(
             f"Saved {len(unique_points)} rows across {len(saved_files)} files to "
             f"{output_dir_path}",
@@ -798,10 +883,38 @@ def main(argv: Sequence[str] | None = None) -> int:
             f"Saved {len(unique_points)} rows to {default_output}",
             file=sys.stderr,
         )
+        count_by_key: Mapping[Tuple[str, str], int] = {}
+        mutable_counts: dict[Tuple[str, str], int] = {}
+        for point in unique_points:
+            category_id = category_label_to_id.get(point.category)
+            if category_id is None:
+                continue
+            key = (category_id, point.prefecture)
+            mutable_counts[key] = mutable_counts.get(key, 0) + 1
+        count_by_key = mutable_counts
+        for category_id, _category_label in categories:
+            for prefecture in prefectures:
+                log_records.append(
+                    CrawlLogRecord(
+                        category=category_id,
+                        prefecture=prefecture.name,
+                        count=count_by_key.get((category_id, prefecture.name), 0),
+                    )
+                )
     if all_errors:
         print("[WARN] failures:", file=sys.stderr)
         for error in all_errors:
             print(f"  - {error}", file=sys.stderr)
+
+    if args.log_file:
+        ended_at = datetime.now().astimezone()
+        append_log_records(
+            Path(args.log_file),
+            log_records,
+            started_at=started_at,
+            ended_at=ended_at,
+            max_lines=args.log_max_lines,
+        )
 
     return 0
 
