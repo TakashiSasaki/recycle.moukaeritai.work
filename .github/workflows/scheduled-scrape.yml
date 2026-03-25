@@ -1,0 +1,45 @@
+name: Scheduled JBRC Scrape
+
+on:
+  schedule:
+    - cron: "0 20 * * 0" # JST Monday 05:00
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v4
+
+      - name: Install Chromium
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser
+
+      - name: Sync dependencies
+        run: uv sync --frozen
+
+      - name: Run scraper
+        env:
+          CHROME_BIN: /usr/bin/chromium-browser
+        run: |
+          mkdir -p data
+          uv run jbrc-scraper --output data/jbrc_locations.csv
+
+      - name: Upload CSV artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: jbrc-locations
+          path: data/jbrc_locations.csv
+          if-no-files-found: error
