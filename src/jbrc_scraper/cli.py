@@ -36,6 +36,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import json
 import random
 import sys
 import time
@@ -68,55 +69,7 @@ except ImportError:
 BASE_URL = "https://www.jbrc-sys.com/brsp/a2A/itiran.G01"
 DEFAULT_WAIT_SECONDS = 15
 ACCEPTABLE_CATEGORY_VALUES = "1,2,general,bicycle"
-PREFECTURE_ROMANIZATION: Mapping[str, str] = {
-    "北海道": "hokkaido",
-    "青森県": "aomori",
-    "岩手県": "iwate",
-    "宮城県": "miyagi",
-    "秋田県": "akita",
-    "山形県": "yamagata",
-    "福島県": "fukushima",
-    "茨城県": "ibaraki",
-    "栃木県": "tochigi",
-    "群馬県": "gunma",
-    "埼玉県": "saitama",
-    "千葉県": "chiba",
-    "東京都": "tokyo",
-    "神奈川県": "kanagawa",
-    "新潟県": "niigata",
-    "富山県": "toyama",
-    "石川県": "ishikawa",
-    "福井県": "fukui",
-    "山梨県": "yamanashi",
-    "長野県": "nagano",
-    "岐阜県": "gifu",
-    "静岡県": "shizuoka",
-    "愛知県": "aichi",
-    "三重県": "mie",
-    "滋賀県": "shiga",
-    "京都府": "kyoto",
-    "大阪府": "osaka",
-    "兵庫県": "hyogo",
-    "奈良県": "nara",
-    "和歌山県": "wakayama",
-    "鳥取県": "tottori",
-    "島根県": "shimane",
-    "岡山県": "okayama",
-    "広島県": "hiroshima",
-    "山口県": "yamaguchi",
-    "徳島県": "tokushima",
-    "香川県": "kagawa",
-    "愛媛県": "ehime",
-    "高知県": "kochi",
-    "福岡県": "fukuoka",
-    "佐賀県": "saga",
-    "長崎県": "nagasaki",
-    "熊本県": "kumamoto",
-    "大分県": "oita",
-    "宮崎県": "miyazaki",
-    "鹿児島県": "kagoshima",
-    "沖縄県": "okinawa",
-}
+ACCEPTABLE_OUTPUT_FORMAT_VALUES = "csv,json"
 
 
 @dataclass(frozen=True)
@@ -550,6 +503,24 @@ def write_csv(output_path: Path, points: Sequence[CollectionPoint]) -> None:
             )
 
 
+def write_json(output_path: Path, points: Sequence[CollectionPoint]) -> None:
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    payload = [
+        {
+            "category": point.category,
+            "prefecture": point.prefecture,
+            "store_name": point.store_name,
+            "address": point.address,
+            "phone": point.phone,
+        }
+        for point in points
+    ]
+    output_path.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
 def append_log_records(
     log_file: Path,
     records: Sequence[CrawlLogRecord],
@@ -664,6 +635,15 @@ def build_argument_parser() -> argparse.ArgumentParser:
         default=10000,
         help="maximum number of lines kept in --log-file",
     )
+    parser.add_argument(
+        "--output-format",
+        action="append",
+        default=None,
+        help=(
+            "output format (repeatable). "
+            "accepted values: csv,json"
+        ),
+    )
     return parser
 
 
@@ -735,6 +715,48 @@ def resolve_prefecture_filters(
     return resolved
 
 
+def resolve_output_formats(
+    selected_formats: Sequence[str] | None,
+) -> List[str]:
+    allowed_formats = {"csv", "json"}
+    if not selected_formats:
+        return ["csv"]
+
+    resolved: List[str] = []
+    seen: set[str] = set()
+    for raw_value in selected_formats:
+        normalized = raw_value.strip().lower()
+        if normalized not in allowed_formats:
+            raise ValueError(
+                f"不正な --output-format 値: {raw_value!r}. "
+                f"受理可能値: {ACCEPTABLE_OUTPUT_FORMAT_VALUES}"
+            )
+        if normalized in seen:
+            continue
+        seen.add(normalized)
+        resolved.append(normalized)
+    return resolved
+
+
+def write_points_by_formats(
+    base_path: Path,
+    *,
+    points: Sequence[CollectionPoint],
+    output_formats: Sequence[str],
+) -> List[Path]:
+    saved_files: List[Path] = []
+    for output_format in output_formats:
+        file_path = base_path.with_suffix(f".{output_format}")
+        if output_format == "csv":
+            write_csv(file_path, points)
+        elif output_format == "json":
+            write_json(file_path, points)
+        else:
+            raise RuntimeError(f"unsupported output format: {output_format!r}")
+        saved_files.append(file_path)
+    return saved_files
+
+
 def main(argv: Sequence[str] | None = None) -> int:
     parser = build_argument_parser()
     args = parser.parse_args(argv)
@@ -754,6 +776,10 @@ def main(argv: Sequence[str] | None = None) -> int:
     }
     try:
         category_ids = resolve_categories(args.category)
+    except ValueError as exc:
+        parser.error(str(exc))
+    try:
+        output_formats = resolve_output_formats(args.output_format)
     except ValueError as exc:
         parser.error(str(exc))
     categories: List[Tuple[str, str]] = [
@@ -827,8 +853,24 @@ def main(argv: Sequence[str] | None = None) -> int:
     log_records: List[CrawlLogRecord] = []
 
     if output_path is not None:
-        write_csv(output_path, unique_points)
-        print(f"Saved {len(unique_points)} rows to {output_path}", file=sys.stderr)
+        if len(output_formats) > 1:
+            parser.error("--output does not support multiple --output-format values.")
+        selected_format = output_formats[0]
+        expected_suffix = f".{selected_format}"
+        if output_path.suffix.lower() != expected_suffix:
+            parser.error(
+                f"--output の拡張子は --output-format={selected_format} と一致させてください "
+                f"(expected suffix: {expected_suffix})"
+            )
+        saved_files = write_points_by_formats(
+            output_path.with_suffix(""),
+            points=unique_points,
+            output_formats=output_formats,
+        )
+        print(
+            f"Saved {len(unique_points)} rows to {saved_files[0]}",
+            file=sys.stderr,
+        )
         count_by_key: Mapping[Tuple[str, str], int] = {}
         mutable_counts: dict[Tuple[str, str], int] = {}
         for point in unique_points:
@@ -852,18 +894,20 @@ def main(argv: Sequence[str] | None = None) -> int:
         saved_files: List[Path] = []
         for category_id, _category_label in categories:
             for prefecture in prefectures:
-                romanized_pref = PREFECTURE_ROMANIZATION.get(
-                    prefecture.name, prefecture.code
-                )
-                file_path = output_dir_path / f"{category_id}-{romanized_pref}.csv"
+                file_base = output_dir_path / f"{category_id}-{prefecture.code}"
                 points_for_file = [
                     point
                     for point in unique_points
                     if category_label_to_id.get(point.category) == category_id
                     and point.prefecture == prefecture.name
                 ]
-                write_csv(file_path, points_for_file)
-                saved_files.append(file_path)
+                saved_files.extend(
+                    write_points_by_formats(
+                        file_base,
+                        points=points_for_file,
+                        output_formats=output_formats,
+                    )
+                )
                 log_records.append(
                     CrawlLogRecord(
                         category=category_id,
@@ -877,10 +921,14 @@ def main(argv: Sequence[str] | None = None) -> int:
             file=sys.stderr,
         )
     else:
-        default_output = Path("jbrc_locations.csv")
-        write_csv(default_output, unique_points)
+        default_output = Path("jbrc_locations")
+        saved_files = write_points_by_formats(
+            default_output,
+            points=unique_points,
+            output_formats=output_formats,
+        )
         print(
-            f"Saved {len(unique_points)} rows to {default_output}",
+            f"Saved {len(unique_points)} rows to {saved_files[0]}",
             file=sys.stderr,
         )
         count_by_key: Mapping[Tuple[str, str], int] = {}
