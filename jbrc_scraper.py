@@ -20,6 +20,7 @@ Dependencies:
 
 Example:
     python jbrc_scraper.py --output jbrc_locations.csv
+    python jbrc_scraper.py --dry-run  # 接続確認・事前検証用（実クロールなし）
     python jbrc_scraper.py --prefecture 13
     python jbrc_scraper.py --prefecture 東京都 --prefecture 14
 
@@ -418,6 +419,9 @@ def build_argument_parser() -> argparse.ArgumentParser:
         help="random additional sleep in seconds",
     )
     parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="最初の検索ページ取得と都道府県一覧確認のみ。実クロールしない",
         "--category",
         action="append",
         default=None,
@@ -537,6 +541,24 @@ def main(argv: Sequence[str] | None = None) -> int:
     all_errors: List[str] = []
 
     try:
+        prefectures = get_prefecture_options(driver, wait)
+        if args.dry_run:
+            sample_size = min(5, len(prefectures))
+            print(
+                f"[DRY-RUN] 都道府県一覧を取得しました: {len(prefectures)} 件",
+                file=sys.stderr,
+            )
+            for index, pref in enumerate(prefectures[:sample_size], start=1):
+                print(
+                    f"[DRY-RUN] sample[{index}] code={pref.code} name={pref.name}",
+                    file=sys.stderr,
+                )
+            if len(prefectures) > sample_size:
+                print(
+                    f"[DRY-RUN] ... and {len(prefectures) - sample_size} more",
+                    file=sys.stderr,
+                )
+            return 0
         available_prefectures = get_prefecture_options(driver, wait)
         prefectures = resolve_prefecture_filters(
             parser,
