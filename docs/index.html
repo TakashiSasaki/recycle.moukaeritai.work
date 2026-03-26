@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>店舗データ一覧</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>店舗データ一覧</h1>
+        <p class="description">docs/data 配下の JSON から店舗情報を表示しています。</p>
+      </header>
+
+      <section class="downloads" aria-label="ダウンロードリンク">
+        <a href="./data/1-13.json" download>JSONをダウンロード</a>
+        <a href="./data/1-13.csv" download>CSVをダウンロード</a>
+      </section>
+
+      <section class="table-wrap" aria-live="polite">
+        <p id="status">読み込み中...</p>
+        <table id="store-table" hidden>
+          <thead>
+            <tr>
+              <th>区分</th>
+              <th>都道府県</th>
+              <th>店舗名</th>
+              <th>住所</th>
+              <th>電話番号</th>
+            </tr>
+          </thead>
+          <tbody id="store-tbody"></tbody>
+        </table>
+      </section>
+    </main>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
