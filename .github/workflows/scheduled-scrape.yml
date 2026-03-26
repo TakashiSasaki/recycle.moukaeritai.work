@@ -15,7 +15,10 @@ on:
         default: '13'
 
 permissions:
-  contents: read
+  contents: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
 
 jobs:
   scheduled-sharded:
@@ -26,18 +29,18 @@ jobs:
       matrix:
         slot: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
 
       - name: Set up Chrome
-        uses: browser-actions/setup-chrome@v1
+        uses: browser-actions/setup-chrome@v2
 
       - name: Install uv
-        uses: astral-sh/setup-uv@v3
+        uses: astral-sh/setup-uv@v7
 
       - name: Install dependencies
         run: uv sync
@@ -75,34 +78,60 @@ jobs:
           uv run jbrc-scraper \
             --category "${{ steps.target.outputs.category }}" \
             --prefecture "${{ steps.target.outputs.prefecture }}" \
-            --output-dir docs/data \
+            --output-dir docs/data/ \
             --output-format csv \
             --output-format json
 
       - name: Upload artifacts
         if: steps.target.outputs.skip == 'false'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: jbrc-${{ steps.target.outputs.category }}-${{ steps.target.outputs.prefecture }}
           path: docs/data/${{ steps.target.outputs.category }}-${{ steps.target.outputs.prefecture }}.*
           if-no-files-found: error
 
+      - name: Commit scraped data to branch
+        if: steps.target.outputs.skip == 'false'
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          target_glob="docs/data/${{ steps.target.outputs.category }}-${{ steps.target.outputs.prefecture }}.*"
+          git add ${target_glob}
+
+          if git diff --cached --quiet; then
+            echo "No docs/data changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore(data): update ${{ steps.target.outputs.category }}-${{ steps.target.outputs.prefecture }} scrape output"
+
+          for i in 1 2 3; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            echo "Push attempt ${i} failed; retrying..."
+            sleep 2
+          done
+
+          echo "Failed to push scraped data after retries."
+          exit 1
+
   manual-single:
     if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
 
       - name: Set up Chrome
-        uses: browser-actions/setup-chrome@v1
+        uses: browser-actions/setup-chrome@v2
 
       - name: Install uv
-        uses: astral-sh/setup-uv@v3
+        uses: astral-sh/setup-uv@v7
 
       - name: Install dependencies
         run: uv sync
@@ -112,13 +141,38 @@ jobs:
           uv run jbrc-scraper \
             --category "${{ github.event.inputs.category }}" \
             --prefecture "${{ github.event.inputs.prefecture }}" \
-            --output-dir docs/data \
+            --output-dir docs/data/ \
             --output-format csv \
             --output-format json
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: jbrc-${{ github.event.inputs.category }}-${{ github.event.inputs.prefecture }}
           path: docs/data/${{ github.event.inputs.category }}-${{ github.event.inputs.prefecture }}.*
           if-no-files-found: error
+
+      - name: Commit scraped data to branch
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          target_glob="docs/data/${{ github.event.inputs.category }}-${{ github.event.inputs.prefecture }}.*"
+          git add ${target_glob}
+
+          if git diff --cached --quiet; then
+            echo "No docs/data changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore(data): update ${{ github.event.inputs.category }}-${{ github.event.inputs.prefecture }} scrape output"
+
+          for i in 1 2 3; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            echo "Push attempt ${i} failed; retrying..."
+            sleep 2
+          done
+
+          echo "Failed to push scraped data after retries."
+          exit 1
