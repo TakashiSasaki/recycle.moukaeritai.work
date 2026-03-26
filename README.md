@@ -23,6 +23,10 @@ uv run jbrc-scraper --dry-run
 # 1カテゴリ・1都道府県のみ実行（例: カテゴリ1 / 東京都）
 uv run jbrc-scraper --category 1 --prefecture 13 --output data/1-13.csv
 
+# 実行ログは常に data/logs/jbrc_scraper.log に追記保存
+# 必要なら --log-file で追加のログ出力先も指定可能
+uv run jbrc-scraper --category 1 --prefecture 13 --output data/1-13.csv --log-file reports/run.log
+
 # 出力ディレクトリへカテゴリ×都道府県単位で保存（CSV + JSON）
 uv run jbrc-scraper \
   --category 1 \
