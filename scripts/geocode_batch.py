@@ -149,10 +149,13 @@ def process_file(data_path: Path, api_key: str) -> tuple[int, int]:
 
 
 def iter_target_files() -> list[Path]:
-    data_files = sorted(DATA_DIR.glob("*.json"))
+    data_files = sorted(path for path in DATA_DIR.rglob("*.json") if path.is_file())
     missing = []
     existing = []
     for data_path in data_files:
+        # Ignore cache files if LATLNG_DIR is placed under DATA_DIR in the future.
+        if LATLNG_DIR in data_path.parents:
+            continue
         cache_path = to_cache_path(data_path)
         if cache_path.exists():
             existing.append(data_path)
