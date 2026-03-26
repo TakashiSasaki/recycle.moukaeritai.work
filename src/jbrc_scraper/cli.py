@@ -70,6 +70,7 @@ BASE_URL = "https://www.jbrc-sys.com/brsp/a2A/itiran.G01"
 DEFAULT_WAIT_SECONDS = 15
 ACCEPTABLE_CATEGORY_VALUES = "1,2,general,bicycle"
 ACCEPTABLE_OUTPUT_FORMAT_VALUES = "csv,json"
+DEFAULT_LOG_FILE = Path("data/logs/jbrc_scraper.log")
 
 
 @dataclass(frozen=True)
@@ -954,8 +955,16 @@ def main(argv: Sequence[str] | None = None) -> int:
         for error in all_errors:
             print(f"  - {error}", file=sys.stderr)
 
+    ended_at = datetime.now().astimezone()
+    if log_records:
+        append_log_records(
+            DEFAULT_LOG_FILE,
+            log_records,
+            started_at=started_at,
+            ended_at=ended_at,
+            max_lines=args.log_max_lines,
+        )
     if args.log_file:
-        ended_at = datetime.now().astimezone()
         append_log_records(
             Path(args.log_file),
             log_records,
