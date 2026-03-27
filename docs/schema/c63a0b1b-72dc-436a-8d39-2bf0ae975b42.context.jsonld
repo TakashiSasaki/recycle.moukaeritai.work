@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "jbrc": "https://example.org/vocab/jbrc#",
+
+    "category": "jbrc:category",
+    "prefecture": "jbrc:prefecture",
+    "store_name": "schema:name",
+    "address": "schema:address",
+    "phone": "schema:telephone",
+
+    "RecycleCollectionPoint": "jbrc:RecycleCollectionPoint"
+  }
+}

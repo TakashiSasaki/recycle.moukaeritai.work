@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>店舗データ JSON Schema バリデーター</title>
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; margin: 24px; line-height: 1.5; }
+    textarea { width: 100%; min-height: 280px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .row { margin: 12px 0; }
+    .ok { color: #0a7f2e; font-weight: 700; }
+    .ng { color: #b42318; font-weight: 700; }
+    pre { background: #f6f8fa; border: 1px solid #d0d7de; padding: 12px; overflow-x: auto; }
+    code { background: #f6f8fa; padding: 2px 6px; }
+  </style>
+</head>
+<body>
+  <h1>店舗データ JSON Schema バリデーター</h1>
+  <p>
+    対象スキーマ:
+    <code>docs/schema/c63a0b1b-72dc-436a-8d39-2bf0ae975b42.schema.json</code>
+  </p>
+
+  <p>
+    JSON-LD語彙定義:
+    <code>docs/schema/c63a0b1b-72dc-436a-8d39-2bf0ae975b42.context.jsonld</code>
+  </p>
+
+  <div class="row">
+    <label for="jsonInput">検証したい JSON（配列）を貼り付けてください</label>
+    <textarea id="jsonInput" spellcheck="false">[
+  {
+    "category": "電気製品販売店・自治体施設等",
+    "prefecture": "東京都",
+    "store_name": "ＤＣＭ（株）ＤＣＭあきる野店",
+    "address": "東京都あきる野市下代継４８",
+    "phone": "042-532-3644"
+  }
+]</textarea>
+  </div>
+
+  <div class="row">
+    <button id="validateBtn">バリデーション実行</button>
+  </div>
+
+  <div class="row" id="summary"></div>
+  <pre id="details" hidden></pre>
+
+  <script type="module">
+    import Ajv2020 from "https://cdn.jsdelivr.net/npm/ajv@8.17.1/dist/2020.min.js";
+
+    const schemaUrl = "./schema/c63a0b1b-72dc-436a-8d39-2bf0ae975b42.schema.json";
+    const summary = document.getElementById("summary");
+    const details = document.getElementById("details");
+    const btn = document.getElementById("validateBtn");
+
+    let validateFn;
+
+    async function loadSchema() {
+      const res = await fetch(schemaUrl, { cache: "no-store" });
+      if (!res.ok) {
+        throw new Error(`スキーマ読み込み失敗: ${res.status} ${res.statusText}`);
+      }
+      const schema = await res.json();
+      const ajv = new Ajv2020({ allErrors: true, strict: false });
+      validateFn = ajv.compile(schema);
+    }
+
+    function showResult(valid, errors) {
+      if (valid) {
+        summary.innerHTML = '<span class="ok">✅ 検証OK: スキーマに適合しています。</span>';
+        details.hidden = true;
+        details.textContent = "";
+        return;
+      }
+
+      summary.innerHTML = '<span class="ng">❌ 検証NG: スキーマ違反があります。</span>';
+      details.hidden = false;
+      details.textContent = JSON.stringify(errors, null, 2);
+    }
+
+    btn.addEventListener("click", async () => {
+      try {
+        if (!validateFn) {
+          await loadSchema();
+        }
+
+        const raw = document.getElementById("jsonInput").value;
+        const data = JSON.parse(raw);
+        const valid = validateFn(data);
+        showResult(valid, validateFn.errors || []);
+      } catch (err) {
+        summary.innerHTML = '<span class="ng">❌ 実行エラー</span>';
+        details.hidden = false;
+        details.textContent = String(err?.stack || err);
+      }
+    });
+  </script>
+</body>
+</html>
