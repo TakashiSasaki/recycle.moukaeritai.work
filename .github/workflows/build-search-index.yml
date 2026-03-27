@@ -1,0 +1,49 @@
+name: build-search-index
+
+on:
+  push:
+    paths:
+      - 'docs/data/1-*.json'
+      - 'docs/data/2-*.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Build search index
+        run: python scripts/build_search_index.py
+
+      - name: Commit search index
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add docs/data/search-index.json
+
+          if git diff --cached --quiet; then
+            echo "No search-index changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore(data): refresh search index"
+
+          for i in 1 2 3; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            echo "Push attempt ${i} failed; retrying..."
+            sleep 2
+          done
+
+          echo "Failed to push search index after retries."
+          exit 1

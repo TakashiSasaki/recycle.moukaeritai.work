@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlexSearch 検索デモ</title>
+    <link rel="stylesheet" href="./index.css" />
+    <style>
+      .search-box { margin: 20px 0; display: grid; gap: 10px; }
+      .search-box input { padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px; font-size: 1rem; }
+      .meta { color: var(--muted); margin: 0; }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/flexsearch@0.8.212/dist/flexsearch.bundle.min.js"></script>
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>FlexSearch 版（事前生成インデックス入力）</h1>
+        <p class="description">search-index.json を読み込み、FlexSearch でインクリメンタル検索します。</p>
+      </header>
+
+      <section class="search-box" aria-label="検索">
+        <input id="query" type="search" placeholder="店舗名・住所・電話番号で検索" autocomplete="off" />
+        <p id="meta" class="meta">初期化中...</p>
+      </section>
+
+      <section class="table-wrap" aria-live="polite">
+        <table id="store-table" hidden>
+          <thead>
+            <tr>
+              <th>区分</th><th>都道府県</th><th>店舗名</th><th>住所</th><th>電話番号</th><th>source</th>
+            </tr>
+          </thead>
+          <tbody id="store-tbody"></tbody>
+        </table>
+      </section>
+    </main>
+
+    <script type="module" src="./flex.js"></script>
+  </body>
+</html>
