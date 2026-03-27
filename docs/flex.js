@@ -53,7 +53,6 @@ async function main() {
     tokenize: 'full',
     resolution: 9,
     cache: true,
-    encode: 'icase',
   });
   const byId = new Map();
 
