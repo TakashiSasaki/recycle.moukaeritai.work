@@ -30,6 +30,48 @@
   {
     "category": "自転車販売店",
     "prefecture": "新潟県",
+    "store_name": "十日町市エコクリーンセンター",
+    "address": "新潟県十日町市高田町６－９１５－２",
+    "phone": "025-752-3924"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "新潟県",
+    "store_name": "南魚沼市不燃ごみ処理施設",
+    "address": "新潟県南魚沼市上十日町４７５",
+    "phone": "025-782-0339"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "新潟県",
+    "store_name": "南魚沼市役所　本庁舎",
+    "address": "新潟県南魚沼市六日町１８０－１",
+    "phone": "025-782-0339"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "新潟県",
+    "store_name": "南魚沼市役所　塩沢市民センター",
+    "address": "新潟県南魚沼市塩沢１３７０－１",
+    "phone": "025-782-0339"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "新潟県",
+    "store_name": "南魚沼市市民生活部廃棄物対策課",
+    "address": "新潟県南魚沼市島新田７６４",
+    "phone": "025-782-0339"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "新潟県",
+    "store_name": "南魚沼市役所　大和市民センター",
+    "address": "新潟県南魚沼市浦佐１１８８－２",
+    "phone": "025-782-0339"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "新潟県",
     "store_name": "湯沢町三俣郵便局",
     "address": "新潟県南魚沼郡湯沢町大字三俣８７９－３",
     "phone": "025-788-0291"
