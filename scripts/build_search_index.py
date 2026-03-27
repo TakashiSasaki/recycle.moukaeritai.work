@@ -38,17 +38,26 @@ def normalize(value: str | None) -> str:
     return str(value).strip()
 
 
-def build_records(files: list[Path]) -> list[SearchRecord]:
+def build_records(files: list[Path]) -> tuple[list[SearchRecord], list[str]]:
     records: list[SearchRecord] = []
+    errors: list[str] = []
     record_id = 1
 
     for path in files:
-        data = json.loads(path.read_text(encoding='utf-8'))
-        if not isinstance(data, list):
+        try:
+            data = json.loads(path.read_text(encoding='utf-8'))
+        except json.JSONDecodeError as e:
+            errors.append(f'{path.name}: invalid JSON ({e.msg} at line {e.lineno}, col {e.colno})')
             continue
 
+        if not isinstance(data, list):
+            errors.append(f'{path.name}: root JSON must be an array')
+            continue
+
+        non_object_rows = 0
         for row in data:
             if not isinstance(row, dict):
+                non_object_rows += 1
                 continue
             category = normalize(row.get('category'))
             prefecture = normalize(row.get('prefecture'))
@@ -71,7 +80,10 @@ def build_records(files: list[Path]) -> list[SearchRecord]:
             )
             record_id += 1
 
-    return records
+        if non_object_rows:
+            errors.append(f'{path.name}: {non_object_rows} row(s) were not JSON objects')
+
+    return records, errors
 
 
 def calc_source_sha256(files: list[Path]) -> str:
@@ -86,7 +98,13 @@ def calc_source_sha256(files: list[Path]) -> str:
 
 def main() -> None:
     source_files = iter_source_files()
-    records = build_records(source_files)
+    records, errors = build_records(source_files)
+    if errors:
+        print('Input validation failed while building search index:')
+        for err in errors:
+            print(f'  - {err}')
+        raise SystemExit(1)
+
     payload = {
         'version': 1,
         'total': len(records),
