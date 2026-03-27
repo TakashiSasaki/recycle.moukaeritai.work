@@ -1,0 +1,660 @@
+[
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "下川町廃棄物処理場",
+    "address": "北海道上川郡下川町北町６３９－２",
+    "phone": "01655-4-2511"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "下川町役場",
+    "address": "北海道上川郡下川町幸町６３",
+    "phone": "01655-4-2511"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "新得町清掃センター",
+    "address": "北海道上川郡新得町字新得基線６９",
+    "phone": "0156-64-6302"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "新得町役場　屈足支所",
+    "address": "北海道上川郡新得町屈足柏町３",
+    "phone": "0156-65-2111"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "新得町役場",
+    "address": "北海道上川郡新得町３条南４－２６",
+    "phone": "0156-64-0528"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "清水町役場",
+    "address": "北海道上川郡清水町南四条２－２",
+    "phone": "0156-67-7555"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "清水町役場　御影支所",
+    "address": "北海道上川郡清水町御影東１条５－１－１",
+    "phone": "0156-63-2111"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "幕別町住民福祉部　防災環境課　地域環境係",
+    "address": "北海道中川郡幕別町本町１３０－１",
+    "phone": "0155-54-6601"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "本別町町役場",
+    "address": "北海道中川郡本別町北２－４－２",
+    "phone": "0156-22-8128"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "池田町役場",
+    "address": "北海道中川郡池田町西一条７－１１",
+    "phone": "015-572-3114"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "豊頃町住民課生活環境係",
+    "address": "北海道中川郡豊頃町茂岩本町１２５",
+    "phone": "015-574-2213"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "浦幌町役場",
+    "address": "北海道十勝郡浦幌町字桜町１５－６",
+    "phone": "015-576-2114"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "（株）あさひサイクルベースあさひ千歳店",
+    "address": "北海道千歳市富士４－１－６",
+    "phone": "0123-40-6081"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "神恵内村住民課",
+    "address": "北海道古宇郡神恵内村大字神恵内村８１－２０神恵内村役場",
+    "phone": "0135-76-5011"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "名寄市リサイクルセンター",
+    "address": "北海道名寄市大橋１４０－１",
+    "phone": "01654-3-2111"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "ＹＯＵＳＨＯＰ　キノシタ",
+    "address": "北海道名寄市大通南４－９－１",
+    "phone": "01654-2-2281"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "プロショップ三浦商会",
+    "address": "北海道増毛郡増毛町畠中町２－７５－１",
+    "phone": "0164-53-2327"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "猿払村住民課　生活環境係",
+    "address": "北海道宗谷郡猿払村鬼志別西町１７２－１",
+    "phone": "01635-2-3133"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "富良野市市役所　東山支所",
+    "address": "北海道富良野市字東山あかしや",
+    "phone": "0167-27-2121"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "富良野市市役所　山部支所",
+    "address": "北海道富良野市山部東町７－３１",
+    "phone": "0167-42-2121"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "富良野市市役所",
+    "address": "北海道富良野市弥生町１－１",
+    "phone": "0167-39-2308"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "（有）藤田サイクル",
+    "address": "北海道富良野市朝日町１２－１",
+    "phone": "0167-22-2906"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "共和町役場",
+    "address": "北海道岩内郡共和町南幌似３８－２",
+    "phone": "0135-73-2011"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "共和町小沢出張所",
+    "address": "北海道岩内郡共和町小沢９５－２５６",
+    "phone": "0135-72-1833"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "共和町発足出張所",
+    "address": "北海道岩内郡共和町発足１４－８",
+    "phone": "0135-74-3001"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "共和町前田出張所",
+    "address": "北海道岩内郡岩内町字大浜１９－１",
+    "phone": "0135-62-0827"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "岩内町役場",
+    "address": "北海道岩内郡岩内町字高台１３４－１",
+    "phone": "0135-67-7094"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "（有）辰田商会",
+    "address": "北海道岩見沢市北本町西１－３－２９",
+    "phone": "0126-22-4253"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "岩見沢市ごみ・環境総合案内所　クリーンエコ　市民環境部　廃棄物対策課",
+    "address": "北海道岩見沢市３条西４であえーる岩見沢駐車場ビル１Ｆ",
+    "phone": "0126-31-1153"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "鎌田輪業（有）",
+    "address": "北海道帯広市東７条南４丁目１",
+    "phone": "0155-23-7101"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "井上モーターサイクル商会",
+    "address": "北海道恵庭市島松東町１－１－１６",
+    "phone": "0123-36-8363"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "小清水町町民生活課住民活動係",
+    "address": "北海道斜里郡小清水町元町２－１－１",
+    "phone": "0152-62-4472"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "小清水町最終処分場",
+    "address": "北海道斜里郡小清水町字上徳４４９－２",
+    "phone": "0152-62-3260"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "札幌市役所　循環型社会推進課",
+    "address": "北海道札幌市中央区北１条西２丁目本庁舎１２Ｆ",
+    "phone": "011-211-2912"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "（有）マコトラストコンセプト札幌",
+    "address": "北海道札幌市中央区北４条西１９－１－４１Ｆ",
+    "phone": "011-614-2608"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "（株）あさひサイクルベースあさひ石山通店",
+    "address": "北海道札幌市中央区南１２条西１０－２－１５",
+    "phone": "011-530-9011"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "札幌市北地区リサイクルセンター",
+    "address": "北海道札幌市北区あいの里２条６－１－１０",
+    "phone": "011-211-2928"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "札幌市北清掃事務所",
+    "address": "北海道札幌市北区屯田町９９０",
+    "phone": "011-772-5353"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "札幌市中央地区リサイクルセンター",
+    "address": "北海道札幌市南区南３０条西８－７－１",
+    "phone": "011-211-2928"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "札幌市豊平・南清掃事務所",
+    "address": "北海道札幌市南区真駒内６０２",
+    "phone": "011-583-8613"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "札幌市厚別地区リサイクルセンター",
+    "address": "北海道札幌市厚別区厚別東３条１－１－１０",
+    "phone": "011-211-2928"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "（株）あさひサイクルベースあさひ手稲前田店",
+    "address": "北海道札幌市手稲区前田六条１２－１－５",
+    "phone": "011-688-1024"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "札幌市東清掃事務所",
+    "address": "北海道札幌市東区丘珠町８７３",
+    "phone": "011-781-6653"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "（株）あさひサイクルベースあさひ伏古環状通店",
+    "address": "北海道札幌市東区伏古１条４－１－４３",
+    "phone": "011-788-8628"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "（株）あさひサイクルベースあさひ新道東店",
+    "address": "北海道札幌市東区北三十三条東１６－５",
+    "phone": "011-788-1007"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "（株）あさひサイクルベースあさひ南郷通店",
+    "address": "北海道札幌市白石区南郷通４丁目北１－３３",
+    "phone": "011-868-3196"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "札幌市白石清掃事務所",
+    "address": "北海道札幌市白石区東米里２１７０",
+    "phone": "011-876-1753"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "札幌市西地区リサイクルセンター",
+    "address": "北海道札幌市西区二十四軒４条１－５ＪＲ高架下",
+    "phone": "011-211-2928"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "札幌市リサイクルプラザ宮の沢",
+    "address": "北海道札幌市西区宮の沢１条１－１－１０ちえりあ１Ｆ",
+    "phone": "011-211-2928"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "札幌市西清掃事務所",
+    "address": "北海道札幌市西区発寒１５－１４",
+    "phone": "011-664-0053"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "（株）あさひサイクルベースあさひ札幌西町店",
+    "address": "北海道札幌市西区西町南１２－１－３８",
+    "phone": "011-668-0711"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "（株）あさひサイクルベースあさひ月寒中央店",
+    "address": "北海道札幌市豊平区月寒中央通１０－１－１",
+    "phone": "011-859-1100"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "根室市市民生活部生活環境課",
+    "address": "北海道根室市常盤町２－２７",
+    "phone": "0153-23-6111"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "中標津町一般廃棄物最終処分場",
+    "address": "北海道標津郡中標津町東当幌６－１１",
+    "phone": "0153-79-8844"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "（有）奥野商会サイクルショップ奥野　大麻店　サービス部門",
+    "address": "北海道江別市大麻扇町２－１",
+    "phone": "011-386-2888"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "（株）あさひサイクルベースあさひ江別店",
+    "address": "北海道江別市高砂町４－６",
+    "phone": "011-391-1360"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "上士幌町役場",
+    "address": "北海道河東郡上士幌町字上士幌東３線２３８",
+    "phone": "01564-2-2111"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "音更町役場",
+    "address": "北海道河東郡音更町元町２",
+    "phone": "0155-42-2111"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "鹿追町ひまわりセンター",
+    "address": "北海道河東郡鹿追町元町４－１０",
+    "phone": "0156-66-4118"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "鹿追町役場",
+    "address": "北海道河東郡鹿追町東町１－１５－１",
+    "phone": "0156-66-4031"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "中札内村役場　住民課　住民グループ",
+    "address": "北海道河西郡中札内村東１条南１丁目２－１",
+    "phone": "0155-67-2493"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "芽室町役場　環境土木課　生活環境係",
+    "address": "北海道河西郡芽室町東２条２－１４",
+    "phone": "0155-62-9726"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "（有）栄屋",
+    "address": "北海道留萌市錦町４－２－１",
+    "phone": "0164-42-0963"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "登別市クリンクルセンター",
+    "address": "北海道登別市幸町２－５",
+    "phone": "0143-85-2958"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "当別町役場　住民環境部環境生活課環境対策係",
+    "address": "北海道石狩郡当別町白樺町５８－９",
+    "phone": "0133-23-2330"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "蘭越町住民福祉課環境衛生係",
+    "address": "北海道磯谷郡蘭越町蘭越町２５８－５",
+    "phone": "0136-55-6438"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "蘭越町町民センター　らぶちゃんホール",
+    "address": "北海道磯谷郡蘭越町蘭越町４３－１",
+    "phone": "0136-57-5030"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "紋別市市役所",
+    "address": "北海道紋別市幸町２－１－１８",
+    "phone": "0158-24-2111"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "興部町中央公民館",
+    "address": "北海道紋別郡興部町仲町",
+    "phone": "0158-82-2575"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "興部町町役場",
+    "address": "北海道紋別郡興部町字興部７１０",
+    "phone": "0158-82-2164"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "興部町沙留公民館",
+    "address": "北海道紋別郡興部町沙留旭町",
+    "phone": "0158-83-2306"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "西興部村住民課　環境係",
+    "address": "北海道紋別郡西興部村字西興部１００",
+    "phone": "0158-87-2114"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "遠軽町丸瀬布総合支所",
+    "address": "北海道紋別郡遠軽町丸瀬布中町１１５－２",
+    "phone": "0158-42-4812"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "遠軽町生田原総合支所",
+    "address": "北海道紋別郡遠軽町生田原３３９－１",
+    "phone": "0158-42-4812"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "遠軽町白滝総合支所",
+    "address": "北海道紋別郡遠軽町白滝１３８－１",
+    "phone": "0158-42-4812"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "遠軽町町役場庁舎",
+    "address": "北海道紋別郡遠軽町１条通北３－１－１",
+    "phone": "0158-42-4812"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "雄武町町民センター",
+    "address": "北海道紋別郡雄武町字雄武１０３１－１",
+    "phone": "0158-84-4240"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "雄武町役場　住民生活課環境衛生係",
+    "address": "北海道紋別郡雄武町字雄武７００",
+    "phone": "0158-84-2121"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "大空町町役場",
+    "address": "北海道網走郡大空町女満別西３条４－１－１",
+    "phone": "0152-74-2111"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "大空町東藻琴総合支所",
+    "address": "北海道網走郡大空町東藻琴末広３６０－１",
+    "phone": "0152-66-2131"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "美幌町建設部環境管理課環境衛生グループ",
+    "address": "北海道網走郡美幌町字東２条北２－２５",
+    "phone": "0152-77-6550"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "美幌町美幌町廃棄物処理場",
+    "address": "北海道網走郡美幌町字登栄３－１",
+    "phone": "0152-77-6550"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "芦別市市民福祉部市民環境課環境生活係",
+    "address": "北海道芦別市北１条東１－３",
+    "phone": "0124-27-7361"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "（有）羽幌マリーンオート販売",
+    "address": "北海道苫前郡羽幌町南大通５－５－２",
+    "phone": "0164-62-3529"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "（株）あさひサイクルベースあさひ苫小牧店",
+    "address": "北海道苫小牧市日の出町２－１２－１５",
+    "phone": "0144-38-7270"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "倶知安町エコガレージ",
+    "address": "北海道虻田郡倶知安町南二条東１－１６－１",
+    "phone": "0136-21-4300"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "倶知安町清掃センター",
+    "address": "北海道虻田郡倶知安町字旭２７９",
+    "phone": "0136-22-5355"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "留寿都村役場",
+    "address": "北海道虻田郡留寿都村字留寿都１７５",
+    "phone": "0136-46-3131"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "真狩村企画情報　課環境衛生係",
+    "address": "北海道虻田郡真狩村字真狩１１８",
+    "phone": "0136-45-2121"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "足寄町銀河クリーンセンター",
+    "address": "北海道足寄郡足寄町中足寄１２６",
+    "phone": "0156-29-6700"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "足寄町役場",
+    "address": "北海道足寄郡足寄町北１条４－４８－１",
+    "phone": "0156-28-3858"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "陸別町ストックヤード",
+    "address": "北海道足寄郡陸別町字陸別原野西２線７－１",
+    "phone": "0156-27-3402"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "（有）野上商会",
+    "address": "北海道釧路市愛国東１－２５－３",
+    "phone": "0154-37-8950"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "北海道",
+    "store_name": "釧路町環境生活課",
+    "address": "北海道釧路郡釧路町別保１－１",
+    "phone": "0154-62-2119"
+  }
+]
