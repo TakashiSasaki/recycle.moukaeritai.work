@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>データダウンロード</title>
+    <link rel="stylesheet" href="./download.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <h1>データダウンロード</h1>
+        <p class="description">docs/data と docs/latlng のファイルを選んで内容確認・ダウンロードできます。</p>
+        <a class="back-link" href="./index.html">トップへ戻る</a>
+      </header>
+
+      <section class="controls" aria-label="データ選択">
+        <div class="control">
+          <label for="source-select">データソース</label>
+          <select id="source-select">
+            <option value="data">docs/data</option>
+            <option value="latlng">docs/latlng</option>
+          </select>
+        </div>
+
+        <div class="control">
+          <label for="file-select">ファイル</label>
+          <select id="file-select"></select>
+        </div>
+      </section>
+
+      <section class="downloads" aria-label="ダウンロードリンク">
+        <a id="download-json" href="#" download>JSONをダウンロード</a>
+        <a id="download-csv" href="#" download>CSVをダウンロード</a>
+        <p id="download-note" class="note" hidden>このソースにはCSVファイルがありません。</p>
+      </section>
+
+      <section class="table-wrap" aria-live="polite">
+        <p id="status">読み込み中...</p>
+        <table id="store-table" hidden>
+          <thead>
+            <tr id="table-head-row"></tr>
+          </thead>
+          <tbody id="store-tbody"></tbody>
+        </table>
+      </section>
+    </main>
+
+    <script type="module" src="./download.js"></script>
+  </body>
+</html>
