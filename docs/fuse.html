@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fuse.js 検索デモ</title>
+    <link rel="stylesheet" href="./index.css" />
+    <style>
+      .search-box { margin: 20px 0; display: grid; gap: 10px; }
+      .search-box input { padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px; font-size: 1rem; }
+      .meta { color: var(--muted); margin: 0; }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>Fuse.js 版（クライアント集約）</h1>
+        <p class="description">全JSONを初回ロード後、Fuse.jsでインクリメンタル検索します。</p>
+      </header>
+
+      <section class="search-box" aria-label="検索">
+        <input id="query" type="search" placeholder="店舗名・住所・電話番号で検索" autocomplete="off" />
+        <p id="meta" class="meta">初期化中...</p>
+      </section>
+
+      <section class="table-wrap" aria-live="polite">
+        <table id="store-table" hidden>
+          <thead>
+            <tr>
+              <th>区分</th><th>都道府県</th><th>店舗名</th><th>住所</th><th>電話番号</th><th>source</th>
+            </tr>
+          </thead>
+          <tbody id="store-tbody"></tbody>
+        </table>
+      </section>
+    </main>
+
+    <script type="module" src="./fuse.js"></script>
+  </body>
+</html>
