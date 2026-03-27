@@ -2,8 +2,14 @@ name: Geocode batch
 
 on:
   schedule:
-    - cron: "0 3 * * *"
+    - cron: "25 0 * * *"
   workflow_dispatch:
+    inputs:
+      process_existing:
+        description: "Also process files that already have cache"
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -26,17 +32,18 @@ jobs:
       - name: Run geocoding batch
         env:
           GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+          GEOCODE_PROCESS_EXISTING: ${{ github.event.inputs.process_existing || 'false' }}
         run: |
           python scripts/geocode_batch.py
 
       - name: Commit changes if any
         run: |
-          if git diff --quiet; then
+          git add docs/latlng
+          if git diff --cached --quiet; then
             echo "No changes"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/latlng
           git commit -m "chore: update geocoding cache"
           git push
