@@ -9,6 +9,41 @@
   {
     "category": "自転車販売店",
     "prefecture": "福井県",
+    "store_name": "勝山市市役所　市民課　生活環境係　窓口",
+    "address": "福井県勝山市元町１－１－１",
+    "phone": "0779-88-8104"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "福井県",
+    "store_name": "（有）菊川商会",
+    "address": "福井県大野市元町１１－３",
+    "phone": "0779-66-2139"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "福井県",
+    "store_name": "大野・勝山地区広域行政事務組合管理棟１階事務所",
+    "address": "福井県大野市南新在家２８－１",
+    "phone": "0779-66-6690"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "福井県",
+    "store_name": "大野市くらし環境部　環境・水循環課",
+    "address": "福井県大野市天神町１－１",
+    "phone": "0779-66-1111"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "福井県",
+    "store_name": "大野市和泉地域交流センター",
+    "address": "福井県大野市朝日２５－５",
+    "phone": "0779-78-2111"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "福井県",
     "store_name": "敦賀市市民生活部　清掃センター",
     "address": "福井県敦賀市櫛川８８－１－２",
     "phone": "0770-21-1153"
