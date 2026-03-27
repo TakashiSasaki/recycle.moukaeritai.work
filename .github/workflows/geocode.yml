@@ -1,8 +1,11 @@
 name: Geocode batch
 
 on:
-  schedule:
-    - cron: "25 0 * * *"
+  workflow_run:
+    workflows:
+      - scheduled-scrape
+    types:
+      - completed
   workflow_dispatch:
     inputs:
       process_existing:
@@ -16,6 +19,7 @@ permissions:
 
 jobs:
   geocode:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
@@ -28,6 +32,10 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: "3.11"
+
+      - name: Wait 10 minutes after scheduled-scrape completion
+        if: github.event_name == 'workflow_run'
+        run: sleep 600
 
       - name: Run geocoding batch
         env:
