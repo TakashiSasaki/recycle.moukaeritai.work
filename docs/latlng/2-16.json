@@ -1,0 +1,205 @@
+{
+  "version": 1,
+  "generated_at": "2026-03-27T05:01:26+00:00",
+  "source_file": "docs/data/2-16.json",
+  "entries": {
+    "富山県富山県中新川郡上市町法音寺１": {
+      "normalized_address": "富山県富山県中新川郡上市町法音寺１",
+      "raw_prefecture": "富山県",
+      "raw_address": "富山県中新川郡上市町法音寺１",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:21+00:00",
+      "lat": 36.6991612,
+      "lng": 137.3653039,
+      "formatted_address": "1 Hōonji, Kamiichi, Nakaniikawa District, Toyama 930-0353, Japan",
+      "place_id": "ChIJndEgmNiV918RccDHTnQX8E0"
+    },
+    "富山県富山県中新川郡立山町上金剛寺２１０": {
+      "normalized_address": "富山県富山県中新川郡立山町上金剛寺２１０",
+      "raw_prefecture": "富山県",
+      "raw_address": "富山県中新川郡立山町上金剛寺２１０",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:22+00:00",
+      "lat": 36.6371895,
+      "lng": 137.3377862,
+      "formatted_address": "210 Kamikongōji, Tateyama, Nakaniikawa District, Toyama 930-0233, Japan",
+      "place_id": "ChIJPyVdwxaT918RJkuOhSwEpDg"
+    },
+    "富山県富山県中新川郡立山町前沢２４４０": {
+      "normalized_address": "富山県富山県中新川郡立山町前沢２４４０",
+      "raw_prefecture": "富山県",
+      "raw_address": "富山県中新川郡立山町前沢２４４０",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:22+00:00",
+      "lat": 36.663503,
+      "lng": 137.3137204,
+      "formatted_address": "2440 Maezawa, Tateyama, Nakaniikawa District, Toyama 930-0221, Japan",
+      "place_id": "ChIJNZfVeO6T918RXQpoY3pTRxs"
+    },
+    "富山県富山県中新川郡舟橋村５５": {
+      "normalized_address": "富山県富山県中新川郡舟橋村５５",
+      "raw_prefecture": "富山県",
+      "raw_address": "富山県中新川郡舟橋村５５",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:22+00:00",
+      "lat": 36.703544,
+      "lng": 137.3074521,
+      "formatted_address": "Funahashi, Nakaniikawa District, Toyama, Japan",
+      "place_id": "ChIJzdx8V-iW918R1ARYh7eDEoc"
+    },
+    "富山県富山県南砺市荒木１３０１－２": {
+      "normalized_address": "富山県富山県南砺市荒木１３０１－２",
+      "raw_prefecture": "富山県",
+      "raw_address": "富山県南砺市荒木１３０１－２",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:22+00:00",
+      "lat": 36.556782,
+      "lng": 136.8802295,
+      "formatted_address": "1301 Araki, Nanto, Toyama 939-1732, Japan",
+      "place_id": "ChIJ66X9ZIAv-F8Ral4mmVpU8AI"
+    },
+    "富山県富山県富山市上飯野３８－１１": {
+      "normalized_address": "富山県富山県富山市上飯野３８－１１",
+      "raw_prefecture": "富山県",
+      "raw_address": "富山県富山市上飯野３８－１１",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:23+00:00",
+      "lat": 36.713867,
+      "lng": 137.2499932,
+      "formatted_address": "38-11 Kamiiino, Toyama, 930-0827, Japan",
+      "place_id": "ChIJI3vRnlGX918RT8_4lCaZjic"
+    },
+    "富山県富山県富山市八尾町黒田１２４４－２": {
+      "normalized_address": "富山県富山県富山市八尾町黒田１２４４－２",
+      "raw_prefecture": "富山県",
+      "raw_address": "富山県富山市八尾町黒田１２４４－２",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:23+00:00",
+      "lat": 36.6025601,
+      "lng": 137.1531868,
+      "formatted_address": "Japan, 〒939-2304 Toyama, Yatsuomachi Kuroda, １２４４−２ サイクルショップ 伊藤",
+      "place_id": "ChIJizI2mP6L918RTblJiQg8yHo"
+    },
+    "富山県富山県富山市千歳町２－９－２": {
+      "normalized_address": "富山県富山県富山市千歳町２－９－２",
+      "raw_prefecture": "富山県",
+      "raw_address": "富山県富山市千歳町２－９－２",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:23+00:00",
+      "lat": 36.6976471,
+      "lng": 137.2190985,
+      "formatted_address": "2-chōme-9-2 Chitosemachi, Toyama, 930-0018, Japan",
+      "place_id": "ChIJEfQYe5CQ918R0-zqDGG8mCk"
+    },
+    "富山県富山県富山市堀２５２": {
+      "normalized_address": "富山県富山県富山市堀２５２",
+      "raw_prefecture": "富山県",
+      "raw_address": "富山県富山市堀２５２",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:23+00:00",
+      "lat": 36.6557277,
+      "lng": 137.2290255,
+      "formatted_address": "252 Hori, Toyama, 939-8056, Japan",
+      "place_id": "ChIJfRdvpemR918RvTqnKHX0OBE"
+    },
+    "富山県富山県富山市太田８３－１": {
+      "normalized_address": "富山県富山県富山市太田８３－１",
+      "raw_prefecture": "富山県",
+      "raw_address": "富山県富山市太田８３－１",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:24+00:00",
+      "lat": 36.6694898,
+      "lng": 137.235909,
+      "formatted_address": "83-1 Ōta, Toyama, 939-8042, Japan",
+      "place_id": "ChIJj5H2YaWR918R2VOBy-Gfsng"
+    },
+    "富山県富山県富山市婦中町分田１５７": {
+      "normalized_address": "富山県富山県富山市婦中町分田１５７",
+      "raw_prefecture": "富山県",
+      "raw_address": "富山県富山市婦中町分田１５７",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:24+00:00",
+      "lat": 36.6663519,
+      "lng": 137.1815299,
+      "formatted_address": "Japan, 〒939-2718 Toyama, Fuchūmachi Bunden, １５７ コンチネンタルビル",
+      "place_id": "ChIJH87b7diP918RjAzMJ7SwCdE"
+    },
+    "富山県富山県富山市高内３９３": {
+      "normalized_address": "富山県富山県富山市高内３９３",
+      "raw_prefecture": "富山県",
+      "raw_address": "富山県富山市高内３９３",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:24+00:00",
+      "lat": 36.5805997,
+      "lng": 137.2060402,
+      "formatted_address": "393 Takauchi, Toyama, 939-2254, Japan",
+      "place_id": "ChIJSVDC6Z2M918R63UslhePvs8"
+    },
+    "富山県富山県射水市新開発４１０－１": {
+      "normalized_address": "富山県富山県射水市新開発４１０－１",
+      "raw_prefecture": "富山県",
+      "raw_address": "富山県射水市新開発４１０－１",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:24+00:00",
+      "lat": 36.7309284,
+      "lng": 137.0756864,
+      "formatted_address": "410-1 Shinkaihotsu, Imizu, Toyama 939-0284, Japan",
+      "place_id": "ChIJga_1bbec918R8Ml6_tLmTY4"
+    },
+    "富山県富山県氷見市床鍋２８": {
+      "normalized_address": "富山県富山県氷見市床鍋２８",
+      "raw_prefecture": "富山県",
+      "raw_address": "富山県氷見市床鍋２８",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:25+00:00",
+      "lat": 36.8483557,
+      "lng": 136.87281,
+      "formatted_address": "28 Tokonabe, Himi, Toyama 935-0269, Japan",
+      "place_id": "ChIJG1dIT9xv918RV4cRjdh4nPQ"
+    },
+    "富山県富山県氷見市新保２５－１": {
+      "normalized_address": "富山県富山県氷見市新保２５－１",
+      "raw_prefecture": "富山県",
+      "raw_address": "富山県氷見市新保２５－１",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:25+00:00",
+      "lat": 36.8579811,
+      "lng": 136.9199729,
+      "formatted_address": "25-1 Shinbo, Himi, Toyama 935-0254, Japan",
+      "place_id": "ChIJ15aev91x918RxDN4blEm_xU"
+    },
+    "富山県富山県氷見市窪１０７２": {
+      "normalized_address": "富山県富山県氷見市窪１０７２",
+      "raw_prefecture": "富山県",
+      "raw_address": "富山県氷見市窪１０７２",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:25+00:00",
+      "lat": 36.8402753,
+      "lng": 136.9889082,
+      "formatted_address": "1072 Kubo, Himi, Toyama 935-0024, Japan",
+      "place_id": "ChIJhW1hgWBx918R8I55lFXdIUo"
+    },
+    "富山県富山県高岡市蓮花寺２１６－１": {
+      "normalized_address": "富山県富山県高岡市蓮花寺２１６－１",
+      "raw_prefecture": "富山県",
+      "raw_address": "富山県高岡市蓮花寺２１６－１",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:25+00:00",
+      "lat": 36.7367865,
+      "lng": 137.0329285,
+      "formatted_address": "216-1 Rengeji, Takaoka, Toyama 933-0802, Japan",
+      "place_id": "ChIJBZkeMNeC918RUYwKf6z-AYE"
+    },
+    "富山県富山県黒部市宮沢９９": {
+      "normalized_address": "富山県富山県黒部市宮沢９９",
+      "raw_prefecture": "富山県",
+      "raw_address": "富山県黒部市宮沢９９",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:26+00:00",
+      "lat": 36.8583556,
+      "lng": 137.4624391,
+      "formatted_address": "99 Miyasawa, Kurobe, Toyama 938-0831, Japan",
+      "place_id": "ChIJjW14kQSv918RYKUEcCSPFhs"
+    }
+  }
+}

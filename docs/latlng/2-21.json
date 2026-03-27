@@ -1,0 +1,249 @@
+{
+  "version": 1,
+  "generated_at": "2026-03-27T05:01:43+00:00",
+  "source_file": "docs/data/2-21.json",
+  "entries": {
+    "岐阜県岐阜県下呂市小川２３９０": {
+      "normalized_address": "岐阜県岐阜県下呂市小川２３９０",
+      "raw_prefecture": "岐阜県",
+      "raw_address": "岐阜県下呂市小川２３９０",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:38+00:00",
+      "lat": 35.7707311,
+      "lng": 137.2577164,
+      "formatted_address": "2390 Ogawa, Gero, Gifu 509-2203, Japan",
+      "place_id": "ChIJd9v1mKbZAmARBNUPcpO9O28"
+    },
+    "岐阜県岐阜県不破郡垂井町岩手４２５４": {
+      "normalized_address": "岐阜県岐阜県不破郡垂井町岩手４２５４",
+      "raw_prefecture": "岐阜県",
+      "raw_address": "岐阜県不破郡垂井町岩手４２５４",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:38+00:00",
+      "lat": 35.3807887,
+      "lng": 136.5113056,
+      "formatted_address": "4254 Iwate, Tarui, Fuwa District, Gifu 503-2107, Japan",
+      "place_id": "ChIJzfvgKqTKA2ARYOWOa1pLr8s"
+    },
+    "岐阜県岐阜県不破郡垂井町２３３８": {
+      "normalized_address": "岐阜県岐阜県不破郡垂井町２３３８",
+      "raw_prefecture": "岐阜県",
+      "raw_address": "岐阜県不破郡垂井町２３３８",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:38+00:00",
+      "lat": 35.3703492,
+      "lng": 136.5269405,
+      "formatted_address": "Tarui, Fuwa District, Gifu, Japan",
+      "place_id": "ChIJN3ml86jKA2AR4kxTwB-0lJY"
+    },
+    "岐阜県岐阜県不破郡関ケ原町大字関ケ原９０３－１": {
+      "normalized_address": "岐阜県岐阜県不破郡関ケ原町大字関ケ原９０３－１",
+      "raw_prefecture": "岐阜県",
+      "raw_address": "岐阜県不破郡関ケ原町大字関ケ原９０３－１",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:38+00:00",
+      "lat": 35.3622854,
+      "lng": 136.4692686,
+      "formatted_address": "903-1 Sekigahara, Fuwa District, Gifu 503-1501, Japan",
+      "place_id": "ChIJjULWISXLA2ARq_qCQRlhhwI"
+    },
+    "岐阜県岐阜県可児市姫ケ丘４－９": {
+      "normalized_address": "岐阜県岐阜県可児市姫ケ丘４－９",
+      "raw_prefecture": "岐阜県",
+      "raw_address": "岐阜県可児市姫ケ丘４－９",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:39+00:00",
+      "lat": 35.3924664,
+      "lng": 137.0503959,
+      "formatted_address": "4 Chome Himegaoka, Kani, Gifu 509-0249, Japan",
+      "place_id": "ChIJ74UCRo4TA2ARdFkY2IN3pYc"
+    },
+    "岐阜県岐阜県安八郡輪之内町中郷新田１５１６": {
+      "normalized_address": "岐阜県岐阜県安八郡輪之内町中郷新田１５１６",
+      "raw_prefecture": "岐阜県",
+      "raw_address": "岐阜県安八郡輪之内町中郷新田１５１６",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:39+00:00",
+      "lat": 35.2878639,
+      "lng": 136.6355399,
+      "formatted_address": "Nakago Shinden, Wanochi, Ampachi District, Gifu 503-0212, Japan",
+      "place_id": "ChIJy92tlPS6A2ARjCMGW8OPR0Y"
+    },
+    "岐阜県岐阜県岐阜市下土居３－３－１３": {
+      "normalized_address": "岐阜県岐阜県岐阜市下土居３－３－１３",
+      "raw_prefecture": "岐阜県",
+      "raw_address": "岐阜県岐阜市下土居３－３－１３",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:39+00:00",
+      "lat": 35.4545821,
+      "lng": 136.754348,
+      "formatted_address": "3 Chome-3 Shimotsuchii, Gifu, 502-0858, Japan",
+      "place_id": "ChIJDUSeDY-rA2ARy6_0IVZ_O9c"
+    },
+    "岐阜県岐阜県岐阜市市橋２－８－１０": {
+      "normalized_address": "岐阜県岐阜県岐阜市市橋２－８－１０",
+      "raw_prefecture": "岐阜県",
+      "raw_address": "岐阜県岐阜市市橋２－８－１０",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:39+00:00",
+      "lat": 35.4008307,
+      "lng": 136.7268331,
+      "formatted_address": "2-chōme-8-10 Ichihashi, Gifu, 500-8381, Japan",
+      "place_id": "ChIJOZYnD5WuA2ARvxjxka8sRIo"
+    },
+    "岐阜県岐阜県揖斐郡池田町六之井１４６８－１": {
+      "normalized_address": "岐阜県岐阜県揖斐郡池田町六之井１４６８－１",
+      "raw_prefecture": "岐阜県",
+      "raw_address": "岐阜県揖斐郡池田町六之井１４６８－１",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:40+00:00",
+      "lat": 35.4423184,
+      "lng": 136.5729068,
+      "formatted_address": "1468-1 Rokunoi, Ikeda, Ibi District, Gifu 503-2425, Japan",
+      "place_id": "ChIJA3h9ZxNLAmARCgsq7xbbVJA"
+    },
+    "岐阜県岐阜県揖斐郡池田町沓井４４９－１": {
+      "normalized_address": "岐阜県岐阜県揖斐郡池田町沓井４４９－１",
+      "raw_prefecture": "岐阜県",
+      "raw_address": "岐阜県揖斐郡池田町沓井４４９－１",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:40+00:00",
+      "lat": 35.4678277,
+      "lng": 136.5573227,
+      "formatted_address": "449-1 Kutsui, Ikeda, Ibi District, Gifu 503-2401, Japan",
+      "place_id": "ChIJlzuGV8pLAmAR0dn_bejSwms"
+    },
+    "岐阜県岐阜県揖斐郡池田町片山３９０－１": {
+      "normalized_address": "岐阜県岐阜県揖斐郡池田町片山３９０－１",
+      "raw_prefecture": "岐阜県",
+      "raw_address": "岐阜県揖斐郡池田町片山３９０－１",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:40+00:00",
+      "lat": 35.4166894,
+      "lng": 136.581879,
+      "formatted_address": "390-1 Katayama, Ikeda, Ibi District, Gifu 503-2428, Japan",
+      "place_id": "ChIJqU4GUrC0A2ARJGFv2GEYzhw"
+    },
+    "岐阜県岐阜県本巣郡北方町柱本７００": {
+      "normalized_address": "岐阜県岐阜県本巣郡北方町柱本７００",
+      "raw_prefecture": "岐阜県",
+      "raw_address": "岐阜県本巣郡北方町柱本７００",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:40+00:00",
+      "lat": 35.4248046,
+      "lng": 136.6848615,
+      "formatted_address": "700 Hashiramoto, Kitagata, Motosu District, Gifu 501-0446, Japan",
+      "place_id": "ChIJS9hZqpCtA2ARdsXsW_ChyYA"
+    },
+    "岐阜県岐阜県本巣郡北方町芝原中町３－５０": {
+      "normalized_address": "岐阜県岐阜県本巣郡北方町芝原中町３－５０",
+      "raw_prefecture": "岐阜県",
+      "raw_address": "岐阜県本巣郡北方町芝原中町３－５０",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:41+00:00",
+      "lat": 35.4445477,
+      "lng": 136.6941277,
+      "formatted_address": "3-chōme-50 Shibahara Nakamachi, Kitagata, Motosu District, Gifu 501-0422, Japan",
+      "place_id": "ChIJn4icLQytA2ARjmXJZfGGmlE"
+    },
+    "岐阜県岐阜県本巣郡北方町長谷川１－１": {
+      "normalized_address": "岐阜県岐阜県本巣郡北方町長谷川１－１",
+      "raw_prefecture": "岐阜県",
+      "raw_address": "岐阜県本巣郡北方町長谷川１－１",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:41+00:00",
+      "lat": 35.4354828,
+      "lng": 136.6841159,
+      "formatted_address": "1-chome Hasegawa, Kitagata, Motosu District, Gifu 501-0439, Japan",
+      "place_id": "ChIJ0QpwY3atA2ARtztc5dxVxV4"
+    },
+    "岐阜県岐阜県本巣郡北方町高屋条理２－２２": {
+      "normalized_address": "岐阜県岐阜県本巣郡北方町高屋条理２－２２",
+      "raw_prefecture": "岐阜県",
+      "raw_address": "岐阜県本巣郡北方町高屋条理２－２２",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:41+00:00",
+      "lat": 35.4197022,
+      "lng": 136.6844178,
+      "formatted_address": "Takaya, Kitagata, Motosu District, Gifu 501-0458, Japan",
+      "place_id": "ChIJLV4a-pOtA2ARnB_yqUSPxx8"
+    },
+    "岐阜県岐阜県本巣郡北方町高屋石末１－９": {
+      "normalized_address": "岐阜県岐阜県本巣郡北方町高屋石末１－９",
+      "raw_prefecture": "岐阜県",
+      "raw_address": "岐阜県本巣郡北方町高屋石末１－９",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:41+00:00",
+      "lat": 35.4247536,
+      "lng": 136.6930971,
+      "formatted_address": "1-chōme-9 Takayaishizue, Kitagata, Motosu District, Gifu 501-0452, Japan",
+      "place_id": "ChIJoXhIO7ytA2AR4tXOV1NVrSM"
+    },
+    "岐阜県岐阜県羽島郡笠松町中野２２９": {
+      "normalized_address": "岐阜県岐阜県羽島郡笠松町中野２２９",
+      "raw_prefecture": "岐阜県",
+      "raw_address": "岐阜県羽島郡笠松町中野２２９",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:42+00:00",
+      "lat": 35.3739465,
+      "lng": 136.7953755,
+      "formatted_address": "229 Nakano, Kasamatsu, Hashima District, Gifu 501-6034, Japan",
+      "place_id": "ChIJzyNvmtenA2AReeecj9kJPq0"
+    },
+    "岐阜県岐阜県羽島郡笠松町司町１": {
+      "normalized_address": "岐阜県岐阜県羽島郡笠松町司町１",
+      "raw_prefecture": "岐阜県",
+      "raw_address": "岐阜県羽島郡笠松町司町１",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:42+00:00",
+      "lat": 35.3667343,
+      "lng": 136.7632662,
+      "formatted_address": "Tsukasamachi, Kasamatsu, Hashima District, Gifu 501-6045, Japan",
+      "place_id": "ChIJ04B176OoA2AR7FOwVWYVR7A"
+    },
+    "岐阜県岐阜県羽島郡笠松町常盤町６": {
+      "normalized_address": "岐阜県岐阜県羽島郡笠松町常盤町６",
+      "raw_prefecture": "岐阜県",
+      "raw_address": "岐阜県羽島郡笠松町常盤町６",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:42+00:00",
+      "lat": 35.3738287,
+      "lng": 136.7608597,
+      "formatted_address": "6 Tokiwachō, Kasamatsu, Hashima District, Gifu 501-6083, Japan",
+      "place_id": "ChIJsZOH2LuoA2ARUGI8ykQ_PxI"
+    },
+    "岐阜県岐阜県羽島郡笠松町長池２９２": {
+      "normalized_address": "岐阜県岐阜県羽島郡笠松町長池２９２",
+      "raw_prefecture": "岐阜県",
+      "raw_address": "岐阜県羽島郡笠松町長池２９２",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:42+00:00",
+      "lat": 35.3671929,
+      "lng": 136.763189,
+      "formatted_address": "Kasamatsu, Hashima District, Gifu, Japan",
+      "place_id": "ChIJR9IwViamA2ARWBM_x4eUWLo"
+    },
+    "岐阜県岐阜県羽島郡笠松町長池４０８－１": {
+      "normalized_address": "岐阜県岐阜県羽島郡笠松町長池４０８－１",
+      "raw_prefecture": "岐阜県",
+      "raw_address": "岐阜県羽島郡笠松町長池４０８－１",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:43+00:00",
+      "lat": 35.3585237,
+      "lng": 136.7465006,
+      "formatted_address": "408-1 Nagaike, Kasamatsu, Hashima District, Gifu 501-6063, Japan",
+      "place_id": "ChIJ1bt2YVOvA2ARGaAU3bzDjfE"
+    },
+    "岐阜県岐阜県養老郡養老町有尾６６３": {
+      "normalized_address": "岐阜県岐阜県養老郡養老町有尾６６３",
+      "raw_prefecture": "岐阜県",
+      "raw_address": "岐阜県養老郡養老町有尾６６３",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:43+00:00",
+      "lat": 35.2546846,
+      "lng": 136.5854165,
+      "formatted_address": "663 Ario, Yoro, Yoro District, Gifu 503-1277, Japan",
+      "place_id": "ChIJufJqboW5A2ARYrWsDU3rFqQ"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "generated_at": "2026-03-27T05:01:29+00:00",
+  "source_file": "docs/data/2-18.json",
+  "entries": {
+    "福井県福井県丹生郡越前町平等３－４－１": {
+      "normalized_address": "福井県福井県丹生郡越前町平等３－４－１",
+      "raw_prefecture": "福井県",
+      "raw_address": "福井県丹生郡越前町平等３－４－１",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:28+00:00",
+      "lat": 35.9521104,
+      "lng": 136.0560154,
+      "formatted_address": "3-4-1 Taira, Echizen, Nyu District, Fukui 916-0224, Japan",
+      "place_id": "ChIJEx1eU5Sz-F8RjxaQ9UpPAnA"
+    },
+    "福井県福井県敦賀市櫛川８８－１－２": {
+      "normalized_address": "福井県福井県敦賀市櫛川８８－１－２",
+      "raw_prefecture": "福井県",
+      "raw_address": "福井県敦賀市櫛川８８－１－２",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:28+00:00",
+      "lat": 35.6598353,
+      "lng": 136.0394108,
+      "formatted_address": "88-1-2 Kushikawa, Tsuruga, Fukui 914-0821, Japan",
+      "place_id": "ChIJmxdUob_kAWARyT09PtlOMAI"
+    },
+    "福井県福井県福井市南江守町２－１": {
+      "normalized_address": "福井県福井県福井市南江守町２－１",
+      "raw_prefecture": "福井県",
+      "raw_address": "福井県福井市南江守町２－１",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:28+00:00",
+      "lat": 36.0317205,
+      "lng": 136.1986117,
+      "formatted_address": "2-1 Minamiemorichō, Fukui, 918-8032, Japan",
+      "place_id": "ChIJDyutOOC7-F8RuX_DjwDguuw"
+    },
+    "福井県福井県福井市大和田１－１４０８": {
+      "normalized_address": "福井県福井県福井市大和田１－１４０８",
+      "raw_prefecture": "福井県",
+      "raw_address": "福井県福井市大和田１－１４０８",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:28+00:00",
+      "lat": 36.0916302,
+      "lng": 136.2504093,
+      "formatted_address": "1-chōme-1408 Ōwada, Fukui, 910-0836, Japan",
+      "place_id": "ChIJA9wgqCy--F8RGSUNk5CVXHE"
+    },
+    "福井県福井県福井市大宮３－１４－９": {
+      "normalized_address": "福井県福井県福井市大宮３－１４－９",
+      "raw_prefecture": "福井県",
+      "raw_address": "福井県福井市大宮３－１４－９",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:29+00:00",
+      "lat": 36.08140789999999,
+      "lng": 136.2093763,
+      "formatted_address": "Japan, 〒910-0016 Fukui, Ōmiya, 3-chōme−14−９ 米岡ビル",
+      "place_id": "ChIJA2Buaai_-F8RAZ5kORIgtQE"
+    },
+    "福井県福井県福井市若杉１－３１１３": {
+      "normalized_address": "福井県福井県福井市若杉１－３１１３",
+      "raw_prefecture": "福井県",
+      "raw_address": "福井県福井市若杉１－３１１３",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:29+00:00",
+      "lat": 36.0637604,
+      "lng": 136.1897901,
+      "formatted_address": "1 Wakasugichō, Fukui, 918-8055, Japan",
+      "place_id": "ChIJtdcPb9i--F8RTm5HnRKBjCg"
+    },
+    "福井県福井県福井市長本町１１１": {
+      "normalized_address": "福井県福井県福井市長本町１１１",
+      "raw_prefecture": "福井県",
+      "raw_address": "福井県福井市長本町１１１",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:29+00:00",
+      "lat": 36.0739974,
+      "lng": 136.2408116,
+      "formatted_address": "111 Nagamotochō, Fukui, 910-0844, Japan",
+      "place_id": "ChIJw5yLUEO--F8RqXmVdspjGZI"
+    }
+  }
+}

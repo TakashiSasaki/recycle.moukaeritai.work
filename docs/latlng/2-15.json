@@ -1,0 +1,238 @@
+{
+  "version": 1,
+  "generated_at": "2026-03-27T05:01:21+00:00",
+  "source_file": "docs/data/2-15.json",
+  "entries": {
+    "新潟県新潟県三条市下須頃４３－１": {
+      "normalized_address": "新潟県新潟県三条市下須頃４３－１",
+      "raw_prefecture": "新潟県",
+      "raw_address": "新潟県三条市下須頃４３－１",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:16+00:00",
+      "lat": 37.6395059,
+      "lng": 138.9402215,
+      "formatted_address": "43-1 Shimosugoro, Sanjo, Niigata 955-0093, Japan",
+      "place_id": "ChIJdcLgLa7j9F8R5Em8XhsrYbc"
+    },
+    "新潟県新潟県三条市東三条１－１６－１２": {
+      "normalized_address": "新潟県新潟県三条市東三条１－１６－１２",
+      "raw_prefecture": "新潟県",
+      "raw_address": "新潟県三条市東三条１－１６－１２",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:16+00:00",
+      "lat": 37.6289574,
+      "lng": 138.9714735,
+      "formatted_address": "1-chōme-16-12 Higashisanjō, Sanjo, Niigata 955-0047, Japan",
+      "place_id": "ChIJpfYSwEHi9F8R9NffVeafhjE"
+    },
+    "新潟県新潟県上越市富岡６０９": {
+      "normalized_address": "新潟県新潟県上越市富岡６０９",
+      "raw_prefecture": "新潟県",
+      "raw_address": "新潟県上越市富岡６０９",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:17+00:00",
+      "lat": 37.1444401,
+      "lng": 138.2596987,
+      "formatted_address": "609 Tomioka, Joetsu, Niigata 943-0173, Japan",
+      "place_id": "ChIJDefyIZh39l8R77H8rox9IW0"
+    },
+    "新潟県新潟県上越市柿崎区柿崎６４５２": {
+      "normalized_address": "新潟県新潟県上越市柿崎区柿崎６４５２",
+      "raw_prefecture": "新潟県",
+      "raw_address": "新潟県上越市柿崎区柿崎６４５２",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:17+00:00",
+      "lat": 37.27889649999999,
+      "lng": 138.3901602,
+      "formatted_address": "6452 Kakizakiku Kakizaki, Joetsu, Niigata 949-3216, Japan",
+      "place_id": "ChIJtT3S0xLO9V8Rlcv5PBCxz2E"
+    },
+    "新潟県新潟県南魚沼郡湯沢町大字三俣８７９－３": {
+      "normalized_address": "新潟県新潟県南魚沼郡湯沢町大字三俣８７９－３",
+      "raw_prefecture": "新潟県",
+      "raw_address": "新潟県南魚沼郡湯沢町大字三俣８７９－３",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:17+00:00",
+      "lat": 36.8934015,
+      "lng": 138.7770074,
+      "formatted_address": "879-3 Mitsumata, Yuzawa, Minamiuonuma District, Niigata 949-6211, Japan",
+      "place_id": "ChIJ21CjTD4BHmARrwLE71xOF20"
+    },
+    "新潟県新潟県南魚沼郡湯沢町大字三国２４１－１９": {
+      "normalized_address": "新潟県新潟県南魚沼郡湯沢町大字三国２４１－１９",
+      "raw_prefecture": "新潟県",
+      "raw_address": "新潟県南魚沼郡湯沢町大字三国２４１－１９",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:17+00:00",
+      "lat": 36.7893589,
+      "lng": 138.7936163,
+      "formatted_address": "241-19 Mikuni, Yuzawa, Minamiuonuma District, Niigata 949-6212, Japan",
+      "place_id": "ChIJ-Zq7ts4IHmARy4dNzkJGtsY"
+    },
+    "新潟県新潟県南魚沼郡湯沢町大字土樽４９８１－５": {
+      "normalized_address": "新潟県新潟県南魚沼郡湯沢町大字土樽４９８１－５",
+      "raw_prefecture": "新潟県",
+      "raw_address": "新潟県南魚沼郡湯沢町大字土樽４９８１－５",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:18+00:00",
+      "lat": 36.9129308,
+      "lng": 138.8459826,
+      "formatted_address": "4981-5 Tsuchidaru, Yuzawa, Minamiuonuma District, Niigata 949-6103, Japan",
+      "place_id": "ChIJq_cASnoDHmARTmB8rqCLg0k"
+    },
+    "新潟県新潟県南魚沼郡湯沢町大字湯沢２８２２": {
+      "normalized_address": "新潟県新潟県南魚沼郡湯沢町大字湯沢２８２２",
+      "raw_prefecture": "新潟県",
+      "raw_address": "新潟県南魚沼郡湯沢町大字湯沢２８２２",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:18+00:00",
+      "lat": 36.9380962,
+      "lng": 138.8125672,
+      "formatted_address": "2822 Yuzawa, Minamiuonuma District, Niigata 949-6101, Japan",
+      "place_id": "ChIJs-LsXDoCHmARW1Yr31l_v5E"
+    },
+    "新潟県新潟県南魚沼郡湯沢町大字神立３００": {
+      "normalized_address": "新潟県新潟県南魚沼郡湯沢町大字神立３００",
+      "raw_prefecture": "新潟県",
+      "raw_address": "新潟県南魚沼郡湯沢町大字神立３００",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:18+00:00",
+      "lat": 36.9337434,
+      "lng": 138.8171766,
+      "formatted_address": "300 Kandatsu, Yuzawa, Minamiuonuma District, Niigata 949-6102, Japan",
+      "place_id": "ChIJH8Lr0jUCHmARDfboUptgeBU"
+    },
+    "新潟県新潟県南魚沼郡湯沢町湯沢３－７－４": {
+      "normalized_address": "新潟県新潟県南魚沼郡湯沢町湯沢３－７－４",
+      "raw_prefecture": "新潟県",
+      "raw_address": "新潟県南魚沼郡湯沢町湯沢３－７－４",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:18+00:00",
+      "lat": 36.94123560000001,
+      "lng": 138.8076641,
+      "formatted_address": "Yuzawa, Minamiuonuma District, Niigata 949-6101, Japan",
+      "place_id": "ChIJMx642ekBHmARyTcNPziDIs4"
+    },
+    "新潟県新潟県妙高市梨木７": {
+      "normalized_address": "新潟県新潟県妙高市梨木７",
+      "raw_prefecture": "新潟県",
+      "raw_address": "新潟県妙高市梨木７",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:19+00:00",
+      "lat": 37.0402023,
+      "lng": 138.2352163,
+      "formatted_address": "7 Nashinoki, Myoko, Niigata 944-0077, Japan",
+      "place_id": "ChIJpxnJy4dy9l8RZMzPCWTx70Q"
+    },
+    "新潟県新潟県小千谷市大字ひ生丁５５７－２": {
+      "normalized_address": "新潟県新潟県小千谷市大字ひ生丁５５７－２",
+      "raw_prefecture": "新潟県",
+      "raw_address": "新潟県小千谷市大字ひ生丁５５７－２",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:19+00:00",
+      "lat": 37.2960325,
+      "lng": 138.8348473,
+      "formatted_address": "557-2 Hiu, Ojiya, Niigata 947-0003, Japan",
+      "place_id": "ChIJuxHpjQG99V8RvshH_gyZvd0"
+    },
+    "新潟県新潟県新潟市中央区大島１９１－６": {
+      "normalized_address": "新潟県新潟県新潟市中央区大島１９１－６",
+      "raw_prefecture": "新潟県",
+      "raw_address": "新潟県新潟市中央区大島１９１－６",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:19+00:00",
+      "lat": 37.8823344,
+      "lng": 139.0270482,
+      "formatted_address": "191-6 Ōjima, Chuo Ward, Niigata, 950-0953, Japan",
+      "place_id": "ChIJYWWAMo3I9F8R14SxEFC_Dic"
+    },
+    "新潟県新潟県新潟市中央区近江３－３２－５": {
+      "normalized_address": "新潟県新潟県新潟市中央区近江３－３２－５",
+      "raw_prefecture": "新潟県",
+      "raw_address": "新潟県新潟市中央区近江３－３２－５",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:19+00:00",
+      "lat": 37.9029442,
+      "lng": 139.0434813,
+      "formatted_address": "Japan, 〒950-0971 Niigata, Chuo Ward, Ōmi, 3-chōme−32−５ 美容室フィールルーチェ",
+      "place_id": "ChIJ599jZa_J9F8R3G-rmiWjqEw"
+    },
+    "新潟県新潟県新潟市北区石動１－１７－１５": {
+      "normalized_address": "新潟県新潟県新潟市北区石動１－１７－１５",
+      "raw_prefecture": "新潟県",
+      "raw_address": "新潟県新潟市北区石動１－１７－１５",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:20+00:00",
+      "lat": 37.9216172,
+      "lng": 139.2120704,
+      "formatted_address": "Japan, 〒950-3327 Niigata, Kita Ward, Isurugi, 1-chōme−１７−１５ モトパーク・サイトウ",
+      "place_id": "ChIJdScEn1Izi18R30ku4lNORuc"
+    },
+    "新潟県新潟県新潟市東区河渡本町１７－３５": {
+      "normalized_address": "新潟県新潟県新潟市東区河渡本町１７－３５",
+      "raw_prefecture": "新潟県",
+      "raw_address": "新潟県新潟市東区河渡本町１７－３５",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:20+00:00",
+      "lat": 37.9337986,
+      "lng": 139.1059031,
+      "formatted_address": "17-35 Kōdohonchō, Higashi Ward, Niigata, 950-0016, Japan",
+      "place_id": "ChIJ-TYEJVrK9F8RepQzzYT_i88"
+    },
+    "新潟県新潟県新潟市西区亀貝３０６４番地": {
+      "normalized_address": "新潟県新潟県新潟市西区亀貝３０６４番地",
+      "raw_prefecture": "新潟県",
+      "raw_address": "新潟県新潟市西区亀貝３０６４番地",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:20+00:00",
+      "lat": 37.8667695,
+      "lng": 138.9842259,
+      "formatted_address": "3064 Kamegai, Nishi Ward, Niigata, 950-2033, Japan",
+      "place_id": "ChIJcbsMDzbG9F8RaAimEFjCqY0"
+    },
+    "新潟県新潟県新発田市舟入町３－３－３２": {
+      "normalized_address": "新潟県新潟県新発田市舟入町３－３－３２",
+      "raw_prefecture": "新潟県",
+      "raw_address": "新潟県新発田市舟入町３－３－３２",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:20+00:00",
+      "lat": 37.9595974,
+      "lng": 139.3055436,
+      "formatted_address": "3 Chome-3 Funeiricho, Shibata, Niigata 957-0065, Japan",
+      "place_id": "ChIJp7ZBQUUxi18Rakip__HXmGY"
+    },
+    "新潟県新潟県見附市今町４－１３－３５": {
+      "normalized_address": "新潟県新潟県見附市今町４－１３－３５",
+      "raw_prefecture": "新潟県",
+      "raw_address": "新潟県見附市今町４－１３－３５",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:21+00:00",
+      "lat": 37.54565340000001,
+      "lng": 138.8937879,
+      "formatted_address": "4-chōme-13-35 Imamachi, Mitsuke, Niigata 954-0111, Japan",
+      "place_id": "ChIJtSREGi4C9V8R3KJDwXxQSUA"
+    },
+    "新潟県新潟県長岡市堺町１９８－１": {
+      "normalized_address": "新潟県新潟県長岡市堺町１９８－１",
+      "raw_prefecture": "新潟県",
+      "raw_address": "新潟県長岡市堺町１９８－１",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:21+00:00",
+      "lat": 37.4565619,
+      "lng": 138.8097844,
+      "formatted_address": "198-1 Sakaimachi, Nagaoka, Niigata 940-2024, Japan",
+      "place_id": "ChIJ4-3yBXGp9V8R7sTBjt7L2EI"
+    },
+    "新潟県新潟県魚沼市中島７０７－１": {
+      "normalized_address": "新潟県新潟県魚沼市中島７０７－１",
+      "raw_prefecture": "新潟県",
+      "raw_address": "新潟県魚沼市中島７０７－１",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:21+00:00",
+      "lat": 37.2447854,
+      "lng": 138.9615275,
+      "formatted_address": "707-1 Nakajima, Uonuma, Niigata 946-0057, Japan",
+      "place_id": "ChIJRxgbo0uX9V8R_BUR2h1PzeQ"
+    }
+  }
+}

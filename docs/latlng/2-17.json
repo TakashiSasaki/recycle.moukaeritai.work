@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "generated_at": "2026-03-27T05:01:27+00:00",
+  "source_file": "docs/data/2-17.json",
+  "entries": {
+    "石川県石川県かほく市宇野気リ－１８": {
+      "normalized_address": "石川県石川県かほく市宇野気リ－１８",
+      "raw_prefecture": "石川県",
+      "raw_address": "石川県かほく市宇野気リ－１８",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:26+00:00",
+      "lat": 36.7206639,
+      "lng": 136.7043837,
+      "formatted_address": "Ri Unoke, Kahoku, Ishikawa 929-1125, Japan",
+      "place_id": "ChIJUZhHE_fW-V8RSW4hKNA0nFI"
+    },
+    "石川県石川県小松市福乃宮町１－１－１": {
+      "normalized_address": "石川県石川県小松市福乃宮町１－１－１",
+      "raw_prefecture": "石川県",
+      "raw_address": "石川県小松市福乃宮町１－１－１",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:26+00:00",
+      "lat": 36.3958363,
+      "lng": 136.4556062,
+      "formatted_address": "1-chōme-1-1 Fukunomiyamachi, Komatsu, Ishikawa 923-0865, Japan",
+      "place_id": "ChIJm6RjUflQ-F8RXNUVNE5VDrk"
+    },
+    "石川県石川県河北郡津幡町字領家ル９－１": {
+      "normalized_address": "石川県石川県河北郡津幡町字領家ル９－１",
+      "raw_prefecture": "石川県",
+      "raw_address": "石川県河北郡津幡町字領家ル９－１",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:26+00:00",
+      "lat": 36.6978188,
+      "lng": 136.7055984,
+      "formatted_address": "Ru Ryoke, Tsubata, Kahoku District, Ishikawa 929-0318, Japan",
+      "place_id": "ChIJzQyi7KbW-V8RgUdAMKgJ28Q"
+    },
+    "石川県石川県羽咋郡宝達志水町南吉田ろ３６－１": {
+      "normalized_address": "石川県石川県羽咋郡宝達志水町南吉田ろ３６－１",
+      "raw_prefecture": "石川県",
+      "raw_address": "石川県羽咋郡宝達志水町南吉田ろ３６－１",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:26+00:00",
+      "lat": 36.8278497,
+      "lng": 136.7700055,
+      "formatted_address": "Ro-36-1 Minamiyoshita, Hodatsushimizu, Hakui District, Ishikawa 929-1304, Japan",
+      "place_id": "ChIJKQw3TPFk918R1OXVK7Mvkbs"
+    },
+    "石川県石川県野々市市三納１－１４４": {
+      "normalized_address": "石川県石川県野々市市三納１－１４４",
+      "raw_prefecture": "石川県",
+      "raw_address": "石川県野々市市三納１－１４４",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:27+00:00",
+      "lat": 36.5167465,
+      "lng": 136.6103551,
+      "formatted_address": "1-chōme-144 Sanno, Nonoichi, Ishikawa 921-8825, Japan",
+      "place_id": "ChIJqTKLFPA1-F8RQvm8szskrxg"
+    },
+    "石川県石川県金沢市もりの里２－９５": {
+      "normalized_address": "石川県石川県金沢市もりの里２－９５",
+      "raw_prefecture": "石川県",
+      "raw_address": "石川県金沢市もりの里２－９５",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:27+00:00",
+      "lat": 36.5572707,
+      "lng": 136.6847423,
+      "formatted_address": "2-chōme-95 Morinosato, Kanazawa, Ishikawa 920-1167, Japan",
+      "place_id": "ChIJnZcEIO0z-F8R5ygNcUHXJMg"
+    },
+    "石川県石川県金沢市間明町２－３８": {
+      "normalized_address": "石川県石川県金沢市間明町２－３８",
+      "raw_prefecture": "石川県",
+      "raw_address": "石川県金沢市間明町２－３８",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:27+00:00",
+      "lat": 36.5658926,
+      "lng": 136.6166771,
+      "formatted_address": "2-chōme-38 Magiramachi, Kanazawa, Ishikawa 921-8005, Japan",
+      "place_id": "ChIJJ9GWfr40-F8R2t0U6RivdJQ"
+    }
+  }
+}

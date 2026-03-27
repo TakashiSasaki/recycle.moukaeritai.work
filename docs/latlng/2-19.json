@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "generated_at": "2026-03-27T05:01:30+00:00",
+  "source_file": "docs/data/2-19.json",
+  "entries": {
+    "山梨県山梨県南アルプス市小笠原２５９": {
+      "normalized_address": "山梨県山梨県南アルプス市小笠原２５９",
+      "raw_prefecture": "山梨県",
+      "raw_address": "山梨県南アルプス市小笠原２５９",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:29+00:00",
+      "lat": 35.6090548,
+      "lng": 138.4672246,
+      "formatted_address": "259 Ogasahara, Minami-Alps, Yamanashi 400-0306, Japan",
+      "place_id": "ChIJjTtewRf0G2AR4tLL-lHz91g"
+    },
+    "山梨県山梨県南巨摩郡富士川町青柳町１２００": {
+      "normalized_address": "山梨県山梨県南巨摩郡富士川町青柳町１２００",
+      "raw_prefecture": "山梨県",
+      "raw_address": "山梨県南巨摩郡富士川町青柳町１２００",
+      "status": "ok",
+      "updated_at": "2026-03-27T05:01:29+00:00",
+      "lat": 35.5604069,
+      "lng": 138.4665661,
+      "formatted_address": "1200 Aoyagimachi, Fujikawa, Minamikoma District, Yamanashi 400-0501, Japan",
+      "place_id": "ChIJ77GbYc7zG2ARurGKsVp5XmE"
+    }
+  }
+}
