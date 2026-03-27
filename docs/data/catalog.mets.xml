@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rec="urn:recycle:mets:validation:1" OBJID="docs-data-catalog" TYPE="FileCatalog">
+  <mets:metsHdr CREATEDATE="2026-03-27T12:17:07Z" LASTMODDATE="2026-03-27T12:17:07Z">
+    <mets:agent ROLE="CREATOR" TYPE="OTHER" OTHERTYPE="SOFTWARE">
+      <mets:name>Codex CLI</mets:name>
+    </mets:agent>
+  </mets:metsHdr>
+  <mets:amdSec ID="AMD_JSON_SCHEMA">
+    <mets:techMD ID="TMD_JSON_SCHEMA">
+      <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="JSON_SCHEMA_VALIDATION">
+        <mets:xmlData>
+          <rec:jsonSchemaValidation>
+            <rec:schemaHref>../schema/c63a0b1b-72dc-436a-8d39-2bf0ae975b42.schema.json</rec:schemaHref>
+            <rec:schemaDialect>https://json-schema.org/draft/2020-12/schema</rec:schemaDialect>
+            <rec:schemaId>urn:uuid:c63a0b1b-72dc-436a-8d39-2bf0ae975b42</rec:schemaId>
+            <rec:targetFilePattern>*.json</rec:targetFilePattern>
+            <rec:targetDescription>docs/data 配下の店舗データ JSON を検証対象とする</rec:targetDescription>
+          </rec:jsonSchemaValidation>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:techMD>
+  </mets:amdSec>
+  <mets:fileSec>
+    <mets:fileGrp USE="docs/data" ADMID="AMD_JSON_SCHEMA">
+      <mets:file ID="F0001" MIMETYPE="text/csv" SIZE="53211" CHECKSUM="be54ed796a7460e92db1d03e6f48e0d5" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="1-13.csv"/>
+      </mets:file>
+      <mets:file ID="F0002" MIMETYPE="application/json" SIZE="85196" CHECKSUM="17fb198f6778389e61dee8d727e9191b" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="1-13.json"/>
+      </mets:file>
+      <mets:file ID="F0003" MIMETYPE="text/csv" SIZE="61345" CHECKSUM="33c1967ac79fdad27906b654a553f9ee" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="1-23.csv"/>
+      </mets:file>
+      <mets:file ID="F0004" MIMETYPE="application/json" SIZE="100470" CHECKSUM="b29431854938f066a9c8a8df7f6c5e60" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="1-23.json"/>
+      </mets:file>
+      <mets:file ID="F0005" MIMETYPE="text/csv" SIZE="18490" CHECKSUM="dcb57c81bc16a66377eb755e185badb4" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="1-43.csv"/>
+      </mets:file>
+      <mets:file ID="F0006" MIMETYPE="application/json" SIZE="29871" CHECKSUM="bccc6bd30a12e3e67de8c51b44f6af71" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="1-43.json"/>
+      </mets:file>
+      <mets:file ID="F0007" MIMETYPE="text/csv" SIZE="9469" CHECKSUM="f6d013da0c318e224e9a4d305eba626c" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="1-44.csv"/>
+      </mets:file>
+      <mets:file ID="F0008" MIMETYPE="application/json" SIZE="15240" CHECKSUM="d2cc57b08e17fce6afa44734366065cf" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="1-44.json"/>
+      </mets:file>
+      <mets:file ID="F0009" MIMETYPE="text/csv" SIZE="8509" CHECKSUM="89ec3e57b59dc48019fd5a006a3fd313" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="1-45.csv"/>
+      </mets:file>
+      <mets:file ID="F0010" MIMETYPE="application/json" SIZE="13770" CHECKSUM="cef66eef9f81bb342c4b60db4e2b33bf" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="1-45.json"/>
+      </mets:file>
+      <mets:file ID="F0011" MIMETYPE="text/csv" SIZE="15653" CHECKSUM="a2e962bc178e45772adfbb4e829f3b9e" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="1-46.csv"/>
+      </mets:file>
+      <mets:file ID="F0012" MIMETYPE="application/json" SIZE="24892" CHECKSUM="1dba908a4be275f1335f084670306c18" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="1-46.json"/>
+      </mets:file>
+      <mets:file ID="F0013" MIMETYPE="text/csv" SIZE="8576" CHECKSUM="71caf3da0125645d4c6b893ab7148279" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="1-47.csv"/>
+      </mets:file>
+      <mets:file ID="F0014" MIMETYPE="application/json" SIZE="13531" CHECKSUM="462ab3873ee1f10f7ee7cbfaacad9897" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="1-47.json"/>
+      </mets:file>
+      <mets:file ID="F0015" MIMETYPE="text/csv" SIZE="12310" CHECKSUM="336dec8b93516d846d9e6ee350d68c6e" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-01.csv"/>
+      </mets:file>
+      <mets:file ID="F0016" MIMETYPE="application/json" SIZE="21855" CHECKSUM="fc516d1062e844b9ee5aad7ce9c98952" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-01.json"/>
+      </mets:file>
+      <mets:file ID="F0017" MIMETYPE="text/csv" SIZE="4645" CHECKSUM="6f20a5fcafb669f164a12d1c24ee1b71" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-10.csv"/>
+      </mets:file>
+      <mets:file ID="F0018" MIMETYPE="application/json" SIZE="8172" CHECKSUM="47aecb113879861a92c6e35cf19a3d30" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-10.json"/>
+      </mets:file>
+      <mets:file ID="F0019" MIMETYPE="text/csv" SIZE="14997" CHECKSUM="4802b35da14eb7c9a239ce35e9ee288c" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-11.csv"/>
+      </mets:file>
+      <mets:file ID="F0020" MIMETYPE="application/json" SIZE="25868" CHECKSUM="6aef920ae3b1557b7b49bdd22ac851ac" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-11.json"/>
+      </mets:file>
+      <mets:file ID="F0021" MIMETYPE="text/csv" SIZE="11247" CHECKSUM="dc2b8bb76ab0175cd7df03ba65250bed" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-12.csv"/>
+      </mets:file>
+      <mets:file ID="F0022" MIMETYPE="application/json" SIZE="19364" CHECKSUM="2506177da9b4e334f36f79642ff0b1d2" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-12.json"/>
+      </mets:file>
+      <mets:file ID="F0023" MIMETYPE="text/csv" SIZE="23731" CHECKSUM="54f23d56cb505e264c652f493d957fd2" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-13.csv"/>
+      </mets:file>
+      <mets:file ID="F0024" MIMETYPE="application/json" SIZE="40314" CHECKSUM="4aeb74aa0206bf9f3bf092273af4df64" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-13.json"/>
+      </mets:file>
+      <mets:file ID="F0025" MIMETYPE="text/csv" SIZE="21175" CHECKSUM="9227d7f134df3fa23fb2f379f49d08af" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-14.csv"/>
+      </mets:file>
+      <mets:file ID="F0026" MIMETYPE="application/json" SIZE="35718" CHECKSUM="6028f1f0f301ee38978fe46379465486" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-14.json"/>
+      </mets:file>
+      <mets:file ID="F0027" MIMETYPE="text/csv" SIZE="3682" CHECKSUM="6f2bc1d71536f9e13e26e01fbd96cf8a" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-15.csv"/>
+      </mets:file>
+      <mets:file ID="F0028" MIMETYPE="application/json" SIZE="6393" CHECKSUM="8350e4e63d454d8049dec6cb535a552d" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-15.json"/>
+      </mets:file>
+      <mets:file ID="F0029" MIMETYPE="text/csv" SIZE="2242" CHECKSUM="53188cdbbc3aeea7f928be2a51226c8a" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-16.csv"/>
+      </mets:file>
+      <mets:file ID="F0030" MIMETYPE="application/json" SIZE="4035" CHECKSUM="78beda94efa59e76f4bba424670d75cb" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-16.json"/>
+      </mets:file>
+      <mets:file ID="F0031" MIMETYPE="text/csv" SIZE="1018" CHECKSUM="f1a0141c23151b2d490c1fdb3d9b5733" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-17.csv"/>
+      </mets:file>
+      <mets:file ID="F0032" MIMETYPE="application/json" SIZE="1689" CHECKSUM="42e940c888d78f8839975fef53ce6ac1" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-17.json"/>
+      </mets:file>
+      <mets:file ID="F0033" MIMETYPE="text/csv" SIZE="1642" CHECKSUM="4af5afd762e733bc13f81590b408c853" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-18.csv"/>
+      </mets:file>
+      <mets:file ID="F0034" MIMETYPE="application/json" SIZE="2823" CHECKSUM="95b9fd8ea81d7b46673156e4ef5f11f0" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-18.json"/>
+      </mets:file>
+      <mets:file ID="F0035" MIMETYPE="text/csv" SIZE="1060" CHECKSUM="c7529d8d0134ada1be361e104d6d4201" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-19.csv"/>
+      </mets:file>
+      <mets:file ID="F0036" MIMETYPE="application/json" SIZE="1833" CHECKSUM="174d5ed7649b051470f8d9c92e374ce1" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-19.json"/>
+      </mets:file>
+      <mets:file ID="F0037" MIMETYPE="text/csv" SIZE="4537" CHECKSUM="41456bd908e156a4f7a694dc7315bd69" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-20.csv"/>
+      </mets:file>
+      <mets:file ID="F0038" MIMETYPE="application/json" SIZE="7962" CHECKSUM="a0df880f7612dd540bcdf589b16d6dcf" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-20.json"/>
+      </mets:file>
+      <mets:file ID="F0039" MIMETYPE="text/csv" SIZE="3223" CHECKSUM="2f94f7ad9cdb772124e711e7f858fe45" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-21.csv"/>
+      </mets:file>
+      <mets:file ID="F0040" MIMETYPE="application/json" SIZE="5730" CHECKSUM="ad16d3b393756498a286ae799f6b5aad" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-21.json"/>
+      </mets:file>
+      <mets:file ID="F0041" MIMETYPE="text/csv" SIZE="8091" CHECKSUM="42d55a8e61adc6e7c37cc7414f23ee99" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-22.csv"/>
+      </mets:file>
+      <mets:file ID="F0042" MIMETYPE="application/json" SIZE="14474" CHECKSUM="8605d81bd60d37a4545472649715410d" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-22.json"/>
+      </mets:file>
+      <mets:file ID="F0043" MIMETYPE="text/csv" SIZE="20197" CHECKSUM="752cbd0158c99ca39879266df31692dd" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-23.csv"/>
+      </mets:file>
+      <mets:file ID="F0044" MIMETYPE="application/json" SIZE="35454" CHECKSUM="dd603b9193b044e34ad9a2fb5bd7f0aa" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="2-23.json"/>
+      </mets:file>
+      <mets:file ID="F0045" MIMETYPE="application/json" SIZE="737778" CHECKSUM="b36286265c0e2e46dbc7fe2b218ef156" CHECKSUMTYPE="MD5">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="search-index.json"/>
+      </mets:file>
+    </mets:fileGrp>
+  </mets:fileSec>
+  <mets:structMap TYPE="physical">
+    <mets:div TYPE="directory" LABEL="docs/data">
+      <mets:div TYPE="file" LABEL="1-13.csv">
+        <mets:fptr FILEID="F0001"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="1-13.json">
+        <mets:fptr FILEID="F0002"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="1-23.csv">
+        <mets:fptr FILEID="F0003"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="1-23.json">
+        <mets:fptr FILEID="F0004"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="1-43.csv">
+        <mets:fptr FILEID="F0005"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="1-43.json">
+        <mets:fptr FILEID="F0006"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="1-44.csv">
+        <mets:fptr FILEID="F0007"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="1-44.json">
+        <mets:fptr FILEID="F0008"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="1-45.csv">
+        <mets:fptr FILEID="F0009"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="1-45.json">
+        <mets:fptr FILEID="F0010"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="1-46.csv">
+        <mets:fptr FILEID="F0011"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="1-46.json">
+        <mets:fptr FILEID="F0012"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="1-47.csv">
+        <mets:fptr FILEID="F0013"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="1-47.json">
+        <mets:fptr FILEID="F0014"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-01.csv">
+        <mets:fptr FILEID="F0015"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-01.json">
+        <mets:fptr FILEID="F0016"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-10.csv">
+        <mets:fptr FILEID="F0017"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-10.json">
+        <mets:fptr FILEID="F0018"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-11.csv">
+        <mets:fptr FILEID="F0019"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-11.json">
+        <mets:fptr FILEID="F0020"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-12.csv">
+        <mets:fptr FILEID="F0021"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-12.json">
+        <mets:fptr FILEID="F0022"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-13.csv">
+        <mets:fptr FILEID="F0023"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-13.json">
+        <mets:fptr FILEID="F0024"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-14.csv">
+        <mets:fptr FILEID="F0025"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-14.json">
+        <mets:fptr FILEID="F0026"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-15.csv">
+        <mets:fptr FILEID="F0027"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-15.json">
+        <mets:fptr FILEID="F0028"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-16.csv">
+        <mets:fptr FILEID="F0029"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-16.json">
+        <mets:fptr FILEID="F0030"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-17.csv">
+        <mets:fptr FILEID="F0031"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-17.json">
+        <mets:fptr FILEID="F0032"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-18.csv">
+        <mets:fptr FILEID="F0033"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-18.json">
+        <mets:fptr FILEID="F0034"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-19.csv">
+        <mets:fptr FILEID="F0035"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-19.json">
+        <mets:fptr FILEID="F0036"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-20.csv">
+        <mets:fptr FILEID="F0037"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-20.json">
+        <mets:fptr FILEID="F0038"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-21.csv">
+        <mets:fptr FILEID="F0039"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-21.json">
+        <mets:fptr FILEID="F0040"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-22.csv">
+        <mets:fptr FILEID="F0041"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-22.json">
+        <mets:fptr FILEID="F0042"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-23.csv">
+        <mets:fptr FILEID="F0043"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="2-23.json">
+        <mets:fptr FILEID="F0044"/>
+      </mets:div>
+      <mets:div TYPE="file" LABEL="search-index.json">
+        <mets:fptr FILEID="F0045"/>
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+</mets:mets>
