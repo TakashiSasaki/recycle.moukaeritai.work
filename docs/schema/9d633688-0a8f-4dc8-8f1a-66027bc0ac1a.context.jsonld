@@ -1,0 +1,50 @@
+{
+  "@id": "https://recycle.moukaeritai.work/schema/9d633688-0a8f-4dc8-8f1a-66027bc0ac1a.context.jsonld",
+  "@context": {
+    "@version": 1.1,
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "latlng": "https://recycle.moukaeritai.work/vocab/latlng#",
+
+    "version": {
+      "@id": "schema:schemaVersion",
+      "@type": "xsd:integer"
+    },
+    "generated_at": {
+      "@id": "dcterms:created",
+      "@type": "xsd:dateTime"
+    },
+    "source_file": "dcterms:source",
+
+    "entries": {
+      "@id": "latlng:entry",
+      "@container": "@index"
+    },
+
+    "normalized_address": "latlng:normalizedAddress",
+    "raw_prefecture": "schema:addressRegion",
+    "raw_address": "schema:streetAddress",
+    "status": "latlng:status",
+    "updated_at": {
+      "@id": "dcterms:modified",
+      "@type": "xsd:dateTime"
+    },
+    "lat": {
+      "@id": "geo:lat",
+      "@type": "xsd:decimal"
+    },
+    "lng": {
+      "@id": "geo:long",
+      "@type": "xsd:decimal"
+    },
+    "formatted_address": "schema:address",
+    "place_id": "schema:identifier",
+    "error_code": "latlng:errorCode",
+    "message": "schema:description",
+
+    "GeocodeCache": "latlng:GeocodeCache",
+    "GeocodeEntry": "latlng:GeocodeEntry"
+  }
+}
