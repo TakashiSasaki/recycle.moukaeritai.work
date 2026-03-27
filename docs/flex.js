@@ -5,6 +5,35 @@ const tbodyEl = document.getElementById('store-tbody');
 
 const MAX_ROWS = 300;
 
+function createSearchIndex() {
+  if (!window.FlexSearch || typeof window.FlexSearch.Index !== 'function') {
+    throw new Error('FlexSearch の読み込みに失敗しました。');
+  }
+
+  const candidateOptions = [
+    { tokenize: 'full', resolution: 9, cache: true, encode: 'icase' },
+    { tokenize: 'forward', resolution: 9, cache: true, encode: 'icase' },
+    { tokenize: 'forward', encode: 'icase' },
+    {},
+  ];
+
+  let lastError = null;
+  for (const options of candidateOptions) {
+    try {
+      const index = new window.FlexSearch.Index(options);
+      index.add('__probe__', 'flexsearch');
+      if (typeof index.remove === 'function') {
+        index.remove('__probe__');
+      }
+      return index;
+    } catch (error) {
+      lastError = error;
+    }
+  }
+
+  throw lastError || new Error('FlexSearch インデックス初期化に失敗しました。');
+}
+
 function createCell(v) {
   const td = document.createElement('td');
   td.textContent = v || '-';
@@ -49,11 +78,7 @@ async function main() {
   const payload = await response.json();
   const records = Array.isArray(payload.records) ? payload.records : [];
 
-  const index = new window.FlexSearch.Index({
-    tokenize: 'full',
-    resolution: 9,
-    cache: true,
-  });
+  const index = createSearchIndex();
   const byId = new Map();
 
   for (const record of records) {
