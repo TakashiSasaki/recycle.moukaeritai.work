@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json
 import os
+import re
 import time
 import urllib.parse
 import urllib.request
@@ -14,6 +15,7 @@ API_KEY_ENV = "GOOGLE_MAPS_API_KEY"
 
 REQUEST_INTERVAL_SEC = 0.12
 MAX_RETRIES = 3
+DATA_FILE_PATTERN = re.compile(r"^[12]-\d{2}\.json$")
 
 
 def now_iso() -> str:
@@ -160,6 +162,8 @@ def iter_target_files() -> tuple[list[Path], list[Path]]:
         # Ignore cache files if LATLNG_DIR is placed under DATA_DIR in the future.
         if LATLNG_DIR in data_path.parents:
             continue
+        if not DATA_FILE_PATTERN.match(data_path.name):
+            continue
         cache_path = to_cache_path(data_path)
         if cache_path.exists():
             existing.append(data_path)
@@ -195,15 +199,27 @@ def main():
 
     total_updated = 0
     total_skipped = 0
+    failed_files: list[tuple[str, str]] = []
 
     for data_file in data_files:
         cache_file = to_cache_path(data_file)
         priority = "HIGH" if not cache_file.exists() else "normal"
         print(f"[{priority}] processing {data_file} -> {cache_file}")
-        updated, skipped = process_file(data_file, api_key)
+        try:
+            updated, skipped = process_file(data_file, api_key)
+        except Exception as e:  # noqa: BLE001
+            failed_files.append((str(data_file), str(e)))
+            print(f"  error={e}")
+            continue
         total_updated += updated
         total_skipped += skipped
         print(f"  updated={updated}, skipped={skipped}")
+
+    if failed_files:
+        print("failed files:")
+        for file_path, err in failed_files:
+            print(f"  - {file_path}: {err}")
+        raise SystemExit(1)
 
     print(f"done. total_updated={total_updated}, total_skipped={total_skipped}")
 

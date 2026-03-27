@@ -160,6 +160,16 @@ jobs:
             exit 1
           fi
 
+      - name: Validate category input
+        run: |
+          set -euo pipefail
+          category="${{ github.event.inputs.category }}"
+
+          if ! [[ "${category}" =~ ^[12]$ ]]; then
+            echo "::error::category must be 1 or 2"
+            exit 1
+          fi
+
       - name: Normalize prefecture input
         id: normalized_prefecture
         run: |
