@@ -1,0 +1,436 @@
+[
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "下田市清掃センター",
+    "address": "静岡県下田市敷根１３－１１",
+    "phone": "0558-22-6686"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "モト・マックス",
+    "address": "静岡県下田市６丁目３－２８",
+    "phone": "0558-22-6772"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "伊東市伊東市役所　環境課",
+    "address": "静岡県伊東市大原２－１－１",
+    "phone": "0557-32-1371"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "伊東市御石ケ沢清掃工場",
+    "address": "静岡県伊東市宇佐美３５９６－４",
+    "phone": "0557-47-2675"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "栗原輪業",
+    "address": "静岡県伊東市新井町２－１－９",
+    "phone": "0557-37-1366"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "（有）富岡輪店",
+    "address": "静岡県伊豆の国市四日町２８６－１",
+    "phone": "055-949-1139"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "（株）あさひサイクルベースあさひ富士宮店",
+    "address": "静岡県富士宮市西小泉町２０－５",
+    "phone": "0544-25-7370"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "（株）あさひサイクルベースあさひ富士店",
+    "address": "静岡県富士市青葉町３７５",
+    "phone": "0545-66-4822"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "マスイサイクル",
+    "address": "静岡県島田市本通１－２９０４",
+    "phone": "0547-37-3388"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "（有）大石自動車",
+    "address": "静岡県掛川市千浜６４５６－１",
+    "phone": "0537-72-5529"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "（株）あさひサイクルベースあさひ掛川店",
+    "address": "静岡県掛川市大池３０３２－１",
+    "phone": "0537-62-4090"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "沼津市市役所　クリーンセンター",
+    "address": "静岡県沼津市上香貫三ノ洞２４１７－１",
+    "phone": "055-933-0768"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "小林サイクル商会",
+    "address": "静岡県沼津市今沢６８７－１０",
+    "phone": "055-966-6074"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "（株）あさひサイクルベースあさひ沼津店",
+    "address": "静岡県沼津市宮前町１－１",
+    "phone": "055-929-0521"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "ナカノサイクル富塚店",
+    "address": "静岡県浜松市中区富塚町１８８３－１",
+    "phone": "053-472-1431"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "プレステージ",
+    "address": "静岡県浜松市中区早出町１２００－１６",
+    "phone": "053-461-4410"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "（有）エルドラード浜松ＹＳＰ浜松",
+    "address": "静岡県浜松市中区茄子町３５３－１５",
+    "phone": "053-465-4545"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "（株）ＫＭ元浜ＫＭ元浜",
+    "address": "静岡県浜松市中央区元浜町７６－５",
+    "phone": "053-478-0877"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "（株）あさひサイクルベースあさひ浜松入野店",
+    "address": "静岡県浜松市中央区入野町６０７８－１",
+    "phone": "053-415-3053"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "（株）あさひサイクルベースあさひ浜松店",
+    "address": "静岡県浜松市中央区将監町２７－８",
+    "phone": "053-411-5375"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "（株）あさひサイクルベースあさひ浜松幸店",
+    "address": "静岡県浜松市中央区幸２－１－７",
+    "phone": "053-416-3933"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "（株）古橋商会高町本店",
+    "address": "静岡県浜松市中央区高町２００－１",
+    "phone": "053-453-5985"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "かもとう輪店",
+    "address": "静岡県浜松市北区三方原町１４３５－８",
+    "phone": "053-436-0254"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "（株）古橋モータース初生店",
+    "address": "静岡県浜松市北区初生町２８７－４",
+    "phone": "053-437-6550"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "カモトウサイクルＲＳカモトウ　二輪車",
+    "address": "静岡県浜松市北区細江町中川７１７２－５６",
+    "phone": "053-522-0463"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "（有）丸亀自動車販売",
+    "address": "静岡県浜松市南区新橋町１７８３",
+    "phone": "053-447-0366"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "上野サイクル",
+    "address": "静岡県浜松市東区西ヶ崎町７０７",
+    "phone": "053-434-0868"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "原田オートサイクル",
+    "address": "静岡県浜松市浜北区貴布祢４１６－４",
+    "phone": "053-587-7291"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "（株）あさひサイクルベースあさひサンストリート浜北店",
+    "address": "静岡県浜松市浜名区平口２８６１",
+    "phone": "053-584-2170"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "田中モータース",
+    "address": "静岡県浜松市西区庄内町８２８－４",
+    "phone": "053-487-0836"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "湖西市役所",
+    "address": "静岡県湖西市吉美３２６８",
+    "phone": "053-576-1111"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "湖西市環境センター",
+    "address": "静岡県湖西市吉美３２９４－４７",
+    "phone": "053-577-1280"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "ツーサイクル",
+    "address": "静岡県湖西市吉美９６１－１０２",
+    "phone": "053-522-7181"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "（有）フジノ商会",
+    "address": "静岡県湖西市岡崎２２５４－１４",
+    "phone": "053-578-2776"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "（有）スギモトコーポレーション",
+    "address": "静岡県湖西市新居町内山１３８－２",
+    "phone": "053-594-0538"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "湖西市新居地域センター",
+    "address": "静岡県湖西市新居町浜名５１９－１",
+    "phone": "053-594-1111"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "湖西市西部地域センター",
+    "address": "静岡県湖西市駅南２－４－１",
+    "phone": "053-577-2867"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "（株）あさひサイクルベースあさひ焼津店",
+    "address": "静岡県焼津市八楠３－１１－１０",
+    "phone": "054-620-9225"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "熱海市エコ・プラント姫の沢",
+    "address": "静岡県熱海市熱海字笹尻１８０４－８",
+    "phone": "0557-82-1153"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "（株）河原崎自転車商会",
+    "address": "静岡県牧之原市波津１７１３",
+    "phone": "0548-52-0144"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "富岡輪店熱函店",
+    "address": "静岡県田方郡函南町仁田８０－１０",
+    "phone": "055-979-6769"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "（有）モトベアカンパニーＹＳモト・ベアー",
+    "address": "静岡県磐田市西之島４２－１",
+    "phone": "0538-34-6935"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "磯部自転車商会",
+    "address": "静岡県磐田市西貝塚２１６－１",
+    "phone": "0538-35-6559"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "（株）伊藤商会",
+    "address": "静岡県磐田市見付４９０",
+    "phone": "0538-32-6614"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "（株）あさひサイクルベースあさひ磐田店",
+    "address": "静岡県磐田市見付５０７１",
+    "phone": "0538-39-1781"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "杉田商会",
+    "address": "静岡県菊川市高橋３６８５－４",
+    "phone": "0537-73-2412"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "志太広域事務組合リサイクルセンター",
+    "address": "静岡県藤枝市岡部町内谷８３３－２",
+    "phone": "054-667-2626"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "（株）あさひサイクルベースあさひ藤枝店",
+    "address": "静岡県藤枝市水上１０－１０",
+    "phone": "054-645-7588"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "（有）エルドラード浜松ＹＳＰ袋井",
+    "address": "静岡県袋井市国本２１０４－１",
+    "phone": "0538-43-4646"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "サイクルショップゆみげた",
+    "address": "静岡県袋井市高尾町２－１７",
+    "phone": "0538-42-3021"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "裾野市美化センター",
+    "address": "静岡県裾野市大畑２１５－２",
+    "phone": "055-992-3210"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "青木商会",
+    "address": "静岡県静岡市清水区八木間町３１１",
+    "phone": "0543-69-0658"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "（株）あさひサイクルベースあさひ清水草薙店",
+    "address": "静岡県静岡市清水区草薙一里山２６－１３",
+    "phone": "054-344-5671"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "（株）あさひサイクルベースあさひ静岡流通通り店",
+    "address": "静岡県静岡市葵区東千代田２－１１－１３",
+    "phone": "054-655-9130"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "（有）栗田商会",
+    "address": "静岡県静岡市葵区横田町８－１６",
+    "phone": "054-252-2723"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "ＨＯＮＤＡ　Ｓｈｏｐパドック",
+    "address": "静岡県静岡市葵区牧ヶ谷２２５１",
+    "phone": "054-278-1878"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "山下商会",
+    "address": "静岡県静岡市葵区茶町２－６",
+    "phone": "054-252-0848"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "コジマ×ビックカメラ静岡店１階電動アシスト自転車売場",
+    "address": "静岡県静岡市駿河区国吉田１－１－５７",
+    "phone": "054-208-5711"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "（株）あさひサイクルベースあさひ静岡インター通店",
+    "address": "静岡県静岡市駿河区西中原１－６－２７",
+    "phone": "054-203-3557"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "増田オートショップ",
+    "address": "静岡県静岡市駿河区西脇９８０－１",
+    "phone": "054-283-9324"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "松下輪業",
+    "address": "静岡県静岡市駿河区馬渕２－１５－１３",
+    "phone": "054-285-2349"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
+    "store_name": "長泉町塵芥焼却場",
+    "address": "静岡県駿東郡長泉町東野１４３－１１",
+    "phone": "055-986-8393"
+  }
+]
