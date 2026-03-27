@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "./schema/c63a0b1b-72dc-436a-8d39-2bf0ae975b42.schema.json",
+  "$id": "urn:uuid:c63a0b1b-72dc-436a-8d39-2bf0ae975b42",
   "title": "JBRC Recycle Collection Store Dataset Schema",
   "description": "このスキーマは、docs/data 配下の店舗データ JSON（例: 1-13.json, 2-23.json）を検証するためのものです。対象データは『自治体や販売店における回収協力拠点一覧』を表し、各要素が1つの拠点（店舗・施設）を意味します。意図は、他システム連携時に項目の意味を固定し、欠落項目・誤フォーマット・型の揺れを事前に排除することです。\n\n【想定ユースケース】\n- 検索インデックス生成前の入力検証\n- 地図表示や住所ジオコーディング前の品質担保\n- ETL/ELT パイプラインへの取り込み前バリデーション\n\n【モデル化方針】\n- ルートは配列: ファイル全体が拠点レコード群であるため\n- 必須5項目: category/prefecture/store_name/address/phone を必須化\n- additionalProperties: false で想定外キーを拒否し、連携先の仕様崩れを防止\n- phone は日本国内のハイフン区切り表記を幅広く許容（市外局番 2〜5桁）\n- prefecture は語尾が 都/道/府/県 で終わる表記を要求\n\n【非対象】\n- 住所の実在性検証\n- 電話番号の実在確認\n- 施設種別の語彙統制（将来 enum 拡張は可能）\n\n【意味論語彙(JSON-LD)】\n- 同一UUIDを用いた語彙定義: docs/schema/c63a0b1b-72dc-436a-8d39-2bf0ae975b42.context.jsonld",
   "type": "array",
