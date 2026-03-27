@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>現在地周辺の回収拠点マップ</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>現在地周辺の回収拠点マップ</h1>
+        <p class="description">
+          現在地の取得に成功した場合のみ地図を表示し、店舗・施設のピンを描画します。
+        </p>
+      </header>
+
+      <section class="map-wrap" aria-live="polite">
+        <p id="status">Google Maps API を読み込み中...</p>
+        <div id="map" hidden></div>
+      </section>
+    </main>
+
+    <script src="./map.js"></script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_BROWSER_KEY&callback=initMap"
+    ></script>
+  </body>
+</html>
