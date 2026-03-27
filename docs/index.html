@@ -3,35 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>店舗データ一覧</title>
+    <title>リサイクル関連ページ一覧</title>
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
     <main class="container">
       <header>
-        <h1>店舗データ一覧</h1>
-        <p class="description">docs/data 配下の JSON から店舗情報を表示しています。</p>
+        <h1>リサイクル関連ページ一覧</h1>
+        <p class="description">目的に応じてページを選択してください。</p>
       </header>
 
-      <section class="downloads" aria-label="ダウンロードリンク">
-        <a href="./data/1-13.json" download>JSONをダウンロード</a>
-        <a href="./data/1-13.csv" download>CSVをダウンロード</a>
-      </section>
+      <section class="link-grid" aria-label="ページリンク">
+        <a class="card" href="./download.html">
+          <h2>データダウンロード</h2>
+          <p>docs/data と docs/latlng の個別ファイルを選択し、内容確認とダウンロードを行います。</p>
+        </a>
 
-      <section class="table-wrap" aria-live="polite">
-        <p id="status">読み込み中...</p>
-        <table id="store-table" hidden>
-          <thead>
-            <tr>
-              <th>区分</th>
-              <th>都道府県</th>
-              <th>店舗名</th>
-              <th>住所</th>
-              <th>電話番号</th>
-            </tr>
-          </thead>
-          <tbody id="store-tbody"></tbody>
-        </table>
+        <a class="card" href="./fuse.html">
+          <h2>検索（Fuse.js）</h2>
+          <p>全JSONをロードして高速に全文検索できます。</p>
+        </a>
+
+        <a class="card" href="./flex.html">
+          <h2>検索（FlexSearch）</h2>
+          <p>事前生成インデックスを使った検索ページです。</p>
+        </a>
+
+        <a class="card" href="./map.html">
+          <h2>地図表示</h2>
+          <p>現在地周辺の回収拠点をマップ上で確認できます。</p>
+        </a>
+
+        <a class="card" href="./schema-validator.html">
+          <h2>JSON Schema バリデーター</h2>
+          <p>店舗データJSONのスキーマ適合を確認できます。</p>
+        </a>
       </section>
     </main>
 
