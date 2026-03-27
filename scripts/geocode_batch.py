@@ -89,6 +89,7 @@ def process_file(data_path: Path, api_key: str) -> tuple[int, int]:
         raise ValueError(f"{data_path} is not an array JSON")
 
     cache_path = to_cache_path(data_path)
+    cache_exists = cache_path.exists()
     cache = load_json(
         cache_path,
         default={
@@ -143,12 +144,15 @@ def process_file(data_path: Path, api_key: str) -> tuple[int, int]:
         updated += 1
         time.sleep(REQUEST_INTERVAL_SEC)
 
-    cache["generated_at"] = now_iso()
-    save_json(cache_path, cache)
+    # Rewrite cache only if we actually changed entries, or if cache file does not
+    # exist yet (initialize empty cache file for future runs).
+    if updated > 0 or not cache_exists:
+        cache["generated_at"] = now_iso()
+        save_json(cache_path, cache)
     return updated, skipped
 
 
-def iter_target_files() -> list[Path]:
+def iter_target_files() -> tuple[list[Path], list[Path]]:
     data_files = sorted(path for path in DATA_DIR.rglob("*.json") if path.is_file())
     missing = []
     existing = []
@@ -161,7 +165,14 @@ def iter_target_files() -> list[Path]:
             existing.append(data_path)
         else:
             missing.append(data_path)
-    return missing + existing
+    return missing, existing
+
+
+def env_truthy(name: str, default: bool = False) -> bool:
+    raw = os.environ.get(name)
+    if raw is None:
+        return default
+    return raw.strip().lower() in {"1", "true", "yes", "on"}
 
 
 def main():
@@ -169,10 +180,18 @@ def main():
     if not api_key:
         raise SystemExit(f"Missing environment variable: {API_KEY_ENV}")
 
-    data_files = iter_target_files()
+    missing_files, existing_files = iter_target_files()
+    process_existing = env_truthy("GEOCODE_PROCESS_EXISTING", default=False)
+    data_files = missing_files + (existing_files if process_existing else [])
     if not data_files:
         print("No data files found in docs/data")
         return
+
+    print(
+        "target files: "
+        f"missing={len(missing_files)}, existing={len(existing_files)}, "
+        f"process_existing={process_existing}, total={len(data_files)}"
+    )
 
     total_updated = 0
     total_skipped = 0
