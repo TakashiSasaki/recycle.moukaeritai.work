@@ -2,7 +2,8 @@ name: scheduled-scrape
 
 on:
   schedule:
-    - cron: '15 0 * * *'
+    - cron: '15 0,12 * * *'
+    - cron: '15 * 27 3 *'
   workflow_dispatch:
     inputs:
       category:
@@ -22,7 +23,10 @@ env:
 
 jobs:
   scheduled-sharded:
-    if: github.event_name == 'schedule'
+    if: >-
+      github.event_name == 'schedule' &&
+      (github.event.schedule == '15 * 27 3 *' ||
+      (github.event.schedule == '15 0,12 * * *' && !startsWith(github.run_started_at, '2026-03-27')))
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
