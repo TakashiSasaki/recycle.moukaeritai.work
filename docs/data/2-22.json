@@ -2,6 +2,13 @@
   {
     "category": "自転車販売店",
     "prefecture": "静岡県",
+    "store_name": "（株）あさひサイクルベースあさひ三島店",
+    "address": "静岡県三島市富田町１－２３",
+    "phone": "055-973-7111"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "静岡県",
     "store_name": "下田市清掃センター",
     "address": "静岡県下田市敷根１３－１１",
     "phone": "0558-22-6686"
