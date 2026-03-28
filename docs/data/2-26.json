@@ -1,0 +1,387 @@
+[
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "久御山町民生部　住民課",
+    "address": "京都府久世郡久御山町島田ミスノ３８",
+    "phone": "075-631-5797"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "大山崎町環境事業部経済環境課",
+    "address": "京都府乙訓郡大山崎町字円明寺小字夏目３",
+    "phone": "075-956-2101"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "亀岡市エコトピア亀岡",
+    "address": "京都府亀岡市東別院町大野法華１",
+    "phone": "0771-27-2123"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "（株）コクボ",
+    "address": "京都府亀岡市河原町２００－２７",
+    "phone": "0771-22-0548"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "ミヤガワオート",
+    "address": "京都府亀岡市紺屋町２－３",
+    "phone": "0771-24-1501"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "京田辺市三山木福祉会館",
+    "address": "京都府京田辺市三山木谷垣内２－１",
+    "phone": "0744-62-0571"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "京田辺市北部住民センター",
+    "address": "京都府京田辺市大住内山１－１",
+    "phone": "0774-63-7955"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "京田辺市エコパークかんなびキララ店",
+    "address": "京都府京田辺市河原食田１０－７０",
+    "phone": "0774-62-2333"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "（株）あさひ西日本物流センター",
+    "address": "京都府京田辺市甘南備台２－１４－８",
+    "phone": "0774-94-6952"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "京田辺市市役所",
+    "address": "京都府京田辺市田辺８０",
+    "phone": "0774-63-1122"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "京田辺市中部住民センター",
+    "address": "京都府京田辺市草内美泥２２－２",
+    "phone": "0744-64-8810"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "京都市上京リサイクルステーション",
+    "address": "京都府京都市上京区中立売通油小路東入甲斐守町１００",
+    "phone": "075-222-3952"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "木代商会",
+    "address": "京都府京都市上京区妙蓮寺前町３４１",
+    "phone": "075-441-4490"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "（株）岩井商会イワイサイクル　木津屋橋店",
+    "address": "京都府京都市下京区大宮通木津屋橋下ル上中之町１８",
+    "phone": "075-341-7702"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "（株）あさひサイクルベースあさひ二条店",
+    "address": "京都府京都市中京区西ノ京南聖町１３",
+    "phone": "075-803-0577"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "ＹＯＵ　ＳＨＯＰ　イケダ",
+    "address": "京都府京都市中京区西ノ京大炊御門町８－４",
+    "phone": "075-461-8829"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "（株）あさひサイクルベースあさひ京都南店",
+    "address": "京都府京都市伏見区下鳥羽長田町１８９",
+    "phone": "075-604-1350"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "片山モーターサイクル商会",
+    "address": "京都府京都市北区大宮中総門口町３１－２",
+    "phone": "075-491-2857"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "（株）あさひサイクルベースあさひ　九条店",
+    "address": "京都府京都市南区東九条下殿田町４３",
+    "phone": "075-693-9785"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "京都市南部まち美化事務所",
+    "address": "京都府京都市南区西九条森本町５０",
+    "phone": "075-681-0456"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "川村商会",
+    "address": "京都府京都市右京区嵯峨朝日町６",
+    "phone": "075-881-1799"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "（株）あさひサイクルベースあさひ葛野大路四条店",
+    "address": "京都府京都市右京区西院東貝川町５３",
+    "phone": "075-325-1700"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "京都市山科まち美化事務所",
+    "address": "京都府京都市山科区小野弓田町３",
+    "phone": "075-573-2457"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "（株）あさひサイクルベースあさひ山科店",
+    "address": "京都府京都市山科区西野離宮町１１－３",
+    "phone": "075-582-9486"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "（株）あさひサイクルベースあさひ北大路店",
+    "address": "京都府京都市左京区下鴨上川原町３８",
+    "phone": "075-708-1530"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "京都市東部まち美化事務所",
+    "address": "京都府京都市左京区高野西開町３４－３",
+    "phone": "075-722-4345"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "バイクスガレージ　モトパルコ",
+    "address": "京都府京都市西京区山田畑田町３－１７",
+    "phone": "075-393-5636"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "ＭＯＴＯ　ＳＰＯＲＴＳ合同会社ＭＯＴＯ　ＳＰＯＲＴＳ",
+    "address": "京都府京都市西京区御陵谷町４０－１３",
+    "phone": "075-381-0251"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "（株）あさひサイクルベースあさひ桂店",
+    "address": "京都府京都市西京区桂徳大寺北町２",
+    "phone": "075-382-2571"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "八幡市市役所　環境経済部　環境業務課",
+    "address": "京都府八幡市八幡園内７５",
+    "phone": "075-983-5340"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "向日市環境産業部　衛生環境課",
+    "address": "京都府向日市寺戸町中野２０",
+    "phone": "075-874-2189"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "（株）あさひサイクルベースあさひ桂川店",
+    "address": "京都府向日市寺戸町八ノ坪１１７－１",
+    "phone": "075-925-4506"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "城陽市陽東苑",
+    "address": "京都府城陽市久世芝ケ原１３１",
+    "phone": "0774-53-3700"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "城陽市陽寿苑",
+    "address": "京都府城陽市奈島川原口２０",
+    "phone": "0774-55-1017"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "城陽市保健センター",
+    "address": "京都府城陽市富野久保田１－１",
+    "phone": "0774-55-1111"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "城陽市南部コミュニティセンター",
+    "address": "京都府城陽市富野東田部７０－１",
+    "phone": "0774-55-1002"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "城陽市陽幸苑",
+    "address": "京都府城陽市寺田乾出北５５",
+    "phone": "0774-53-9393"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "城陽市文化パルク城陽",
+    "address": "京都府城陽市寺田今堀１",
+    "phone": "0774-55-1010"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "城陽市衛生センター",
+    "address": "京都府城陽市寺田南堤下１",
+    "phone": "0774-53-1400"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "城陽市役所",
+    "address": "京都府城陽市寺田東ノ口１６・１７",
+    "phone": "0774-52-1111"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "城陽市福祉センター",
+    "address": "京都府城陽市寺田東ノ口１７",
+    "phone": "0774-56-0909"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "城陽市ぱれっとＪＯＹＯ",
+    "address": "京都府城陽市寺田林ノ口１１－１１４",
+    "phone": "0774-54-7545"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "城陽市東部コミュニティセンター",
+    "address": "京都府城陽市寺田正道１５２",
+    "phone": "0774-55-7858"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "城陽市ひなたぼっこ",
+    "address": "京都府城陽市寺田深谷１６",
+    "phone": "0774-55-9260"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "城陽市青谷コミュニティセンター",
+    "address": "京都府城陽市市辺五島７－１",
+    "phone": "0774-53-8273"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "城陽市陽和苑",
+    "address": "京都府城陽市平川大将軍２",
+    "phone": "0774-52-9670"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "城陽市北部コミュニティセンター",
+    "address": "京都府城陽市平川広田６７",
+    "phone": "0774-55-1001"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "三ツ星自転車商会",
+    "address": "京都府宇治市宇治妙楽１６６",
+    "phone": "0774-21-3782"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "宇治市人権環境部　まち美化推進課",
+    "address": "京都府宇治市宇治琵琶３３",
+    "phone": "0774-22-3141"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "（株）あさひサイクルベースあさひ宇治小倉店",
+    "address": "京都府宇治市小倉町春日森８３－２",
+    "phone": "0774-28-3109"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "サイクルショップ栄光",
+    "address": "京都府宇治市開町３９－１５",
+    "phone": "0774-44-2424"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "木津川市市役所",
+    "address": "京都府木津川市木津南垣外１１０－９",
+    "phone": "0774-75-1215"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "宇治田原町建設環境課",
+    "address": "京都府綴喜郡宇治田原町大字立川小字坂口１８－１",
+    "phone": "0774-88-6639"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "（長岡京市）乙訓消防本部",
+    "address": "京都府長岡京市神足芝本９",
+    "phone": "075-955-9548"
+  },
+  {
+    "category": "自転車販売店",
+    "prefecture": "京都府",
+    "store_name": "長岡京市役所　環境業務課",
+    "address": "京都府長岡京市開田１－４－１５",
+    "phone": "075-955-9548"
+  }
+]
