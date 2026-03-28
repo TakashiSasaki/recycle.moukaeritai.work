@@ -1,0 +1,183 @@
+{
+  "version": 1,
+  "generated_at": "2026-03-28T03:30:00+00:00",
+  "source_file": "docs/data/2-29.json",
+  "entries": {
+    "奈良県奈良県北葛城郡河合町山坊６８３－１": {
+      "normalized_address": "奈良県奈良県北葛城郡河合町山坊６８３－１",
+      "raw_prefecture": "奈良県",
+      "raw_address": "奈良県北葛城郡河合町山坊６８３－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:29:56+00:00",
+      "lat": 34.5726367,
+      "lng": 135.7261502,
+      "formatted_address": "683-1 Yamanobō, Kawai, Kitakatsuragi District, Nara 636-0061, Japan",
+      "place_id": "ChIJW2RE2EwuAWAR9p6dn5RXs_g"
+    },
+    "奈良県奈良県北葛城郡河合町西穴闇８７": {
+      "normalized_address": "奈良県奈良県北葛城郡河合町西穴闇８７",
+      "raw_prefecture": "奈良県",
+      "raw_address": "奈良県北葛城郡河合町西穴闇８７",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:29:56+00:00",
+      "lat": 34.5868086,
+      "lng": 135.7370525,
+      "formatted_address": "87 Nishinagura, Kawai, Kitakatsuragi District, Nara 636-0055, Japan",
+      "place_id": "ChIJ87hrpMgvAWAR__UHYH_FgOE"
+    },
+    "奈良県奈良県大和高田市根成柿３２８－２９": {
+      "normalized_address": "奈良県奈良県大和高田市根成柿３２８－２９",
+      "raw_prefecture": "奈良県",
+      "raw_address": "奈良県大和高田市根成柿３２８－２９",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:29:56+00:00",
+      "lat": 34.4871121,
+      "lng": 135.7658915,
+      "formatted_address": "328-29 Nenarigaki, Yamatotakada, Nara 635-0051, Japan",
+      "place_id": "ChIJU9D9jrMyAWAR4b4XZ7pNEwQ"
+    },
+    "奈良県奈良県奈良市二条大路南１－１－１": {
+      "normalized_address": "奈良県奈良県奈良市二条大路南１－１－１",
+      "raw_prefecture": "奈良県",
+      "raw_address": "奈良県奈良市二条大路南１－１－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:29:56+00:00",
+      "lat": 34.685112,
+      "lng": 135.805424,
+      "formatted_address": "1-chōme-1-1 Nijōōjiminami, Nara, 630-8012, Japan",
+      "place_id": "ChIJ1wmCH7Q7AWAR_PXw7h7XCQo"
+    },
+    "奈良県奈良県奈良市右京４－２－１７": {
+      "normalized_address": "奈良県奈良県奈良市右京４－２－１７",
+      "raw_prefecture": "奈良県",
+      "raw_address": "奈良県奈良市右京４－２－１７",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:29:57+00:00",
+      "lat": 34.7201225,
+      "lng": 135.7862758,
+      "formatted_address": "4-chōme-2-17 Ukyō, Nara, 631-0805, Japan",
+      "place_id": "ChIJXWTwQIk8AWARM4z2fHYGefE"
+    },
+    "奈良県奈良県奈良市四条大路２－２－１８": {
+      "normalized_address": "奈良県奈良県奈良市四条大路２－２－１８",
+      "raw_prefecture": "奈良県",
+      "raw_address": "奈良県奈良市四条大路２－２－１８",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:29:57+00:00",
+      "lat": 34.6790058,
+      "lng": 135.8000029,
+      "formatted_address": "2-chōme-2-18 Shijōōji, Nara, 630-8014, Japan",
+      "place_id": "ChIJaRQcpbI7AWARbaJq6Impf8c"
+    },
+    "奈良県奈良県奈良市学園新田町３０３９－１": {
+      "normalized_address": "奈良県奈良県奈良市学園新田町３０３９－１",
+      "raw_prefecture": "奈良県",
+      "raw_address": "奈良県奈良市学園新田町３０３９－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:29:57+00:00",
+      "lat": 34.701353,
+      "lng": 135.7470335,
+      "formatted_address": "Japan, 〒631-0025 Nara, Gakuenshindenchō, ３０３９−１ ＹＯＵ ＳＨＯＰ 上村",
+      "place_id": "ChIJ_XxthE4jAWARprRtIkOtiQY"
+    },
+    "奈良県奈良県奈良市押熊町１１２６－１": {
+      "normalized_address": "奈良県奈良県奈良市押熊町１１２６－１",
+      "raw_prefecture": "奈良県",
+      "raw_address": "奈良県奈良市押熊町１１２６－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:29:58+00:00",
+      "lat": 34.7226632,
+      "lng": 135.7710374,
+      "formatted_address": "1126-1 Oshikumachō, Nara, 631-0011, Japan",
+      "place_id": "ChIJhxle_cE8AWARZ2-m3MO8wpY"
+    },
+    "奈良県奈良県宇陀市榛原区萩原２４７１": {
+      "normalized_address": "奈良県奈良県宇陀市榛原区萩原２４７１",
+      "raw_prefecture": "奈良県",
+      "raw_address": "奈良県宇陀市榛原区萩原２４７１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:29:58+00:00",
+      "lat": 34.5297455,
+      "lng": 135.9543864,
+      "formatted_address": "Haibara Station, Haibarahagihara, Uda, Nara 633-0253, Japan",
+      "place_id": "ChIJLwNKZFm0BmARzM2rDyJ04o8"
+    },
+    "奈良県奈良県橿原市曽我町１０５７－２": {
+      "normalized_address": "奈良県奈良県橿原市曽我町１０５７－２",
+      "raw_prefecture": "奈良県",
+      "raw_address": "奈良県橿原市曽我町１０５７－２",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:29:58+00:00",
+      "lat": 34.5196684,
+      "lng": 135.7736384,
+      "formatted_address": "1057-2 Sogachō, Kashihara, Nara 634-0831, Japan",
+      "place_id": "ChIJgx4MY_QyAWARIaW-UmfCKNo"
+    },
+    "奈良県奈良県橿原市東竹田町１－１": {
+      "normalized_address": "奈良県奈良県橿原市東竹田町１－１",
+      "raw_prefecture": "奈良県",
+      "raw_address": "奈良県橿原市東竹田町１－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:29:58+00:00",
+      "lat": 34.5237169,
+      "lng": 135.8186392,
+      "formatted_address": "1-1 Higashitakedachō, Kashihara, Nara 634-0002, Japan",
+      "place_id": "ChIJZy2l1VwzAWAR1b3HBBflsKw"
+    },
+    "奈良県奈良県橿原市葛本町７６１－２": {
+      "normalized_address": "奈良県奈良県橿原市葛本町７６１－２",
+      "raw_prefecture": "奈良県",
+      "raw_address": "奈良県橿原市葛本町７６１－２",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:29:59+00:00",
+      "lat": 34.5212622,
+      "lng": 135.8057547,
+      "formatted_address": "761-2 Kuzumotochō, Kashihara, Nara 634-0007, Japan",
+      "place_id": "ChIJmaDgvRUzAWARsEN4uwsecQ0"
+    },
+    "奈良県奈良県生駒市俵口町７１５－２": {
+      "normalized_address": "奈良県奈良県生駒市俵口町７１５－２",
+      "raw_prefecture": "奈良県",
+      "raw_address": "奈良県生駒市俵口町７１５－２",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:29:59+00:00",
+      "lat": 34.7061946,
+      "lng": 135.6967508,
+      "formatted_address": "715-2 Tawaraguchichō, Ikoma, Nara 630-0243, Japan",
+      "place_id": "ChIJ64AEPEoiAWARwImhZPRtMIY"
+    },
+    "奈良県奈良県葛城市疋田１４７－１０９": {
+      "normalized_address": "奈良県奈良県葛城市疋田１４７－１０９",
+      "raw_prefecture": "奈良県",
+      "raw_address": "奈良県葛城市疋田１４７－１０９",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:29:59+00:00",
+      "lat": 34.5048739,
+      "lng": 135.720822,
+      "formatted_address": "147-109 Hikida, Katsuragi, Nara 639-2101, Japan",
+      "place_id": "ChIJlzX83K4tAWARN2c59y5jlzQ"
+    },
+    "奈良県奈良県香芝市上中２４８－１": {
+      "normalized_address": "奈良県奈良県香芝市上中２４８－１",
+      "raw_prefecture": "奈良県",
+      "raw_address": "奈良県香芝市上中２４８－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:29:59+00:00",
+      "lat": 34.5587823,
+      "lng": 135.7006302,
+      "formatted_address": "248-1 Kaminaka, Kashiba, Nara 639-0265, Japan",
+      "place_id": "ChIJs58WxeMuAWARCq2cOE5CHO4"
+    },
+    "奈良県奈良県香芝市本町１３９７": {
+      "normalized_address": "奈良県奈良県香芝市本町１３９７",
+      "raw_prefecture": "奈良県",
+      "raw_address": "奈良県香芝市本町１３９７",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:00+00:00",
+      "lat": 34.5411253,
+      "lng": 135.6985962,
+      "formatted_address": "1397 Honmachi, Kashiba, Nara 639-0244, Japan",
+      "place_id": "ChIJhxw58pQuAWARrd3UVgaDkHw"
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "generated_at": "2026-03-28T03:30:10+00:00",
+  "source_file": "docs/data/2-32.json",
+  "entries": {
+    "島根県島根県出雲市今市町７０": {
+      "normalized_address": "島根県島根県出雲市今市町７０",
+      "raw_prefecture": "島根県",
+      "raw_address": "島根県出雲市今市町７０",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:06+00:00",
+      "lat": 35.3670009,
+      "lng": 132.754624,
+      "formatted_address": "70 Imaichichō, Izumo, Shimane 693-8530, Japan",
+      "place_id": "ChIJO1ttMoVDVzURbYP_jXeiXns"
+    },
+    "島根県島根県出雲市大社町杵築南１１５５": {
+      "normalized_address": "島根県島根県出雲市大社町杵築南１１５５",
+      "raw_prefecture": "島根県",
+      "raw_address": "島根県出雲市大社町杵築南１１５５",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:06+00:00",
+      "lat": 35.3952323,
+      "lng": 132.6810258,
+      "formatted_address": "1155 Taishachō Kizukiminami, Izumo, Shimane 699-0711, Japan",
+      "place_id": "ChIJxQqIhJtcVzURmgHavxCG0Bg"
+    },
+    "島根県島根県出雲市天神町２０２－２": {
+      "normalized_address": "島根県島根県出雲市天神町２０２－２",
+      "raw_prefecture": "島根県",
+      "raw_address": "島根県出雲市天神町２０２－２",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:07+00:00",
+      "lat": 35.364397,
+      "lng": 132.7397058,
+      "formatted_address": "202-2 Tenjinchō, Izumo, Shimane 693-0005, Japan",
+      "place_id": "ChIJQSICY4JEVzUR78OdFsiFXiM"
+    },
+    "島根県島根県大田市大田町大田イ３９１－３": {
+      "normalized_address": "島根県島根県大田市大田町大田イ３９１－３",
+      "raw_prefecture": "島根県",
+      "raw_address": "島根県大田市大田町大田イ３９１－３",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:07+00:00",
+      "lat": 35.1914948,
+      "lng": 132.5264409,
+      "formatted_address": "Odacho Oda, Oda, Shimane 694-0064, Japan",
+      "place_id": "ChIJrdvHpusAWjURn_Nr-LIoatQ"
+    },
+    "島根県島根県大田市大田町大田ハ９６": {
+      "normalized_address": "島根県島根県大田市大田町大田ハ９６",
+      "raw_prefecture": "島根県",
+      "raw_address": "島根県大田市大田町大田ハ９６",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:07+00:00",
+      "lat": 35.1914948,
+      "lng": 132.5264409,
+      "formatted_address": "Odacho Oda, Oda, Shimane 694-0064, Japan",
+      "place_id": "ChIJrdvHpusAWjURn_Nr-LIoatQ"
+    },
+    "島根県島根県松江市学園１－１９－１２": {
+      "normalized_address": "島根県島根県松江市学園１－１９－１２",
+      "raw_prefecture": "島根県",
+      "raw_address": "島根県松江市学園１－１９－１２",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:07+00:00",
+      "lat": 35.4782379,
+      "lng": 133.0689765,
+      "formatted_address": "1-chōme-19-12 Gakuen, Matsue, Shimane 690-0825, Japan",
+      "place_id": "ChIJgUkFiloEVzURuYygR1jQU80"
+    },
+    "島根県島根県松江市学園２－２６－１７": {
+      "normalized_address": "島根県島根県松江市学園２－２６－１７",
+      "raw_prefecture": "島根県",
+      "raw_address": "島根県松江市学園２－２６－１７",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:08+00:00",
+      "lat": 35.4840709,
+      "lng": 133.0694278,
+      "formatted_address": "Japan, 〒690-0825 Shimane, Matsue, Gakuen, 2-chōme−26−１７ オートショツプ コイズミ",
+      "place_id": "ChIJh2IDw0UEVzURmZ1gGXZySsI"
+    },
+    "島根県島根県松江市西川津町１１７７－１": {
+      "normalized_address": "島根県島根県松江市西川津町１１７７－１",
+      "raw_prefecture": "島根県",
+      "raw_address": "島根県松江市西川津町１１７７－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:08+00:00",
+      "lat": 35.4871468,
+      "lng": 133.0742106,
+      "formatted_address": "Japan, 〒690-0823 Shimane, Matsue, Nishikawatsuchō, １１７７−１ バイクショップナガセ",
+      "place_id": "ChIJz2QWYD8EVzUR6vSM9O8O_50"
+    },
+    "島根県島根県松江市西津田３ー４ー１９": {
+      "normalized_address": "島根県島根県松江市西津田３ー４ー１９",
+      "raw_prefecture": "島根県",
+      "raw_address": "島根県松江市西津田３ー４ー１９",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:08+00:00",
+      "lat": 35.4575046,
+      "lng": 133.075329,
+      "formatted_address": "Nishitsuda, Matsue, Shimane 690-0017, Japan",
+      "place_id": "ChIJWXKy6OsEVzUR5hgTAWR16A8"
+    },
+    "島根県島根県浜田市殿町１": {
+      "normalized_address": "島根県島根県浜田市殿町１",
+      "raw_prefecture": "島根県",
+      "raw_address": "島根県浜田市殿町１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:08+00:00",
+      "lat": 34.9005236,
+      "lng": 132.0793777,
+      "formatted_address": "1 Tonomachi, Hamada, Shimane 697-0027, Japan",
+      "place_id": "ChIJEQ_ZjNhZWjUR5GhbpJDmTcw"
+    },
+    "島根県島根県益田市染羽町４－２６": {
+      "normalized_address": "島根県島根県益田市染羽町４－２６",
+      "raw_prefecture": "島根県",
+      "raw_address": "島根県益田市染羽町４－２６",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:09+00:00",
+      "lat": 34.6794994,
+      "lng": 131.8654903,
+      "formatted_address": "4-26 Somebachō, Masuda, Shimane 698-0011, Japan",
+      "place_id": "ChIJSdmzJRofWzURZhEg9KBwth0"
+    },
+    "島根県島根県隠岐郡西ノ島町美田８５０－３": {
+      "normalized_address": "島根県島根県隠岐郡西ノ島町美田８５０－３",
+      "raw_prefecture": "島根県",
+      "raw_address": "島根県隠岐郡西ノ島町美田８５０－３",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:09+00:00",
+      "lat": 36.0828128,
+      "lng": 133.008007,
+      "formatted_address": "850-3 Mita, Nishinoshima, Oki-gun, Shimane 684-0303, Japan",
+      "place_id": "ChIJadD8eW7aVzURbYNqiOlZwG0"
+    },
+    "島根県島根県雲南市木次町里方１３６９－３９": {
+      "normalized_address": "島根県島根県雲南市木次町里方１３６９－３９",
+      "raw_prefecture": "島根県",
+      "raw_address": "島根県雲南市木次町里方１３６９－３９",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:09+00:00",
+      "lat": 35.3138843,
+      "lng": 132.9005827,
+      "formatted_address": "1369-39 Kisukichō Satogata, Unnan, Shimane 699-1311, Japan",
+      "place_id": "ChIJ7xQwpx8_VzURWlmKcAnagFM"
+    },
+    "島根県島根県飯石郡飯南町都加賀６９８－１": {
+      "normalized_address": "島根県島根県飯石郡飯南町都加賀６９８－１",
+      "raw_prefecture": "島根県",
+      "raw_address": "島根県飯石郡飯南町都加賀６９８－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:09+00:00",
+      "lat": 35.1187338,
+      "lng": 132.7823379,
+      "formatted_address": "698-1 Tsugaka, Iinan, Iishi District, Shimane 690-3203, Japan",
+      "place_id": "ChIJ4_w0ClmzUDURB-yiHEBTIj0"
+    }
+  }
+}

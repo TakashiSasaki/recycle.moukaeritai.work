@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "generated_at": "2026-03-28T03:30:41+00:00",
+  "source_file": "docs/data/2-36.json",
+  "entries": {
+    "徳島県徳島県名西郡石井町石井字石井３０２５－１": {
+      "normalized_address": "徳島県徳島県名西郡石井町石井字石井３０２５－１",
+      "raw_prefecture": "徳島県",
+      "raw_address": "徳島県名西郡石井町石井字石井３０２５－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:38+00:00",
+      "lat": 34.0571374,
+      "lng": 134.4369676,
+      "formatted_address": "Ishii-3025-1 Ishii, Myozai District, Tokushima 779-3233, Japan",
+      "place_id": "ChIJy0DiskwKUzURL8Jku5Dvtsc"
+    },
+    "徳島県徳島県徳島市二軒屋町３－３９": {
+      "normalized_address": "徳島県徳島県徳島市二軒屋町３－３９",
+      "raw_prefecture": "徳島県",
+      "raw_address": "徳島県徳島市二軒屋町３－３９",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:38+00:00",
+      "lat": 34.0569965,
+      "lng": 134.546515,
+      "formatted_address": "3 Chome Nikenyacho, Tokushima, 770-0928, Japan",
+      "place_id": "ChIJnxpFa6tyUzURYsFVFaKnQ4w"
+    },
+    "徳島県徳島県徳島市北矢三町３－２－１６": {
+      "normalized_address": "徳島県徳島県徳島市北矢三町３－２－１６",
+      "raw_prefecture": "徳島県",
+      "raw_address": "徳島県徳島市北矢三町３－２－１６",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:39+00:00",
+      "lat": 34.0845465,
+      "lng": 134.5192573,
+      "formatted_address": "3-chōme-2-16 Kitayasochō, Tokushima, 770-0006, Japan",
+      "place_id": "ChIJb0wtpN1yUzURduKdWXfVGwI"
+    },
+    "徳島県徳島県徳島市南昭和町１－１１－３": {
+      "normalized_address": "徳島県徳島県徳島市南昭和町１－１１－３",
+      "raw_prefecture": "徳島県",
+      "raw_address": "徳島県徳島市南昭和町１－１１－３",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:39+00:00",
+      "lat": 34.0598543,
+      "lng": 134.5555926,
+      "formatted_address": "1-chōme-11-3 Minamishōwachō, Tokushima, 770-0944, Japan",
+      "place_id": "ChIJMSn7ulBtUzURALQHhCpUM8c"
+    },
+    "徳島県徳島県徳島市南田宮２－７－２２": {
+      "normalized_address": "徳島県徳島県徳島市南田宮２－７－２２",
+      "raw_prefecture": "徳島県",
+      "raw_address": "徳島県徳島市南田宮２－７－２２",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:39+00:00",
+      "lat": 34.08099,
+      "lng": 134.5436187,
+      "formatted_address": "Japan, 〒770-0004 Tokushima, Minamitamiya, 2-chōme−7−２２ ＹＯＵ ＳＨＯＰ 千松",
+      "place_id": "ChIJOw5bsJtyUzUR-6lOJyD62XE"
+    },
+    "徳島県徳島県徳島市城東町２－５－４０": {
+      "normalized_address": "徳島県徳島県徳島市城東町２－５－４０",
+      "raw_prefecture": "徳島県",
+      "raw_address": "徳島県徳島市城東町２－５－４０",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:40+00:00",
+      "lat": 34.0734615,
+      "lng": 134.5767012,
+      "formatted_address": "Japan, 〒770-0862 Tokushima, Jōtōchō, 2-chōme−5−４０ 市民環境政策課分室",
+      "place_id": "ChIJk0PyzQhtUzURFzt88l2onXY"
+    },
+    "徳島県徳島県徳島市大松町榎原外５５－１": {
+      "normalized_address": "徳島県徳島県徳島市大松町榎原外５５－１",
+      "raw_prefecture": "徳島県",
+      "raw_address": "徳島県徳島市大松町榎原外５５－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:40+00:00",
+      "lat": 34.0232058,
+      "lng": 134.5552324,
+      "formatted_address": "Enokibarazoto-55-1 Ōmatsuchō, Tokushima, 770-8022, Japan",
+      "place_id": "ChIJE5uohIQSUzURD90tovloe4c"
+    },
+    "徳島県徳島県徳島市応神町西貞方字仁徳３０－３": {
+      "normalized_address": "徳島県徳島県徳島市応神町西貞方字仁徳３０－３",
+      "raw_prefecture": "徳島県",
+      "raw_address": "徳島県徳島市応神町西貞方字仁徳３０－３",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:40+00:00",
+      "lat": 34.1167469,
+      "lng": 134.511077,
+      "formatted_address": "Jintoku-30-3 Ōjinchō Nishisadakata, Tokushima, 771-1155, Japan",
+      "place_id": "ChIJaZddnrJzUzURhTFswpf24qk"
+    },
+    "徳島県徳島県徳島市福島２－４－１４": {
+      "normalized_address": "徳島県徳島県徳島市福島２－４－１４",
+      "raw_prefecture": "徳島県",
+      "raw_address": "徳島県徳島市福島２－４－１４",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:40+00:00",
+      "lat": 34.0701906,
+      "lng": 134.5691777,
+      "formatted_address": "2-chōme-4-14 Fukushima, Tokushima, 770-0868, Japan",
+      "place_id": "ChIJm6hY1BJtUzURiKl8Q83Kujw"
+    },
+    "徳島県徳島県阿南市上中町中原３３１": {
+      "normalized_address": "徳島県徳島県阿南市上中町中原３３１",
+      "raw_prefecture": "徳島県",
+      "raw_address": "徳島県阿南市上中町中原３３１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:41+00:00",
+      "lat": 33.9358324,
+      "lng": 134.6278144,
+      "formatted_address": "Nakabara Kaminakacho, Anan, Tokushima 774-0044, Japan",
+      "place_id": "ChIJ6xiuf7MWUzUR64Q6DjUuBG8"
+    }
+  }
+}

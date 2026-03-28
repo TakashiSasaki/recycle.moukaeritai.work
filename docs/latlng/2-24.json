@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "generated_at": "2026-03-28T03:28:27+00:00",
+  "source_file": "docs/data/2-24.json",
+  "entries": {
+    "三重県三重県三重郡川越町高松２２－１": {
+      "normalized_address": "三重県三重県三重郡川越町高松２２－１",
+      "raw_prefecture": "三重県",
+      "raw_address": "三重県三重郡川越町高松２２－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:28:21+00:00",
+      "lat": 35.0179684,
+      "lng": 136.6640324,
+      "formatted_address": "22-1 Takamatsu, Kawagoe, Mie District, Mie 510-8121, Japan",
+      "place_id": "ChIJqe7RbvGPA2ARWooLMAyfQgA"
+    },
+    "三重県三重県亀山市布気町４４２": {
+      "normalized_address": "三重県三重県亀山市布気町４４２",
+      "raw_prefecture": "三重県",
+      "raw_address": "三重県亀山市布気町４４２",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:28:21+00:00",
+      "lat": 34.8652475,
+      "lng": 136.4338809,
+      "formatted_address": "442 Fukechō, Kameyama, Mie 519-0166, Japan",
+      "place_id": "ChIJOzEXplDxA2ARtNbvDpcNtrQ"
+    },
+    "三重県三重県伊勢市西豊浜町６５３": {
+      "normalized_address": "三重県三重県伊勢市西豊浜町６５３",
+      "raw_prefecture": "三重県",
+      "raw_address": "三重県伊勢市西豊浜町６５３",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:28:25+00:00",
+      "lat": 34.5198244,
+      "lng": 136.6756329,
+      "formatted_address": "653 Nishitoyohamachō, Ise, Mie 515-0505, Japan",
+      "place_id": "ChIJQb_VmE5bBGAR23l3IQLNXzw"
+    },
+    "三重県三重県伊賀市大野木２１２６－４": {
+      "normalized_address": "三重県三重県伊賀市大野木２１２６－４",
+      "raw_prefecture": "三重県",
+      "raw_address": "三重県伊賀市大野木２１２６－４",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:28:25+00:00",
+      "lat": 34.7384108,
+      "lng": 136.0982852,
+      "formatted_address": "2126 Ōnogi, Iga, Mie 518-0033, Japan",
+      "place_id": "ChIJj7mnQQFRAWARJeARIpbuPAk"
+    },
+    "三重県三重県伊賀市治田３５４７－１３さくらリサイクルセンター": {
+      "normalized_address": "三重県三重県伊賀市治田３５４７－１３さくらリサイクルセンター",
+      "raw_prefecture": "三重県",
+      "raw_address": "三重県伊賀市治田３５４７－１３さくらリサイクルセンター",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:28:26+00:00",
+      "lat": 34.71662,
+      "lng": 136.0836851,
+      "formatted_address": "3547-13 Hatta, Iga, Mie 518-1155, Japan",
+      "place_id": "ChIJL1xvxJdRAWAR2OmiCkHePGY"
+    },
+    "三重県三重県名張市桔梗が丘３－２－６８－２": {
+      "normalized_address": "三重県三重県名張市桔梗が丘３－２－６８－２",
+      "raw_prefecture": "三重県",
+      "raw_address": "三重県名張市桔梗が丘３－２－６８－２",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:28:26+00:00",
+      "lat": 34.6440958,
+      "lng": 136.1312185,
+      "formatted_address": "Kikyogaoka 3, Kamiobata, Nabari, Mie 518-0613, Japan",
+      "place_id": "ChIJja3Vk6msBmARum-fm8MHeG0"
+    },
+    "三重県三重県員弁郡東員町大字大木５１－１": {
+      "normalized_address": "三重県三重県員弁郡東員町大字大木５１－１",
+      "raw_prefecture": "三重県",
+      "raw_address": "三重県員弁郡東員町大字大木５１－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:28:26+00:00",
+      "lat": 35.0840716,
+      "lng": 136.5671477,
+      "formatted_address": "51-1 Ōki, Toin, Inabe District, Mie 511-0244, Japan",
+      "place_id": "ChIJnwGjrEWUA2ARCLH2yO-Uyy4"
+    },
+    "三重県三重県津市高茶屋小森町２８５－１": {
+      "normalized_address": "三重県三重県津市高茶屋小森町２８５－１",
+      "raw_prefecture": "三重県",
+      "raw_address": "三重県津市高茶屋小森町２８５－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:28:27+00:00",
+      "lat": 34.6718654,
+      "lng": 136.518399,
+      "formatted_address": "285-1 Takajayakomorichō, Tsu, Mie 514-0817, Japan",
+      "place_id": "ChIJWd1G_lJtBGARATjankPXDFI"
+    },
+    "三重県三重県鈴鹿市岸岡町２０５６－１": {
+      "normalized_address": "三重県三重県鈴鹿市岸岡町２０５６－１",
+      "raw_prefecture": "三重県",
+      "raw_address": "三重県鈴鹿市岸岡町２０５６－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:28:27+00:00",
+      "lat": 34.8495155,
+      "lng": 136.5899634,
+      "formatted_address": "2056-1 Kishiokachō, Suzuka, Mie 510-0226, Japan",
+      "place_id": "ChIJg17-IPx1BGARK1V3d7pvb1E"
+    }
+  }
+}

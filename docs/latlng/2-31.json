@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "generated_at": "2026-03-28T03:30:06+00:00",
+  "source_file": "docs/data/2-31.json",
+  "entries": {
+    "鳥取県鳥取県日野郡日南町下石見１９７１": {
+      "normalized_address": "鳥取県鳥取県日野郡日南町下石見１９７１",
+      "raw_prefecture": "鳥取県",
+      "raw_address": "鳥取県日野郡日南町下石見１９７１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:03+00:00",
+      "lat": 35.1484813,
+      "lng": 133.3152092,
+      "formatted_address": "1971 Shimoiwami, Nichinan, Hino District, Tottori 689-5665, Japan",
+      "place_id": "ChIJH6O5SyfdVjURAwV9rqmWHSg"
+    },
+    "鳥取県鳥取県日野郡日南町霞８００": {
+      "normalized_address": "鳥取県鳥取県日野郡日南町霞８００",
+      "raw_prefecture": "鳥取県",
+      "raw_address": "鳥取県日野郡日南町霞８００",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:04+00:00",
+      "lat": 35.1631432,
+      "lng": 133.3064787,
+      "formatted_address": "800 Kasumi, Nichinan, Hino District, Tottori 689-5212, Japan",
+      "place_id": "ChIJuZ2xwhbdVjUR01rw0gwDyGc"
+    },
+    "鳥取県鳥取県日野郡日野町根雨１０１": {
+      "normalized_address": "鳥取県鳥取県日野郡日野町根雨１０１",
+      "raw_prefecture": "鳥取県",
+      "raw_address": "鳥取県日野郡日野町根雨１０１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:04+00:00",
+      "lat": 35.2407856,
+      "lng": 133.4426958,
+      "formatted_address": "101 Neu, Hino, Hino District, Tottori 689-4503, Japan",
+      "place_id": "ChIJ1c7h_qjtVjURtN7Fb2dZLXs"
+    },
+    "鳥取県鳥取県日野郡日野町黒坂１２４３－１": {
+      "normalized_address": "鳥取県鳥取県日野郡日野町黒坂１２４３－１",
+      "raw_prefecture": "鳥取県",
+      "raw_address": "鳥取県日野郡日野町黒坂１２４３－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:04+00:00",
+      "lat": 35.2082646,
+      "lng": 133.3858928,
+      "formatted_address": "1243-1 Kurosaka, Hino, Hino District, Tottori 689-5131, Japan",
+      "place_id": "ChIJn06QDj_pVjUR6Ik-5chpNSY"
+    },
+    "鳥取県鳥取県日野郡江府町大字江尾１７１７－１": {
+      "normalized_address": "鳥取県鳥取県日野郡江府町大字江尾１７１７－１",
+      "raw_prefecture": "鳥取県",
+      "raw_address": "鳥取県日野郡江府町大字江尾１７１７－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:05+00:00",
+      "lat": 35.2764276,
+      "lng": 133.4789343,
+      "formatted_address": "1717-1 Ebi, Kofu, Hino District, Tottori 689-4401, Japan",
+      "place_id": "ChIJDwmpAszyVjURhy8i6p_JcVo"
+    },
+    "鳥取県鳥取県米子市旗ケ崎７－１－４１": {
+      "normalized_address": "鳥取県鳥取県米子市旗ケ崎７－１－４１",
+      "raw_prefecture": "鳥取県",
+      "raw_address": "鳥取県米子市旗ケ崎７－１－４１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:05+00:00",
+      "lat": 35.4383678,
+      "lng": 133.309008,
+      "formatted_address": "7-chōme-1-41 Hatagasaki, Yonago, Tottori 683-0845, Japan",
+      "place_id": "ChIJ03Q6jUr4VjURfD1ilmQdWEA"
+    },
+    "鳥取県鳥取県米子市皆生４－１１－１６": {
+      "normalized_address": "鳥取県鳥取県米子市皆生４－１１－１６",
+      "raw_prefecture": "鳥取県",
+      "raw_address": "鳥取県米子市皆生４－１１－１６",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:05+00:00",
+      "lat": 35.4496671,
+      "lng": 133.3640554,
+      "formatted_address": "4-chōme-11-16 Kaike, Yonago, Tottori 683-0003, Japan",
+      "place_id": "ChIJZfY4JH9YVjURs6gNpQEIJTg"
+    },
+    "鳥取県鳥取県西伯郡南部町天萬５５８": {
+      "normalized_address": "鳥取県鳥取県西伯郡南部町天萬５５８",
+      "raw_prefecture": "鳥取県",
+      "raw_address": "鳥取県西伯郡南部町天萬５５８",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:05+00:00",
+      "lat": 35.3707944,
+      "lng": 133.3619884,
+      "formatted_address": "558 Tenman, Nambu, Saihaku District, Tottori 683-0201, Japan",
+      "place_id": "ChIJ54Q5H9HwVjURYhbze6Syiq0"
+    },
+    "鳥取県鳥取県西伯郡南部町法勝寺３７７－１": {
+      "normalized_address": "鳥取県鳥取県西伯郡南部町法勝寺３７７－１",
+      "raw_prefecture": "鳥取県",
+      "raw_address": "鳥取県西伯郡南部町法勝寺３７７－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:06+00:00",
+      "lat": 35.34049359999999,
+      "lng": 133.3265176,
+      "formatted_address": "377-1 Hosshōji, Nambu, Saihaku District, Tottori 683-0351, Japan",
+      "place_id": "ChIJ02O7cp_6VjUR0ImQn6GGQw8"
+    },
+    "鳥取県鳥取県鳥取市緑ヶ丘３－２１－５": {
+      "normalized_address": "鳥取県鳥取県鳥取市緑ヶ丘３－２１－５",
+      "raw_prefecture": "鳥取県",
+      "raw_address": "鳥取県鳥取市緑ヶ丘３－２１－５",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:06+00:00",
+      "lat": 35.5096372,
+      "lng": 134.2023826,
+      "formatted_address": "3-chōme-21-5 Midorigaoka, Tottori, 680-0915, Japan",
+      "place_id": "ChIJqyk8BTeOVTURDN1WVeRHdQk"
+    }
+  }
+}

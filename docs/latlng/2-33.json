@@ -1,0 +1,271 @@
+{
+  "version": 1,
+  "generated_at": "2026-03-28T03:30:16+00:00",
+  "source_file": "docs/data/2-33.json",
+  "entries": {
+    "岡山県岡山県倉敷市二子１９１７－４": {
+      "normalized_address": "岡山県岡山県倉敷市二子１９１７－４",
+      "raw_prefecture": "岡山県",
+      "raw_address": "岡山県倉敷市二子１９１７－４",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:10+00:00",
+      "lat": 34.6454092,
+      "lng": 133.8066709,
+      "formatted_address": "1917-4 Futago, Kurashiki, Okayama 701-0115, Japan",
+      "place_id": "ChIJg-zA28v_UzURUMv6dGhbKTY"
+    },
+    "岡山県岡山県倉敷市児島小川町３６９７－４": {
+      "normalized_address": "岡山県岡山県倉敷市児島小川町３６９７－４",
+      "raw_prefecture": "岡山県",
+      "raw_address": "岡山県倉敷市児島小川町３６９７－４",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:10+00:00",
+      "lat": 34.4647641,
+      "lng": 133.8166906,
+      "formatted_address": "Japan, 〒711-0912 Okayama, Kurashiki, Kojimaogawachō, ３６９７−４ 倉敷市児島環境センター",
+      "place_id": "ChIJST5G5STiUzURW-Z4aCcTznQ"
+    },
+    "岡山県岡山県倉敷市宮前２５－１": {
+      "normalized_address": "岡山県岡山県倉敷市宮前２５－１",
+      "raw_prefecture": "岡山県",
+      "raw_address": "岡山県倉敷市宮前２５－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:10+00:00",
+      "lat": 34.6092651,
+      "lng": 133.7617186,
+      "formatted_address": "25-1 Miyamae, Kurashiki, Okayama 710-0065, Japan",
+      "place_id": "ChIJ70hy2mdWUTURD-l7Zcj_nKc"
+    },
+    "岡山県岡山県倉敷市水島川崎通１－１－１１０": {
+      "normalized_address": "岡山県岡山県倉敷市水島川崎通１－１－１１０",
+      "raw_prefecture": "岡山県",
+      "raw_address": "岡山県倉敷市水島川崎通１－１－１１０",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:11+00:00",
+      "lat": 34.5317595,
+      "lng": 133.7237275,
+      "formatted_address": "Japan, 〒712-8074 Okayama, Kurashiki, Mizushima Kawasakidōri, 1-chōme−１−１１０ 水島環境センター",
+      "place_id": "ChIJU-kD33lZUTURFkLhzTQUG08"
+    },
+    "岡山県岡山県倉敷市玉島乙島８２５５－４９": {
+      "normalized_address": "岡山県岡山県倉敷市玉島乙島８２５５－４９",
+      "raw_prefecture": "岡山県",
+      "raw_address": "岡山県倉敷市玉島乙島８２５５－４９",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:11+00:00",
+      "lat": 34.5135961,
+      "lng": 133.6796744,
+      "formatted_address": "8255-49 Tamashima Otoshima, Kurashiki, Okayama 713-8103, Japan",
+      "place_id": "ChIJyUHWGXxcUTURi3pJJapvEdg"
+    },
+    "岡山県岡山県倉敷市白楽町４２４": {
+      "normalized_address": "岡山県岡山県倉敷市白楽町４２４",
+      "raw_prefecture": "岡山県",
+      "raw_address": "岡山県倉敷市白楽町４２４",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:11+00:00",
+      "lat": 34.58668979999999,
+      "lng": 133.7734263,
+      "formatted_address": "424 Bakurochō, Kurashiki, Okayama 710-0824, Japan",
+      "place_id": "ChIJhyyHCDVWUTURgwj5pNBAPgo"
+    },
+    "岡山県岡山県倉敷市笹沖３９８－５": {
+      "normalized_address": "岡山県岡山県倉敷市笹沖３９８－５",
+      "raw_prefecture": "岡山県",
+      "raw_address": "岡山県倉敷市笹沖３９８－５",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:11+00:00",
+      "lat": 34.5732308,
+      "lng": 133.7688187,
+      "formatted_address": "398-5 Sasaoki, Kurashiki, Okayama 710-0834, Japan",
+      "place_id": "ChIJ3QPTMrlXUTURzIF5ENV3oko"
+    },
+    "岡山県岡山県備前市八木山８５９－１": {
+      "normalized_address": "岡山県岡山県備前市八木山８５９－１",
+      "raw_prefecture": "岡山県",
+      "raw_address": "岡山県備前市八木山８５９－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:12+00:00",
+      "lat": 34.778999,
+      "lng": 134.2351948,
+      "formatted_address": "859 Yakiyama, Bizen, Okayama 705-0133, Japan",
+      "place_id": "ChIJndv6O7tCVDURIAqdUhkhNFM"
+    },
+    "岡山県岡山県備前市日生町日生８８９－７": {
+      "normalized_address": "岡山県岡山県備前市日生町日生８８９－７",
+      "raw_prefecture": "岡山県",
+      "raw_address": "岡山県備前市日生町日生８８９－７",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:12+00:00",
+      "lat": 34.7316545,
+      "lng": 134.2677862,
+      "formatted_address": "889-7 Hinasechō Hinase, Bizen, Okayama 701-3204, Japan",
+      "place_id": "ChIJCSz5ubhnVDUR23kFUrftxzE"
+    },
+    "岡山県岡山県備前市東片上１２６＿２Ｆ": {
+      "normalized_address": "岡山県岡山県備前市東片上１２６＿２Ｆ",
+      "raw_prefecture": "岡山県",
+      "raw_address": "岡山県備前市東片上１２６＿２Ｆ",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:12+00:00",
+      "lat": 34.7452034,
+      "lng": 134.1888055,
+      "formatted_address": "2f, 126 Higashikatakami, Bizen, Okayama 705-0022, Japan",
+      "place_id": "EjcyZiwgMTI2IEhpZ2FzaGlrYXRha2FtaSwgQml6ZW4sIE9rYXlhbWEgNzA1LTAwMjIsIEphcGFuIh4aHAoWChQKEgnP2w13bWlUNRGp2_lUtYyZARICMmY"
+    },
+    "岡山県岡山県加賀郡吉備中央町上竹１２６３－１": {
+      "normalized_address": "岡山県岡山県加賀郡吉備中央町上竹１２６３－１",
+      "raw_prefecture": "岡山県",
+      "raw_address": "岡山県加賀郡吉備中央町上竹１２６３－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:13+00:00",
+      "lat": 34.8519058,
+      "lng": 133.6785311,
+      "formatted_address": "1263 Kamitake, Kibichuo, Kaga District, Okayama 716-1131, Japan",
+      "place_id": "ChIJf_NBiQivVjUR9rlzzWKDPQ8"
+    },
+    "岡山県岡山県岡山市中区高屋２８４－１": {
+      "normalized_address": "岡山県岡山県岡山市中区高屋２８４－１",
+      "raw_prefecture": "岡山県",
+      "raw_address": "岡山県岡山市中区高屋２８４－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:13+00:00",
+      "lat": 34.6738253,
+      "lng": 133.9670417,
+      "formatted_address": "Japan, 〒703-8233 Okayama, Naka Ward, Takaya, ２８４−１ あさひ",
+      "place_id": "ChIJe-eaj8sIVDURlvGF7y57BVU"
+    },
+    "岡山県岡山県岡山市北区大安寺南町２－１－２７": {
+      "normalized_address": "岡山県岡山県岡山市北区大安寺南町２－１－２７",
+      "raw_prefecture": "岡山県",
+      "raw_address": "岡山県岡山市北区大安寺南町２－１－２７",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:13+00:00",
+      "lat": 34.6590384,
+      "lng": 133.8884179,
+      "formatted_address": "2-chōme-1-27 Daianji Minamimachi, Kita Ward, Okayama, 700-0064, Japan",
+      "place_id": "ChIJ24G-JRUHVDURuUVwIm_vf7E"
+    },
+    "岡山県岡山県岡山市北区津島西坂１－１－３１": {
+      "normalized_address": "岡山県岡山県岡山市北区津島西坂１－１－３１",
+      "raw_prefecture": "岡山県",
+      "raw_address": "岡山県岡山市北区津島西坂１－１－３１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:13+00:00",
+      "lat": 34.68193979999999,
+      "lng": 133.9069852,
+      "formatted_address": "1-chōme-1-31 Tsushimanishizaka, Kita Ward, Okayama, 700-0086, Japan",
+      "place_id": "ChIJfcH7OV8GVDURKyNEOEM_vrA"
+    },
+    "岡山県岡山県岡山市北区駅前町１－１－１": {
+      "normalized_address": "岡山県岡山県岡山市北区駅前町１－１－１",
+      "raw_prefecture": "岡山県",
+      "raw_address": "岡山県岡山市北区駅前町１－１－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:14+00:00",
+      "lat": 34.6659315,
+      "lng": 133.9198144,
+      "formatted_address": "1-chōme-1-1 Ekimaechō, Kita Ward, Okayama, 700-0023, Japan",
+      "place_id": "ChIJcw4fCUwGVDURse4q7crsNvc"
+    },
+    "岡山県岡山県岡山市南区新保１１９５－３": {
+      "normalized_address": "岡山県岡山県岡山市南区新保１１９５－３",
+      "raw_prefecture": "岡山県",
+      "raw_address": "岡山県岡山市南区新保１１９５－３",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:14+00:00",
+      "lat": 34.6371252,
+      "lng": 133.9139633,
+      "formatted_address": "1195-3 Shinbō, Minami Ward, Okayama, 700-0945, Japan",
+      "place_id": "ChIJD706R4UHVDURohpJh-Osh6Y"
+    },
+    "岡山県岡山県岡山市南区福島３－６－３６": {
+      "normalized_address": "岡山県岡山県岡山市南区福島３－６－３６",
+      "raw_prefecture": "岡山県",
+      "raw_address": "岡山県岡山市南区福島３－６－３６",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:14+00:00",
+      "lat": 34.6146829,
+      "lng": 133.9512194,
+      "formatted_address": "Japan, 〒702-8044 Okayama, Minami Ward, Fukushima, 3-chōme−6−３６ アベサイクル",
+      "place_id": "ChIJe1raAwMIVDURR4PJTqaam3s"
+    },
+    "岡山県岡山県岡山市東区西大寺浜８８７－３": {
+      "normalized_address": "岡山県岡山県岡山市東区西大寺浜８８７－３",
+      "raw_prefecture": "岡山県",
+      "raw_address": "岡山県岡山市東区西大寺浜８８７－３",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:15+00:00",
+      "lat": 34.6440164,
+      "lng": 134.0460342,
+      "formatted_address": "887-3 Saidaijihama, Higashi-ku, Okayama, 704-8125, Japan",
+      "place_id": "ChIJZdbu4XYMVDURrHpREZ1Jv9c"
+    },
+    "岡山県岡山県津山市材木町１９": {
+      "normalized_address": "岡山県岡山県津山市材木町１９",
+      "raw_prefecture": "岡山県",
+      "raw_address": "岡山県津山市材木町１９",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:15+00:00",
+      "lat": 35.0598912,
+      "lng": 134.0069259,
+      "formatted_address": "19 Zaimokumachi, Tsuyama, Okayama 708-0031, Japan",
+      "place_id": "ChIJf7ukySQxVDURKtPCDh0iUFw"
+    },
+    "岡山県岡山県津山市領家１４４６": {
+      "normalized_address": "岡山県岡山県津山市領家１４４６",
+      "raw_prefecture": "岡山県",
+      "raw_address": "岡山県津山市領家１４４６",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:15+00:00",
+      "lat": 35.0677711,
+      "lng": 133.9087942,
+      "formatted_address": "1446 Ryōke, Tsuyama, Okayama 709-4611, Japan",
+      "place_id": "ChIJh0_oGYMvVDUR8esicXoP08Y"
+    },
+    "岡山県岡山県真庭市樫西２９０": {
+      "normalized_address": "岡山県岡山県真庭市樫西２９０",
+      "raw_prefecture": "岡山県",
+      "raw_address": "岡山県真庭市樫西２９０",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:15+00:00",
+      "lat": 35.1056402,
+      "lng": 133.7694488,
+      "formatted_address": "290 Kashinishi, Maniwa, Okayama 719-3211, Japan",
+      "place_id": "ChIJqQkg1T-dVjUREMvT4owVVKI"
+    },
+    "岡山県岡山県真庭市落合垂水４３１": {
+      "normalized_address": "岡山県岡山県真庭市落合垂水４３１",
+      "raw_prefecture": "岡山県",
+      "raw_address": "岡山県真庭市落合垂水４３１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:16+00:00",
+      "lat": 35.0173588,
+      "lng": 133.7503496,
+      "formatted_address": "431 Ochiaitarumi, Maniwa, Okayama 719-3144, Japan",
+      "place_id": "ChIJBUaBrQefVjURRtDC_uhnz6s"
+    },
+    "岡山県岡山県美作市平田６４": {
+      "normalized_address": "岡山県岡山県美作市平田６４",
+      "raw_prefecture": "岡山県",
+      "raw_address": "岡山県美作市平田６４",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:16+00:00",
+      "lat": 35.0012582,
+      "lng": 134.1713788,
+      "formatted_address": "64 Hirata, Mimasaka, Okayama 707-0035, Japan",
+      "place_id": "ChIJVTf6JU1JVDUR3qIVmG4jsN0"
+    },
+    "岡山県岡山県都窪郡早島町早島２３２０－１": {
+      "normalized_address": "岡山県岡山県都窪郡早島町早島２３２０－１",
+      "raw_prefecture": "岡山県",
+      "raw_address": "岡山県都窪郡早島町早島２３２０－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:16+00:00",
+      "lat": 34.5978891,
+      "lng": 133.8204834,
+      "formatted_address": "2320-1 Hayashima, Tsukubo District, Okayama 701-0304, Japan",
+      "place_id": "ChIJzVcmlNf9UzUR8zHMCQI7WWs"
+    }
+  }
+}

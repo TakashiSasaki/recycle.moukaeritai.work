@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "generated_at": "2026-03-28T03:30:03+00:00",
+  "source_file": "docs/data/2-30.json",
+  "entries": {
+    "和歌山県和歌山県和歌山市三葛２５３－１": {
+      "normalized_address": "和歌山県和歌山県和歌山市三葛２５３－１",
+      "raw_prefecture": "和歌山県",
+      "raw_address": "和歌山県和歌山市三葛２５３－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:00+00:00",
+      "lat": 34.1910229,
+      "lng": 135.1859178,
+      "formatted_address": "253-1 Mikazura, Wakayama, 641-0011, Japan",
+      "place_id": "ChIJV_sEuQJNB2ARKRLM4pFWaQg"
+    },
+    "和歌山県和歌山県和歌山市大谷８９－１": {
+      "normalized_address": "和歌山県和歌山県和歌山市大谷８９－１",
+      "raw_prefecture": "和歌山県",
+      "raw_address": "和歌山県和歌山市大谷８９－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:00+00:00",
+      "lat": 34.2603618,
+      "lng": 135.1800733,
+      "formatted_address": "89-1 Ōtani, Wakayama, 640-8472, Japan",
+      "place_id": "ChIJhYP8Kk6yAGARwF9K-QaK_6Y"
+    },
+    "和歌山県和歌山県和歌山市新生町１０－１０": {
+      "normalized_address": "和歌山県和歌山県和歌山市新生町１０－１０",
+      "raw_prefecture": "和歌山県",
+      "raw_address": "和歌山県和歌山市新生町１０－１０",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:00+00:00",
+      "lat": 34.2226102,
+      "lng": 135.1896587,
+      "formatted_address": "10-10 Shinseichō, Wakayama, 640-8325, Japan",
+      "place_id": "ChIJI9BnqSuzAGAR7wU0a3ofMIQ"
+    },
+    "和歌山県和歌山県和歌山市松江中３－８－４９": {
+      "normalized_address": "和歌山県和歌山県和歌山市松江中３－８－４９",
+      "raw_prefecture": "和歌山県",
+      "raw_address": "和歌山県和歌山市松江中３－８－４９",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:01+00:00",
+      "lat": 34.2495857,
+      "lng": 135.1296338,
+      "formatted_address": "3-chōme-8-49 Matsuenaka, Wakayama, 640-8423, Japan",
+      "place_id": "ChIJT1Iu7cGtAGARi2hKMkBLzUY"
+    },
+    "和歌山県和歌山県和歌山市次郎丸８４－４": {
+      "normalized_address": "和歌山県和歌山県和歌山市次郎丸８４－４",
+      "raw_prefecture": "和歌山県",
+      "raw_address": "和歌山県和歌山市次郎丸８４－４",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:01+00:00",
+      "lat": 34.2542392,
+      "lng": 135.1480252,
+      "formatted_address": "84-4 Jiromaru, Wakayama, 640-8444, Japan",
+      "place_id": "ChIJLWd2y4qtAGARJKAv_XB7Mk0"
+    },
+    "和歌山県和歌山県和歌山市秋月６７－１": {
+      "normalized_address": "和歌山県和歌山県和歌山市秋月６７－１",
+      "raw_prefecture": "和歌山県",
+      "raw_address": "和歌山県和歌山市秋月６７－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:01+00:00",
+      "lat": 34.2331527,
+      "lng": 135.2018333,
+      "formatted_address": "Japan, 〒640-8322 Wakayama, Akizuki, ６７−１ しろがね",
+      "place_id": "ChIJ9U7KPDezAGARnwwW8Ad0RcA"
+    },
+    "和歌山県和歌山県岩出市中島６０７－１": {
+      "normalized_address": "和歌山県和歌山県岩出市中島６０７－１",
+      "raw_prefecture": "和歌山県",
+      "raw_address": "和歌山県岩出市中島６０７－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:01+00:00",
+      "lat": 34.2630764,
+      "lng": 135.2873985,
+      "formatted_address": "607-1 Nakajima, Iwade, Wakayama 649-6245, Japan",
+      "place_id": "ChIJR6iiALNKB2AR0LTmirRec9U"
+    },
+    "和歌山県和歌山県新宮市橋本２－１４－２３": {
+      "normalized_address": "和歌山県和歌山県新宮市橋本２－１４－２３",
+      "raw_prefecture": "和歌山県",
+      "raw_address": "和歌山県新宮市橋本２－１４－２３",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:02+00:00",
+      "lat": 33.7143675,
+      "lng": 135.9903519,
+      "formatted_address": "2-chōme-14-23 Hashimoto, Shingu, Wakayama 647-0052, Japan",
+      "place_id": "ChIJOT3S8E8TBmARLaHr5L7xEAg"
+    },
+    "和歌山県和歌山県有田郡有田川町大字下津野２０１８－４有田川町役場吉備庁舎２Ｆ": {
+      "normalized_address": "和歌山県和歌山県有田郡有田川町大字下津野２０１８－４有田川町役場吉備庁舎２Ｆ",
+      "raw_prefecture": "和歌山県",
+      "raw_address": "和歌山県有田郡有田川町大字下津野２０１８－４有田川町役場吉備庁舎２Ｆ",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:02+00:00",
+      "lat": 34.0575048,
+      "lng": 135.2161139,
+      "formatted_address": "2018-4 Shimotsuno, Aridagawa, Arida District, Wakayama 643-0021, Japan",
+      "place_id": "ChIJRRJFFdJFB2ARv5V-094j0xE"
+    },
+    "和歌山県和歌山県有田郡有田川町庄１０４１－１": {
+      "normalized_address": "和歌山県和歌山県有田郡有田川町庄１０４１－１",
+      "raw_prefecture": "和歌山県",
+      "raw_address": "和歌山県有田郡有田川町庄１０４１－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:02+00:00",
+      "lat": 34.0671722,
+      "lng": 135.2372447,
+      "formatted_address": "Sho, Aridagawa, Arida District, Wakayama 643-0811, Japan",
+      "place_id": "ChIJh44AuolGB2AR416jdaZgDrY"
+    },
+    "和歌山県和歌山県有田郡有田川町明王寺３１５－１": {
+      "normalized_address": "和歌山県和歌山県有田郡有田川町明王寺３１５－１",
+      "raw_prefecture": "和歌山県",
+      "raw_address": "和歌山県有田郡有田川町明王寺３１５－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:03+00:00",
+      "lat": 34.0591195,
+      "lng": 135.1977716,
+      "formatted_address": "315-1 Myoōji, Aridagawa, Arida District, Wakayama 643-0033, Japan",
+      "place_id": "ChIJMxfBnbxFB2ARWetAE17CFh8"
+    },
+    "和歌山県和歌山県東牟婁郡串本町田並２２８８－１": {
+      "normalized_address": "和歌山県和歌山県東牟婁郡串本町田並２２８８－１",
+      "raw_prefecture": "和歌山県",
+      "raw_address": "和歌山県東牟婁郡串本町田並２２８８－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:03+00:00",
+      "lat": 33.4863912,
+      "lng": 135.7238336,
+      "formatted_address": "2288-1 Tanami, Kushimoto, Higashimuro District, Wakayama 649-3515, Japan",
+      "place_id": "ChIJ--HYVEUwBmARiXwiwG7dD68"
+    },
+    "和歌山県和歌山県田辺市元町２２９１－６": {
+      "normalized_address": "和歌山県和歌山県田辺市元町２２９１－６",
+      "raw_prefecture": "和歌山県",
+      "raw_address": "和歌山県田辺市元町２２９１－６",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:03+00:00",
+      "lat": 33.7507889,
+      "lng": 135.3660901,
+      "formatted_address": "2291-6 Motomachi, Tanabe, Wakayama 646-0053, Japan",
+      "place_id": "ChIJr29BQSMKB2ARdONp9YjY-HA"
+    }
+  }
+}

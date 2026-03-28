@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "generated_at": "2026-03-28T03:30:44+00:00",
+  "source_file": "docs/data/2-37.json",
+  "entries": {
+    "香川県香川県丸亀市垂水町３２３５－１": {
+      "normalized_address": "香川県香川県丸亀市垂水町３２３５－１",
+      "raw_prefecture": "香川県",
+      "raw_address": "香川県丸亀市垂水町３２３５－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:41+00:00",
+      "lat": 34.2408299,
+      "lng": 133.8241002,
+      "formatted_address": "3235-1 Tarumichō, Marugame, Kagawa 763-0095, Japan",
+      "place_id": "ChIJDce-finYUzURDTR3mUNM6ng"
+    },
+    "香川県香川県丸亀市田村町７０３－１": {
+      "normalized_address": "香川県香川県丸亀市田村町７０３－１",
+      "raw_prefecture": "香川県",
+      "raw_address": "香川県丸亀市田村町７０３－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:41+00:00",
+      "lat": 34.2658029,
+      "lng": 133.794545,
+      "formatted_address": "703-1 Tamurachō, Marugame, Kagawa 763-0071, Japan",
+      "place_id": "ChIJXcH06QvYUzURh0w2q6koCqE"
+    },
+    "香川県香川県丸亀市飯山町下法軍寺６３８－２": {
+      "normalized_address": "香川県香川県丸亀市飯山町下法軍寺６３８－２",
+      "raw_prefecture": "香川県",
+      "raw_address": "香川県丸亀市飯山町下法軍寺６３８－２",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:42+00:00",
+      "lat": 34.258348,
+      "lng": 133.8556605,
+      "formatted_address": "638-2 Hanzanchō Shimohōgunji, Marugame, Kagawa 762-0083, Japan",
+      "place_id": "ChIJ3TZSBJ3ZUzURL-b5JTxOjzw"
+    },
+    "香川県香川県小豆郡小豆島町片城甲４４－９５": {
+      "normalized_address": "香川県香川県小豆郡小豆島町片城甲４４－９５",
+      "raw_prefecture": "香川県",
+      "raw_address": "香川県小豆郡小豆島町片城甲４４－９５",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:42+00:00",
+      "lat": 34.4795557,
+      "lng": 134.3081834,
+      "formatted_address": "44-95 Katajō, Shodoshima, Shozu District, Kagawa 761-4431, Japan",
+      "place_id": "ChIJlQ2OX9x4VDURHynt0lIz22U"
+    },
+    "香川県香川県綾歌郡綾川町山田下２２２４": {
+      "normalized_address": "香川県香川県綾歌郡綾川町山田下２２２４",
+      "raw_prefecture": "香川県",
+      "raw_address": "香川県綾歌郡綾川町山田下２２２４",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:42+00:00",
+      "lat": 34.2261832,
+      "lng": 133.9495404,
+      "formatted_address": "2224 Yamadashimo, Ayagawa, Ayauta District, Kagawa 761-2204, Japan",
+      "place_id": "ChIJg1zk6tHEUzURJYwqstKjcwM"
+    },
+    "香川県香川県綾歌郡綾川町滝宮２９９": {
+      "normalized_address": "香川県香川県綾歌郡綾川町滝宮２９９",
+      "raw_prefecture": "香川県",
+      "raw_address": "香川県綾歌郡綾川町滝宮２９９",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:42+00:00",
+      "lat": 34.2492823,
+      "lng": 133.9231831,
+      "formatted_address": "299 Takinomiya, Ayagawa, Ayauta District, Kagawa 761-2305, Japan",
+      "place_id": "ChIJgxS162rbUzURsoo7Mm_YBjw"
+    },
+    "香川県香川県観音寺市南町４－２－１０": {
+      "normalized_address": "香川県香川県観音寺市南町４－２－１０",
+      "raw_prefecture": "香川県",
+      "raw_address": "香川県観音寺市南町４－２－１０",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:43+00:00",
+      "lat": 34.1166219,
+      "lng": 133.6468764,
+      "formatted_address": "4-chōme-2-10 Minamimachi, Kanonji, Kagawa 768-0070, Japan",
+      "place_id": "ChIJ76SlgEiDUTUR_cAKcNJtfi8"
+    },
+    "香川県香川県高松市一宮町３２４－１": {
+      "normalized_address": "香川県香川県高松市一宮町３２４－１",
+      "raw_prefecture": "香川県",
+      "raw_address": "香川県高松市一宮町３２４－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:43+00:00",
+      "lat": 34.2846001,
+      "lng": 134.0281578,
+      "formatted_address": "324-1 Ichinomiyachō, Takamatsu, Kagawa 761-8084, Japan",
+      "place_id": "ChIJJ9uTF_vBUzURAMkCven10NU"
+    },
+    "香川県香川県高松市多肥下町１５５３－１": {
+      "normalized_address": "香川県香川県高松市多肥下町１５５３－１",
+      "raw_prefecture": "香川県",
+      "raw_address": "香川県高松市多肥下町１５５３－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:43+00:00",
+      "lat": 34.2990714,
+      "lng": 134.0583329,
+      "formatted_address": "1553-1 Tahi Shimomachi, Takamatsu, Kagawa 761-8075, Japan",
+      "place_id": "ChIJRZ89-vXqUzUR3dvu1jaOAL4"
+    },
+    "香川県香川県高松市屋島西町１９２９－１": {
+      "normalized_address": "香川県香川県高松市屋島西町１９２９－１",
+      "raw_prefecture": "香川県",
+      "raw_address": "香川県高松市屋島西町１９２９－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:43+00:00",
+      "lat": 34.3398737,
+      "lng": 134.1041633,
+      "formatted_address": "1929-1 Yashima Nishimachi, 屋島 Takamatsu, Kagawa 761-0113, Japan",
+      "place_id": "ChIJIY2eDU-TUzURXCs3kQk_H-k"
+    },
+    "香川県香川県高松市木太町２２８２－１環境業務センター": {
+      "normalized_address": "香川県香川県高松市木太町２２８２－１環境業務センター",
+      "raw_prefecture": "香川県",
+      "raw_address": "香川県高松市木太町２２８２－１環境業務センター",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:44+00:00",
+      "lat": 34.3391052,
+      "lng": 134.0716475,
+      "formatted_address": "Japan, 〒760-0068 Kagawa, Takamatsu, Kitachō, 3-chōme−21−２２８２−１ 高松市環境業務センター",
+      "place_id": "ChIJaex872PrUzUR6j8EaKprF3U"
+    },
+    "香川県香川県高松市紙町８３－１": {
+      "normalized_address": "香川県香川県高松市紙町８３－１",
+      "raw_prefecture": "香川県",
+      "raw_address": "香川県高松市紙町８３－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:44+00:00",
+      "lat": 34.3162192,
+      "lng": 134.038485,
+      "formatted_address": "83-1 Kamimachi, Takamatsu, Kagawa 761-8055, Japan",
+      "place_id": "ChIJq197IjbqUzURJ_zpekRCC8Q"
+    },
+    "香川県香川県高松市鬼無町佐藤１７－８": {
+      "normalized_address": "香川県香川県高松市鬼無町佐藤１７－８",
+      "raw_prefecture": "香川県",
+      "raw_address": "香川県高松市鬼無町佐藤１７－８",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:30:44+00:00",
+      "lat": 34.3259989,
+      "lng": 133.9937783,
+      "formatted_address": "17-8 Kinashichō Satō, Takamatsu, Kagawa 761-8023, Japan",
+      "place_id": "ChIJy7iR-LjpUzURm2nYM8wk_GI"
+    }
+  }
+}

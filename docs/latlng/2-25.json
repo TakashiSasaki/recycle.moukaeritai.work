@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "generated_at": "2026-03-28T03:28:31+00:00",
+  "source_file": "docs/data/2-25.json",
+  "entries": {
+    "滋賀県滋賀県大津市大萱１－３－２３": {
+      "normalized_address": "滋賀県滋賀県大津市大萱１－３－２３",
+      "raw_prefecture": "滋賀県",
+      "raw_address": "滋賀県大津市大萱１－３－２３",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:28:27+00:00",
+      "lat": 34.9839746,
+      "lng": 135.922355,
+      "formatted_address": "1-chōme-3-23 Ōgaya, Otsu, Shiga 520-2144, Japan",
+      "place_id": "ChIJmYJzBqByAWARhA3OYEBk7QQ"
+    },
+    "滋賀県滋賀県大津市松山町１－３１": {
+      "normalized_address": "滋賀県滋賀県大津市松山町１－３１",
+      "raw_prefecture": "滋賀県",
+      "raw_address": "滋賀県大津市松山町１－３１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:28:28+00:00",
+      "lat": 35.0252921,
+      "lng": 135.8621168,
+      "formatted_address": "1-31 Matsuyamachō, Otsu, Shiga 520-0024, Japan",
+      "place_id": "ChIJ_bDmJn8MAWARID2zNzzBgsA"
+    },
+    "滋賀県滋賀県守山市播磨田町１８５－１モリーブ３０１区画": {
+      "normalized_address": "滋賀県滋賀県守山市播磨田町１８５－１モリーブ３０１区画",
+      "raw_prefecture": "滋賀県",
+      "raw_address": "滋賀県守山市播磨田町１８５－１モリーブ３０１区画",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:28:28+00:00",
+      "lat": 35.0667876,
+      "lng": 135.9949441,
+      "formatted_address": "185-1 Harimadachō, Moriyama, Shiga 524-0012, Japan",
+      "place_id": "ChIJhYQT52txAWARI83yj2MyiUU"
+    },
+    "滋賀県滋賀県彦根市戸賀町７０－１": {
+      "normalized_address": "滋賀県滋賀県彦根市戸賀町７０－１",
+      "raw_prefecture": "滋賀県",
+      "raw_address": "滋賀県彦根市戸賀町７０－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:28:28+00:00",
+      "lat": 35.2550753,
+      "lng": 136.239219,
+      "formatted_address": "70-1 Togachō, Hikone, Shiga 522-0042, Japan",
+      "place_id": "ChIJiSZmFSPVA2ARtQ93Nu6f15I"
+    },
+    "滋賀県滋賀県彦根市芹川町１４５５－１": {
+      "normalized_address": "滋賀県滋賀県彦根市芹川町１４５５－１",
+      "raw_prefecture": "滋賀県",
+      "raw_address": "滋賀県彦根市芹川町１４５５－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:28:29+00:00",
+      "lat": 35.2592446,
+      "lng": 136.2559545,
+      "formatted_address": "1455-1 Serikawachō, Hikone, Shiga 522-0033, Japan",
+      "place_id": "ChIJ-U_69OfUA2ARehxCzwdS9Jk"
+    },
+    "滋賀県滋賀県愛知郡愛荘町東円堂１４３３": {
+      "normalized_address": "滋賀県滋賀県愛知郡愛荘町東円堂１４３３",
+      "raw_prefecture": "滋賀県",
+      "raw_address": "滋賀県愛知郡愛荘町東円堂１４３３",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:28:29+00:00",
+      "lat": 35.15788879999999,
+      "lng": 136.2180794,
+      "formatted_address": "1433 Tōendō, Aishō, Echi District, Shiga 529-1325, Japan",
+      "place_id": "ChIJq5W7CC7WA2ARRU2C2l8Bdlc"
+    },
+    "滋賀県滋賀県栗東市坊袋２５０－３": {
+      "normalized_address": "滋賀県滋賀県栗東市坊袋２５０－３",
+      "raw_prefecture": "滋賀県",
+      "raw_address": "滋賀県栗東市坊袋２５０－３",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:28:29+00:00",
+      "lat": 35.0217406,
+      "lng": 135.9801345,
+      "formatted_address": "250-3 Bōbukuro, Ritto, Shiga 520-3023, Japan",
+      "place_id": "ChIJBaNYJ_ZxAWARuIKpxECnaOs"
+    },
+    "滋賀県滋賀県栗東市安養寺７－２－１１": {
+      "normalized_address": "滋賀県滋賀県栗東市安養寺７－２－１１",
+      "raw_prefecture": "滋賀県",
+      "raw_address": "滋賀県栗東市安養寺７－２－１１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:28:29+00:00",
+      "lat": 35.0206109,
+      "lng": 135.9958362,
+      "formatted_address": "7-chōme-2-11 Anyōji, Ritto, Shiga 520-3015, Japan",
+      "place_id": "ChIJpUxbOeFxAWARiKo0dwojRkI"
+    },
+    "滋賀県滋賀県湖南市中央１－１": {
+      "normalized_address": "滋賀県滋賀県湖南市中央１－１",
+      "raw_prefecture": "滋賀県",
+      "raw_address": "滋賀県湖南市中央１－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:28:30+00:00",
+      "lat": 35.0035061,
+      "lng": 136.083981,
+      "formatted_address": "1-chōme-1 Chūō, Konan, Shiga 520-3234, Japan",
+      "place_id": "ChIJdztHCrhlAWARD2crK42bJkA"
+    },
+    "滋賀県滋賀県湖南市岩根１３６": {
+      "normalized_address": "滋賀県滋賀県湖南市岩根１３６",
+      "raw_prefecture": "滋賀県",
+      "raw_address": "滋賀県湖南市岩根１３６",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:28:30+00:00",
+      "lat": 35.0043142,
+      "lng": 136.1367052,
+      "formatted_address": "136 Iwane, Konan, Shiga 520-3252, Japan",
+      "place_id": "ChIJN1BL7lNhAWARYP4kTa43jGY"
+    },
+    "滋賀県滋賀県湖南市石部中央１－１－１": {
+      "normalized_address": "滋賀県滋賀県湖南市石部中央１－１－１",
+      "raw_prefecture": "滋賀県",
+      "raw_address": "滋賀県湖南市石部中央１－１－１",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:28:30+00:00",
+      "lat": 35.0104874,
+      "lng": 136.0589129,
+      "formatted_address": "Japan, 〒520-3106 Shiga, Konan, Ishibechūō, 1-chōme−1−１ 湖南市役所西庁舎",
+      "place_id": "ChIJ8VB2d39lAWARenKAIyOL0NY"
+    },
+    "滋賀県滋賀県甲賀市水口町八坂３－５７": {
+      "normalized_address": "滋賀県滋賀県甲賀市水口町八坂３－５７",
+      "raw_prefecture": "滋賀県",
+      "raw_address": "滋賀県甲賀市水口町八坂３－５７",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:28:31+00:00",
+      "lat": 34.9743219,
+      "lng": 136.1723069,
+      "formatted_address": "3-57 Minakuchichō Yasaka, Koka, Shiga 528-0032, Japan",
+      "place_id": "ChIJmVW3C19gAWARSIRUx7otwq8"
+    },
+    "滋賀県滋賀県草津市馬場町１２００ー２５草津市立クリーン内": {
+      "normalized_address": "滋賀県滋賀県草津市馬場町１２００ー２５草津市立クリーン内",
+      "raw_prefecture": "滋賀県",
+      "raw_address": "滋賀県草津市馬場町１２００ー２５草津市立クリーン内",
+      "status": "ok",
+      "updated_at": "2026-03-28T03:28:31+00:00",
+      "lat": 34.9839591,
+      "lng": 135.9810638,
+      "formatted_address": "1200番地25 Banbachō, Kusatsu, Shiga 525-0043, Japan",
+      "place_id": "ChIJCe9eC9htAWARdMyBqBlUXgA"
+    }
+  }
+}
