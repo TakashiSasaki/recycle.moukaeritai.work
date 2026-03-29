@@ -1,0 +1,205 @@
+{
+  "version": 1,
+  "generated_at": "2026-03-29T13:32:35+00:00",
+  "source_file": "docs/data/2-42.json",
+  "entries": {
+    "長崎県長崎県南松浦郡新上五島町鯛ノ浦郷５－１７０": {
+      "normalized_address": "長崎県長崎県南松浦郡新上五島町鯛ノ浦郷５－１７０",
+      "raw_prefecture": "長崎県",
+      "raw_address": "長崎県南松浦郡新上五島町鯛ノ浦郷５－１７０",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:31+00:00",
+      "lat": 32.9386393,
+      "lng": 129.1077094,
+      "formatted_address": "5-170 Tainouragō, Shinkamigoto, Minamimatsuura District, Nagasaki 853-3321, Japan",
+      "place_id": "ChIJu60eef7OFDURWR0kBMqb0Uo"
+    },
+    "長崎県長崎県壱岐市芦辺町住吉東触７２８－１": {
+      "normalized_address": "長崎県長崎県壱岐市芦辺町住吉東触７２８－１",
+      "raw_prefecture": "長崎県",
+      "raw_address": "長崎県壱岐市芦辺町住吉東触７２８－１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:31+00:00",
+      "lat": 33.7895271,
+      "lng": 129.7142638,
+      "formatted_address": "728-1 Ashibechō Sumiyoshihigashifure, Iki, Nagasaki 811-5742, Japan",
+      "place_id": "ChIJHbe2ZxUUajURemlYwoLpGAA"
+    },
+    "長崎県長崎県壱岐市芦辺町芦辺浦５６２": {
+      "normalized_address": "長崎県長崎県壱岐市芦辺町芦辺浦５６２",
+      "raw_prefecture": "長崎県",
+      "raw_address": "長崎県壱岐市芦辺町芦辺浦５６２",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:32+00:00",
+      "lat": 33.8021445,
+      "lng": 129.7627989,
+      "formatted_address": "562 Ashibechō Ashibeura, Iki, Nagasaki 811-5301, Japan",
+      "place_id": "ChIJTymbfW4RajURAExLFVXC6kU"
+    },
+    "長崎県長崎県大村市水主町１－９９３－１": {
+      "normalized_address": "長崎県長崎県大村市水主町１－９９３－１",
+      "raw_prefecture": "長崎県",
+      "raw_address": "長崎県大村市水主町１－９９３－１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:32+00:00",
+      "lat": 32.9087643,
+      "lng": 129.9544137,
+      "formatted_address": "1-chōme-993-1 Kakomachi, Ōmura, Nagasaki 856-0827, Japan",
+      "place_id": "ChIJeVA46runajUR5wvbaUUZkiQ"
+    },
+    "長崎県長崎県対馬市上対馬町比田勝５７５－１": {
+      "normalized_address": "長崎県長崎県対馬市上対馬町比田勝５７５－１",
+      "raw_prefecture": "長崎県",
+      "raw_address": "長崎県対馬市上対馬町比田勝５７５－１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:32+00:00",
+      "lat": 34.6539884,
+      "lng": 129.4584109,
+      "formatted_address": "575-1 Kamitsushimamachi Hitakatsu, Tsushima, Nagasaki 817-1701, Japan",
+      "place_id": "ChIJAwU6UXauaTURCdJwbz5XDd0"
+    },
+    "長崎県長崎県対馬市上県町佐須奈乙２６８－２": {
+      "normalized_address": "長崎県長崎県対馬市上県町佐須奈乙２６８－２",
+      "raw_prefecture": "長崎県",
+      "raw_address": "長崎県対馬市上県町佐須奈乙２６８－２",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:32+00:00",
+      "lat": 34.63708,
+      "lng": 129.3984056,
+      "formatted_address": "Kamiagatamachi Sasuna, Tsushima, Nagasaki 817-1602, Japan",
+      "place_id": "ChIJsypUG9SoaTUR3jED9LXr3xQ"
+    },
+    "長崎県長崎県対馬市上県町佐須奈甲５６７－３": {
+      "normalized_address": "長崎県長崎県対馬市上県町佐須奈甲５６７－３",
+      "raw_prefecture": "長崎県",
+      "raw_address": "長崎県対馬市上県町佐須奈甲５６７－３",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:32+00:00",
+      "lat": 34.63708,
+      "lng": 129.3984056,
+      "formatted_address": "Kamiagatamachi Sasuna, Tsushima, Nagasaki 817-1602, Japan",
+      "place_id": "ChIJsypUG9SoaTUR3jED9LXr3xQ"
+    },
+    "長崎県長崎県対馬市厳原町国分１４４１": {
+      "normalized_address": "長崎県長崎県対馬市厳原町国分１４４１",
+      "raw_prefecture": "長崎県",
+      "raw_address": "長崎県対馬市厳原町国分１４４１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:33+00:00",
+      "lat": 34.2027649,
+      "lng": 129.2874344,
+      "formatted_address": "1441 Izuharamachi Kokubu, Tsushima, Nagasaki 817-0022, Japan",
+      "place_id": "ChIJEYIO-tB_aTUR1Ta0A2vTgU8"
+    },
+    "長崎県長崎県対馬市峰町三根４５１": {
+      "normalized_address": "長崎県長崎県対馬市峰町三根４５１",
+      "raw_prefecture": "長崎県",
+      "raw_address": "長崎県対馬市峰町三根４５１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:33+00:00",
+      "lat": 34.4696314,
+      "lng": 129.3164377,
+      "formatted_address": "451 Minemachimine, Tsushima, Nagasaki 817-1301, Japan",
+      "place_id": "ChIJ74gGjF51aTURIp4DR_vWrww"
+    },
+    "長崎県長崎県対馬市美津島町鶏知甲５５０－２": {
+      "normalized_address": "長崎県長崎県対馬市美津島町鶏知甲５５０－２",
+      "raw_prefecture": "長崎県",
+      "raw_address": "長崎県対馬市美津島町鶏知甲５５０－２",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:33+00:00",
+      "lat": 34.267448,
+      "lng": 129.315743,
+      "formatted_address": "Kechi, Mitsushimamachi Kechi, Tsushima, Nagasaki 817-0322, Japan",
+      "place_id": "ChIJLdnWK6l4aTURmDzmM-Q3bOc"
+    },
+    "長崎県長崎県対馬市豊玉町仁位３８０": {
+      "normalized_address": "長崎県長崎県対馬市豊玉町仁位３８０",
+      "raw_prefecture": "長崎県",
+      "raw_address": "長崎県対馬市豊玉町仁位３８０",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:33+00:00",
+      "lat": 34.3959514,
+      "lng": 129.317923,
+      "formatted_address": "380 Toyotamamachi Nii, Tsushima, Nagasaki 817-1201, Japan",
+      "place_id": "ChIJh347gB52aTUR4CRqqQXb3dA"
+    },
+    "長崎県長崎県平戸市岩の上町１５０８－３平戸市役所": {
+      "normalized_address": "長崎県長崎県平戸市岩の上町１５０８－３平戸市役所",
+      "raw_prefecture": "長崎県",
+      "raw_address": "長崎県平戸市岩の上町１５０８－３平戸市役所",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:34+00:00",
+      "lat": 33.368067,
+      "lng": 129.553677,
+      "formatted_address": "1508-3 Iwanouechō, Hirado, Nagasaki 859-5121, Japan",
+      "place_id": "ChIJC29TVZfxajUR3q8OZ073sG0"
+    },
+    "長崎県長崎県平戸市田平町下寺免１３１８": {
+      "normalized_address": "長崎県長崎県平戸市田平町下寺免１３１８",
+      "raw_prefecture": "長崎県",
+      "raw_address": "長崎県平戸市田平町下寺免１３１８",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:34+00:00",
+      "lat": 33.3214212,
+      "lng": 129.5766167,
+      "formatted_address": "1318 Tabirachō Shimoderamen, Hirado, Nagasaki 859-4815, Japan",
+      "place_id": "ChIJ0e-Y1OTtajURgZJJIeJLGaQ"
+    },
+    "長崎県長崎県西彼杵郡時津町日並郷２６３７－１": {
+      "normalized_address": "長崎県長崎県西彼杵郡時津町日並郷２６３７－１",
+      "raw_prefecture": "長崎県",
+      "raw_address": "長崎県西彼杵郡時津町日並郷２６３７－１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:34+00:00",
+      "lat": 32.8315549,
+      "lng": 129.8148964,
+      "formatted_address": "2637-1 Hinamigō, Togitsu, Nishisonogi District, Nagasaki 851-2108, Japan",
+      "place_id": "ChIJWb_gOHiyajUR9fP7EApncms"
+    },
+    "長崎県長崎県西彼杵郡時津町浦郷２７４－１": {
+      "normalized_address": "長崎県長崎県西彼杵郡時津町浦郷２７４－１",
+      "raw_prefecture": "長崎県",
+      "raw_address": "長崎県西彼杵郡時津町浦郷２７４－１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:34+00:00",
+      "lat": 32.8288589,
+      "lng": 129.8485421,
+      "formatted_address": "274-1 Uragō, Togitsu, Nishisonogi District, Nagasaki 851-2105, Japan",
+      "place_id": "ChIJp57c7retajURc8xX9TJJ1ag"
+    },
+    "長崎県長崎県西彼杵郡長与町嬉里郷４５６－１０": {
+      "normalized_address": "長崎県長崎県西彼杵郡長与町嬉里郷４５６－１０",
+      "raw_prefecture": "長崎県",
+      "raw_address": "長崎県西彼杵郡長与町嬉里郷４５６－１０",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:35+00:00",
+      "lat": 32.8228174,
+      "lng": 129.8766319,
+      "formatted_address": "456-10 Urerigō, Nagayo, Nishisonogi District, Nagasaki 851-2128, Japan",
+      "place_id": "ChIJ11FLbz6sajURv2BbqErTiAM"
+    },
+    "長崎県長崎県西彼杵郡長与町嬉里郷６５９－１": {
+      "normalized_address": "長崎県長崎県西彼杵郡長与町嬉里郷６５９－１",
+      "raw_prefecture": "長崎県",
+      "raw_address": "長崎県西彼杵郡長与町嬉里郷６５９－１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:35+00:00",
+      "lat": 32.824744,
+      "lng": 129.8750581,
+      "formatted_address": "659-1 Urerigō, Nagayo, Nishisonogi District, Nagasaki 851-2128, Japan",
+      "place_id": "ChIJB1BYJDysajURqMcDYlFE4KE"
+    },
+    "長崎県長崎県西彼杵郡長与町斉藤郷１０７３": {
+      "normalized_address": "長崎県長崎県西彼杵郡長与町斉藤郷１０７３",
+      "raw_prefecture": "長崎県",
+      "raw_address": "長崎県西彼杵郡長与町斉藤郷１０７３",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:35+00:00",
+      "lat": 32.8458977,
+      "lng": 129.859615,
+      "formatted_address": "1073 Saitōgō, Nagayo, Nishisonogi District, Nagasaki 851-2129, Japan",
+      "place_id": "ChIJu3O-RoCuajURqhgMzWMJ2IA"
+    }
+  }
+}

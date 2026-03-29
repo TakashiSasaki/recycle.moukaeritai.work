@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "generated_at": "2026-03-29T13:32:48+00:00",
+  "source_file": "docs/data/2-44.json",
+  "entries": {
+    "大分県大分県中津市大字蛎瀬１３６６－３": {
+      "normalized_address": "大分県大分県中津市大字蛎瀬１３６６－３",
+      "raw_prefecture": "大分県",
+      "raw_address": "大分県中津市大字蛎瀬１３６６－３",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:44+00:00",
+      "lat": 33.6087185,
+      "lng": 131.2155071,
+      "formatted_address": "1366-3 Kakize, Nakatsu, Oita 871-0007, Japan",
+      "place_id": "ChIJg_28qjj3QzURazw92cpv28U"
+    },
+    "大分県大分県中津市大新田２７６－１": {
+      "normalized_address": "大分県大分県中津市大新田２７６－１",
+      "raw_prefecture": "大分県",
+      "raw_address": "大分県中津市大新田２７６－１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:45+00:00",
+      "lat": 33.5980614,
+      "lng": 131.2274777,
+      "formatted_address": "276-1 Ōshinden, Nakatsu, Oita 871-0001, Japan",
+      "place_id": "ChIJaWxN7W73QzURPKPi6nUBA5Y"
+    },
+    "大分県大分県別府市南立石一区２組": {
+      "normalized_address": "大分県大分県別府市南立石一区２組",
+      "raw_prefecture": "大分県",
+      "raw_address": "大分県別府市南立石一区２組",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:45+00:00",
+      "lat": 33.2827253,
+      "lng": 131.4797566,
+      "formatted_address": "Japan, 〒874-0823 Oita, Beppu, Minamitateishi, 一区２２３９−２",
+      "place_id": "ChIJeYWJATSnRjURAp3KERDg9vo"
+    },
+    "大分県大分県別府市石垣西３－１－２７": {
+      "normalized_address": "大分県大分県別府市石垣西３－１－２７",
+      "raw_prefecture": "大分県",
+      "raw_address": "大分県別府市石垣西３－１－２７",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:45+00:00",
+      "lat": 33.2930094,
+      "lng": 131.4950348,
+      "formatted_address": "3-chōme-1-27 Ishigakinishi, Beppu, Oita 874-0910, Japan",
+      "place_id": "ChIJUSUIyh2nRjURt8kh30kDFFU"
+    },
+    "大分県大分県別府市船小路町６－１１": {
+      "normalized_address": "大分県大分県別府市船小路町６－１１",
+      "raw_prefecture": "大分県",
+      "raw_address": "大分県別府市船小路町６－１１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:45+00:00",
+      "lat": 33.302202,
+      "lng": 131.502671,
+      "formatted_address": "6-11 Funakōjimachi, Beppu, Oita 874-0922, Japan",
+      "place_id": "ChIJYRgJcz6nRjURcbRTJWRvIIo"
+    },
+    "大分県大分県国東市国東町鶴川１８９９－２": {
+      "normalized_address": "大分県大分県国東市国東町鶴川１８９９－２",
+      "raw_prefecture": "大分県",
+      "raw_address": "大分県国東市国東町鶴川１８９９－２",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:46+00:00",
+      "lat": 33.5602643,
+      "lng": 131.7333402,
+      "formatted_address": "1899-2 Kunisakimachi Tsurugawa, Kunisaki, Oita 873-0503, Japan",
+      "place_id": "ChIJM_CK1LNHRDURuQF_ItPczfU"
+    },
+    "大分県大分県大分市下郡１８０９－１": {
+      "normalized_address": "大分県大分県大分市下郡１８０９－１",
+      "raw_prefecture": "大分県",
+      "raw_address": "大分県大分市下郡１８０９－１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:46+00:00",
+      "lat": 33.2318614,
+      "lng": 131.6326558,
+      "formatted_address": "1809-1 Shimogōri, Oita, 870-0951, Japan",
+      "place_id": "ChIJmS67RgafRjUR4zdMUvt_by0"
+    },
+    "大分県大分県大分市森町１８１－３": {
+      "normalized_address": "大分県大分県大分市森町１８１－３",
+      "raw_prefecture": "大分県",
+      "raw_address": "大分県大分市森町１８１－３",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:46+00:00",
+      "lat": 33.2309058,
+      "lng": 131.6803861,
+      "formatted_address": "181-3 Morimachi, Oita, 870-0127, Japan",
+      "place_id": "ChIJoZmajXWeRjURSSpxKA5SkfE"
+    },
+    "大分県大分県大分市王子北町４－６７": {
+      "normalized_address": "大分県大分県大分市王子北町４－６７",
+      "raw_prefecture": "大分県",
+      "raw_address": "大分県大分市王子北町４－６７",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:46+00:00",
+      "lat": 33.2454727,
+      "lng": 131.5958524,
+      "formatted_address": "4-67 Ōji Kitamachi, Oita, 870-0005, Japan",
+      "place_id": "ChIJ73-R_tOhRjUR56UoJzZQeuc"
+    },
+    "大分県大分県大分市王子西町３－２７": {
+      "normalized_address": "大分県大分県大分市王子西町３－２７",
+      "raw_prefecture": "大分県",
+      "raw_address": "大分県大分市王子西町３－２７",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:47+00:00",
+      "lat": 33.2411649,
+      "lng": 131.5913015,
+      "formatted_address": "3-27 Ōji Nishimachi, Oita, 870-0008, Japan",
+      "place_id": "ChIJxQAUy9qhRjURXC--9zfJyw0"
+    },
+    "大分県大分県大分市生石１－３－１７": {
+      "normalized_address": "大分県大分県大分市生石１－３－１７",
+      "raw_prefecture": "大分県",
+      "raw_address": "大分県大分市生石１－３－１７",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:47+00:00",
+      "lat": 33.2440423,
+      "lng": 131.5869631,
+      "formatted_address": "1-chōme-3-17 Ikushi, Oita, 870-0003, Japan",
+      "place_id": "ChIJTbE798WhRjURsT4jhcyZz7A"
+    },
+    "大分県大分県大分市畑中１－２－３８": {
+      "normalized_address": "大分県大分県大分市畑中１－２－３８",
+      "raw_prefecture": "大分県",
+      "raw_address": "大分県大分市畑中１－２－３８",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:47+00:00",
+      "lat": 33.2056436,
+      "lng": 131.6030682,
+      "formatted_address": "1-chōme-2-38 Hatakenaka, Oita, 870-0856, Japan",
+      "place_id": "ChIJuUF8L6qYRjURWgCuSF4W8is"
+    },
+    "大分県大分県日田市丸山１－３－３９": {
+      "normalized_address": "大分県大分県日田市丸山１－３－３９",
+      "raw_prefecture": "大分県",
+      "raw_address": "大分県日田市丸山１－３－３９",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:47+00:00",
+      "lat": 33.33086,
+      "lng": 130.9379092,
+      "formatted_address": "1-chōme-3-39 Maruyama, Hita, Oita 877-0008, Japan",
+      "place_id": "ChIJ6xoDKItpQTURCBU1guVzKLE"
+    },
+    "大分県大分県臼杵市港町本通り１組": {
+      "normalized_address": "大分県大分県臼杵市港町本通り１組",
+      "raw_prefecture": "大分県",
+      "raw_address": "大分県臼杵市港町本通り１組",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:48+00:00",
+      "lat": 33.1260482,
+      "lng": 131.805109,
+      "formatted_address": "Usuki, Oita, Japan",
+      "place_id": "ChIJQ3yDgk-FRjURCm8R9d2yLY4"
+    }
+  }
+}

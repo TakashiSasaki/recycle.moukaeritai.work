@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "generated_at": "2026-03-29T13:31:58+00:00",
+  "source_file": "docs/data/2-39.json",
+  "entries": {
+    "高知県高知県南国市篠原１９８－１": {
+      "normalized_address": "高知県高知県南国市篠原１９８－１",
+      "raw_prefecture": "高知県",
+      "raw_address": "高知県南国市篠原１９８－１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:56+00:00",
+      "lat": 33.5675723,
+      "lng": 133.6346447,
+      "formatted_address": "198-1 Shinohara, Nankoku, Kochi 783-0006, Japan",
+      "place_id": "ChIJWy2khysdTjURQWuyJjyZTgk"
+    },
+    "高知県高知県土佐清水市天神町１１－２": {
+      "normalized_address": "高知県高知県土佐清水市天神町１１－２",
+      "raw_prefecture": "高知県",
+      "raw_address": "高知県土佐清水市天神町１１－２",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:56+00:00",
+      "lat": 32.7814071,
+      "lng": 132.9549157,
+      "formatted_address": "11-2 Tenjinchō, Tosashimizu, Kochi 787-0305, Japan",
+      "place_id": "ChIJed8GFuwzTzURjPdV-7wmnmE"
+    },
+    "高知県高知県須崎市山手町１－７": {
+      "normalized_address": "高知県高知県須崎市山手町１－７",
+      "raw_prefecture": "高知県",
+      "raw_address": "高知県須崎市山手町１－７",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:57+00:00",
+      "lat": 33.4007978,
+      "lng": 133.282306,
+      "formatted_address": "1-7 Yamatemachi, Susaki, Kochi 785-0031, Japan",
+      "place_id": "ChIJTVCk4CRJTjUR0OKJ4bg7HCs"
+    },
+    "高知県高知県高岡郡四万十町平串１０１６－４": {
+      "normalized_address": "高知県高知県高岡郡四万十町平串１０１６－４",
+      "raw_prefecture": "高知県",
+      "raw_address": "高知県高岡郡四万十町平串１０１６－４",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:57+00:00",
+      "lat": 33.2332868,
+      "lng": 133.1514156,
+      "formatted_address": "1016-4 Hiragushi, Shimanto, Takaoka District, Kochi 786-0026, Japan",
+      "place_id": "ChIJh6PlnpmqTzUR4TkMTSHX4P4"
+    },
+    "高知県高知県高知市南御座１４－１０": {
+      "normalized_address": "高知県高知県高知市南御座１４－１０",
+      "raw_prefecture": "高知県",
+      "raw_address": "高知県高知市南御座１４－１０",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:57+00:00",
+      "lat": 33.5662476,
+      "lng": 133.5604506,
+      "formatted_address": "14-10 Minamigoza, Kochi, 781-0084, Japan",
+      "place_id": "ChIJr7BRK6geTjURrxUQSEBIth0"
+    },
+    "高知県高知県高知市城山町２０６": {
+      "normalized_address": "高知県高知県高知市城山町２０６",
+      "raw_prefecture": "高知県",
+      "raw_address": "高知県高知市城山町２０６",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:57+00:00",
+      "lat": 33.5506777,
+      "lng": 133.5109229,
+      "formatted_address": "Japan, 〒780-8037 Kochi, Jōyamachō, ２０６ オートショップチャレンジ",
+      "place_id": "ChIJWScy7_AYTjURb0iV4DFOMWo"
+    },
+    "高知県高知県高知市朝倉東町５１－５": {
+      "normalized_address": "高知県高知県高知市朝倉東町５１－５",
+      "raw_prefecture": "高知県",
+      "raw_address": "高知県高知市朝倉東町５１－５",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:58+00:00",
+      "lat": 33.543771,
+      "lng": 133.49985,
+      "formatted_address": "51-5 Asakura Higashimachi, Kochi, 780-8076, Japan",
+      "place_id": "ChIJ6fHw6GYYTjUROaY3tQuLlSQ"
+    },
+    "高知県高知県高知市桟橋通３－２５－２６": {
+      "normalized_address": "高知県高知県高知市桟橋通３－２５－２６",
+      "raw_prefecture": "高知県",
+      "raw_address": "高知県高知市桟橋通３－２５－２６",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:58+00:00",
+      "lat": 33.5460718,
+      "lng": 133.5493459,
+      "formatted_address": "3-chōme-25-26 Sanbashidōri, Kochi, 781-8010, Japan",
+      "place_id": "ChIJqcyIJ2gZTjURs3lAJJsRFjo"
+    }
+  }
+}

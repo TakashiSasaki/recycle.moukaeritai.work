@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "generated_at": "2026-03-29T13:33:02+00:00",
+  "source_file": "docs/data/2-47.json",
+  "entries": {
+    "沖縄県沖縄県中頭郡中城村字当間５８５－１": {
+      "normalized_address": "沖縄県沖縄県中頭郡中城村字当間５８５－１",
+      "raw_prefecture": "沖縄県",
+      "raw_address": "沖縄県中頭郡中城村字当間５８５－１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:58+00:00",
+      "lat": 26.2620817,
+      "lng": 127.7895658,
+      "formatted_address": "585-1 Tōma, Nakagusuku, Nakagami District, Okinawa 901-2406, Japan",
+      "place_id": "ChIJrbSQqEdt5TQRggm6FGG4UMU"
+    },
+    "沖縄県沖縄県中頭郡北谷町字桑江７３１保健相談センター": {
+      "normalized_address": "沖縄県沖縄県中頭郡北谷町字桑江７３１保健相談センター",
+      "raw_prefecture": "沖縄県",
+      "raw_address": "沖縄県中頭郡北谷町字桑江７３１保健相談センター",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:59+00:00",
+      "lat": 26.315764,
+      "lng": 127.770084,
+      "formatted_address": "731 Kuwae, Chatan, Nakagami District, Okinawa 904-0103, Japan",
+      "place_id": "ChIJZxVYnv4S5TQRQ78b0NrNi-Y"
+    },
+    "沖縄県沖縄県中頭郡嘉手納町字嘉手納５８８": {
+      "normalized_address": "沖縄県沖縄県中頭郡嘉手納町字嘉手納５８８",
+      "raw_prefecture": "沖縄県",
+      "raw_address": "沖縄県中頭郡嘉手納町字嘉手納５８８",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:59+00:00",
+      "lat": 26.3615232,
+      "lng": 127.7552309,
+      "formatted_address": "588 Kadena, Nakagami District, Okinawa 904-0203, Japan",
+      "place_id": "ChIJk2hx3tkT5TQRrIQrxStOEu0"
+    },
+    "沖縄県沖縄県中頭郡読谷村字座喜味２９０１": {
+      "normalized_address": "沖縄県沖縄県中頭郡読谷村字座喜味２９０１",
+      "raw_prefecture": "沖縄県",
+      "raw_address": "沖縄県中頭郡読谷村字座喜味２９０１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:59+00:00",
+      "lat": 26.3960561,
+      "lng": 127.7452755,
+      "formatted_address": "2901 Zakimi, Yomitan, Nakagami District, Okinawa 904-0301, Japan",
+      "place_id": "ChIJa8M2KxYR5TQRwpdJxjQwFAM"
+    },
+    "沖縄県沖縄県南城市玉城字奥武９９６": {
+      "normalized_address": "沖縄県沖縄県南城市玉城字奥武９９６",
+      "raw_prefecture": "沖縄県",
+      "raw_address": "沖縄県南城市玉城字奥武９９６",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:59+00:00",
+      "lat": 26.1380708,
+      "lng": 127.7579387,
+      "formatted_address": "Ou-996 Tamagusuku, Nanjo, Okinawa 901-0614, Japan",
+      "place_id": "ChIJVYnlg3Fv5TQRHKvDDvTGLHo"
+    },
+    "沖縄県沖縄県国頭郡恩納村字冨着１０４３－１５９": {
+      "normalized_address": "沖縄県沖縄県国頭郡恩納村字冨着１０４３－１５９",
+      "raw_prefecture": "沖縄県",
+      "raw_address": "沖縄県国頭郡恩納村字冨着１０４３－１５９",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:33:00+00:00",
+      "lat": 26.4494944,
+      "lng": 127.8265392,
+      "formatted_address": "1043-159 Fuchaku, Onna, Kunigami District, Okinawa 904-0413, Japan",
+      "place_id": "ChIJkdjjOjwF5TQR5Gj1-oeu7QA"
+    },
+    "沖縄県沖縄県国頭郡恩納村字恩納２４５１": {
+      "normalized_address": "沖縄県沖縄県国頭郡恩納村字恩納２４５１",
+      "raw_prefecture": "沖縄県",
+      "raw_address": "沖縄県国頭郡恩納村字恩納２４５１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:33:00+00:00",
+      "lat": 26.497399,
+      "lng": 127.8535413,
+      "formatted_address": "2451 Onna, Kunigami District, Okinawa 904-0411, Japan",
+      "place_id": "ChIJc9JHWIAD5TQRgdre7Y8gtB4"
+    },
+    "沖縄県沖縄県宜野湾市野嵩１－１－１": {
+      "normalized_address": "沖縄県沖縄県宜野湾市野嵩１－１－１",
+      "raw_prefecture": "沖縄県",
+      "raw_address": "沖縄県宜野湾市野嵩１－１－１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:33:00+00:00",
+      "lat": 26.2815344,
+      "lng": 127.7785368,
+      "formatted_address": "1-chōme-1-1 Nodake, Ginowan, Okinawa 901-2203, Japan",
+      "place_id": "ChIJbze5wc0S5TQRNmGGp2ztYVM"
+    },
+    "沖縄県沖縄県宮古島市平良字西里５５６": {
+      "normalized_address": "沖縄県沖縄県宮古島市平良字西里５５６",
+      "raw_prefecture": "沖縄県",
+      "raw_address": "沖縄県宮古島市平良字西里５５６",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:33:00+00:00",
+      "lat": 24.8019908,
+      "lng": 125.2837866,
+      "formatted_address": "Nishizato-556 Hirara, Miyakojima, Okinawa 906-0012, Japan",
+      "place_id": "ChIJlYLFVvRT9DQR597w-A4U9x0"
+    },
+    "沖縄県沖縄県島尻郡与那原町字板良敷１６１２": {
+      "normalized_address": "沖縄県沖縄県島尻郡与那原町字板良敷１６１２",
+      "raw_prefecture": "沖縄県",
+      "raw_address": "沖縄県島尻郡与那原町字板良敷１６１２",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:33:01+00:00",
+      "lat": 26.1909878,
+      "lng": 127.7652823,
+      "formatted_address": "1612 Itarashiki, Yonabaru, Shimajiri District, Okinawa 901-1301, Japan",
+      "place_id": "ChIJ8bwqDIhu5TQRboY720vFQu8"
+    },
+    "沖縄県沖縄県島尻郡南風原町字兼城５１７－３": {
+      "normalized_address": "沖縄県沖縄県島尻郡南風原町字兼城５１７－３",
+      "raw_prefecture": "沖縄県",
+      "raw_address": "沖縄県島尻郡南風原町字兼城５１７－３",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:33:01+00:00",
+      "lat": 26.1954647,
+      "lng": 127.7190955,
+      "formatted_address": "517-3 Kanegusuku, Haebaru, Shimajiri District, Okinawa 901-1111, Japan",
+      "place_id": "ChIJcZ4h-DVp5TQRwk4LiBJKpyA"
+    },
+    "沖縄県沖縄県島尻郡南風原町字兼城６８６南風原町役場": {
+      "normalized_address": "沖縄県沖縄県島尻郡南風原町字兼城６８６南風原町役場",
+      "raw_prefecture": "沖縄県",
+      "raw_address": "沖縄県島尻郡南風原町字兼城６８６南風原町役場",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:33:01+00:00",
+      "lat": 26.1910892,
+      "lng": 127.7284353,
+      "formatted_address": "686番地 Kanegusuku, Haebaru, Shimajiri District, Okinawa 901-1111, Japan",
+      "place_id": "ChIJX217I8pu5TQRTg2X-xIOZTM"
+    },
+    "沖縄県沖縄県沖縄市字池原３３９４": {
+      "normalized_address": "沖縄県沖縄県沖縄市字池原３３９４",
+      "raw_prefecture": "沖縄県",
+      "raw_address": "沖縄県沖縄市字池原３３９４",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:33:01+00:00",
+      "lat": 26.390385,
+      "lng": 127.8126716,
+      "formatted_address": "Japan, 〒904-2141 Okinawa, Ikehara, ３３９４ ３３９４番地",
+      "place_id": "ChIJNzPOX9QP5TQRzA75qi0Ocjg"
+    },
+    "沖縄県沖縄県糸満市字束里７４－１": {
+      "normalized_address": "沖縄県沖縄県糸満市字束里７４－１",
+      "raw_prefecture": "沖縄県",
+      "raw_address": "沖縄県糸満市字束里７４－１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:33:01+00:00",
+      "lat": 26.0833472,
+      "lng": 127.6818635,
+      "formatted_address": "74-1 Tsukazato, Itoman, Okinawa 901-0353, Japan",
+      "place_id": "ChIJ5axlet9m5TQRGQkOZuDJVYE"
+    }
+  }
+}

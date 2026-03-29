@@ -1,0 +1,183 @@
+{
+  "version": 1,
+  "generated_at": "2026-03-29T13:32:52+00:00",
+  "source_file": "docs/data/2-45.json",
+  "entries": {
+    "宮崎県宮崎県児湯郡新富町富田南１－８９": {
+      "normalized_address": "宮崎県宮崎県児湯郡新富町富田南１－８９",
+      "raw_prefecture": "宮崎県",
+      "raw_address": "宮崎県児湯郡新富町富田南１－８９",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:48+00:00",
+      "lat": 32.0655999,
+      "lng": 131.4894038,
+      "formatted_address": "Tondaminami, Shintomi, Koyu District, Miyazaki 889-1414, Japan",
+      "place_id": "ChIJj-qKwISmODURfJ863R6VnAk"
+    },
+    "宮崎県宮崎県北諸県郡三股町五本松１－１三股町役場": {
+      "normalized_address": "宮崎県宮崎県北諸県郡三股町五本松１－１三股町役場",
+      "raw_prefecture": "宮崎県",
+      "raw_address": "宮崎県北諸県郡三股町五本松１－１三股町役場",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:48+00:00",
+      "lat": 31.7306883,
+      "lng": 131.124924,
+      "formatted_address": "Japan, 〒889-1902 Miyazaki, Kitamorokata District, Mimata, Gohonmatsu, 1−１−１",
+      "place_id": "ChIJz31rTJ8oPzURmyJHgWqnuJ8"
+    },
+    "宮崎県宮崎県北諸県郡三股町大字長田１２３３－１": {
+      "normalized_address": "宮崎県宮崎県北諸県郡三股町大字長田１２３３－１",
+      "raw_prefecture": "宮崎県",
+      "raw_address": "宮崎県北諸県郡三股町大字長田１２３３－１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:48+00:00",
+      "lat": 31.7400673,
+      "lng": 131.1314582,
+      "formatted_address": "1233-1 Nagata, Mimata, Kitamorokata District, Miyazaki 889-1911, Japan",
+      "place_id": "ChIJk40_QbEoPzURLPZPXuJFN8g"
+    },
+    "宮崎県宮崎県宮崎市吉村町寺ノ下甲２３２３－１": {
+      "normalized_address": "宮崎県宮崎県宮崎市吉村町寺ノ下甲２３２３－１",
+      "raw_prefecture": "宮崎県",
+      "raw_address": "宮崎県宮崎市吉村町寺ノ下甲２３２３－１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:49+00:00",
+      "lat": 31.9143655,
+      "lng": 131.4484842,
+      "formatted_address": "Teranoshita-2323-1 Yoshimurachō, Miyazaki, 880-0841, Japan",
+      "place_id": "ChIJjdEH3uS5ODUR4HOeWwzpZaM"
+    },
+    "宮崎県宮崎県宮崎市恒久１５２６－１": {
+      "normalized_address": "宮崎県宮崎県宮崎市恒久１５２６－１",
+      "raw_prefecture": "宮崎県",
+      "raw_address": "宮崎県宮崎市恒久１５２６－１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:49+00:00",
+      "lat": 31.8885504,
+      "lng": 131.4227664,
+      "formatted_address": "1526-1 Tsunehisa, Miyazaki, 880-0916, Japan",
+      "place_id": "ChIJLfk5I5i3ODURdHLfonA9Obs"
+    },
+    "宮崎県宮崎県宮崎市東大淀１－７－２６": {
+      "normalized_address": "宮崎県宮崎県宮崎市東大淀１－７－２６",
+      "raw_prefecture": "宮崎県",
+      "raw_address": "宮崎県宮崎市東大淀１－７－２６",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:49+00:00",
+      "lat": 31.8982316,
+      "lng": 131.4244054,
+      "formatted_address": "1-chōme-7-26 Higashiōyodo, Miyazaki, 880-0901, Japan",
+      "place_id": "ChIJIWPLvHW3ODURFBbkvsxSsEg"
+    },
+    "宮崎県宮崎県宮崎市橘通西１－１－１": {
+      "normalized_address": "宮崎県宮崎県宮崎市橘通西１－１－１",
+      "raw_prefecture": "宮崎県",
+      "raw_address": "宮崎県宮崎市橘通西１－１－１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:49+00:00",
+      "lat": 31.9079206,
+      "lng": 131.4197603,
+      "formatted_address": "1-chōme-1-1 Tachibanadōrinishi, Miyazaki, 880-0001, Japan",
+      "place_id": "ChIJt9bBnRK3ODURF4WXVc0LzqI"
+    },
+    "宮崎県宮崎県宮崎市清武町加納３－２１": {
+      "normalized_address": "宮崎県宮崎県宮崎市清武町加納３－２１",
+      "raw_prefecture": "宮崎県",
+      "raw_address": "宮崎県宮崎市清武町加納３－２１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:50+00:00",
+      "lat": 31.8752092,
+      "lng": 131.4018555,
+      "formatted_address": "3-chōme-21 清武町加納 Miyazaki, 889-1607, Japan",
+      "place_id": "ChIJIaI62NK3ODURn02fGbOID6E"
+    },
+    "宮崎県宮崎県宮崎市矢の先町８－１": {
+      "normalized_address": "宮崎県宮崎県宮崎市矢の先町８－１",
+      "raw_prefecture": "宮崎県",
+      "raw_address": "宮崎県宮崎市矢の先町８－１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:50+00:00",
+      "lat": 31.9409394,
+      "lng": 131.4205622,
+      "formatted_address": "8-1 Yanosakichō, Miyazaki, 880-0034, Japan",
+      "place_id": "ChIJUwhf98mwODURbO2Tajeb1C8"
+    },
+    "宮崎県宮崎県宮崎市谷川２－１３－１０": {
+      "normalized_address": "宮崎県宮崎県宮崎市谷川２－１３－１０",
+      "raw_prefecture": "宮崎県",
+      "raw_address": "宮崎県宮崎市谷川２－１３－１０",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:50+00:00",
+      "lat": 31.9057226,
+      "lng": 131.4101046,
+      "formatted_address": "Japan, 〒880-0908 Miyazaki, Tanigawa, 2-chōme−13−１０ ＹＯＵ ＳＨＯＰ ＨＩＧＥ",
+      "place_id": "ChIJ6eLYPga3ODURZyWSkqwGh1w"
+    },
+    "宮崎県宮崎県延岡市別府町４４１３": {
+      "normalized_address": "宮崎県宮崎県延岡市別府町４４１３",
+      "raw_prefecture": "宮崎県",
+      "raw_address": "宮崎県延岡市別府町４４１３",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:50+00:00",
+      "lat": 32.5638251,
+      "lng": 131.6823036,
+      "formatted_address": "4413 Biyuumachi, Nobeoka, Miyazaki 882-0861, Japan",
+      "place_id": "ChIJu1uUauAbRzURAdLsQNAaI0g"
+    },
+    "宮崎県宮崎県日南市大字隈谷乙１６７１": {
+      "normalized_address": "宮崎県宮崎県日南市大字隈谷乙１６７１",
+      "raw_prefecture": "宮崎県",
+      "raw_address": "宮崎県日南市大字隈谷乙１６７１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:51+00:00",
+      "lat": 31.580569,
+      "lng": 131.370529,
+      "formatted_address": "Otsu-1671 Kumaya, Nichinan, Miyazaki 887-0023, Japan",
+      "place_id": "ChIJ04UK2gLWODURR80Ggs-s7Vc"
+    },
+    "宮崎県宮崎県東諸県郡国富町大字本庄４８００": {
+      "normalized_address": "宮崎県宮崎県東諸県郡国富町大字本庄４８００",
+      "raw_prefecture": "宮崎県",
+      "raw_address": "宮崎県東諸県郡国富町大字本庄４８００",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:51+00:00",
+      "lat": 31.9904562,
+      "lng": 131.3228518,
+      "formatted_address": "4800 Honjō, Kunitomi, Higashimorokata District, Miyazaki 880-1101, Japan",
+      "place_id": "ChIJA8E2RZ6zODURNtYEbtK_mhA"
+    },
+    "宮崎県宮崎県都城市下水流町４０２８－１１": {
+      "normalized_address": "宮崎県宮崎県都城市下水流町４０２８－１１",
+      "raw_prefecture": "宮崎県",
+      "raw_address": "宮崎県都城市下水流町４０２８－１１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:51+00:00",
+      "lat": 31.8215914,
+      "lng": 131.1006698,
+      "formatted_address": "4028-11 Shimozuruchō, Miyakonojo, Miyazaki 885-1102, Japan",
+      "place_id": "ChIJYQGwT0clPzURflGQsNDjILA"
+    },
+    "宮崎県宮崎県都城市姫城町６街区２１": {
+      "normalized_address": "宮崎県宮崎県都城市姫城町６街区２１",
+      "raw_prefecture": "宮崎県",
+      "raw_address": "宮崎県都城市姫城町６街区２１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:51+00:00",
+      "lat": 31.7196621,
+      "lng": 131.0616108,
+      "formatted_address": "6 Himegicho, Miyakonojo, Miyazaki 885-0073, Japan",
+      "place_id": "ChIJYZGuGRUnPzURbztzsv1Yi2A"
+    },
+    "宮崎県宮崎県都城市栄町２７－１４５": {
+      "normalized_address": "宮崎県宮崎県都城市栄町２７－１４５",
+      "raw_prefecture": "宮崎県",
+      "raw_address": "宮崎県都城市栄町２７－１４５",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:32:52+00:00",
+      "lat": 31.73664999999999,
+      "lng": 131.06951,
+      "formatted_address": "27-145 Sakaemachi, Miyakonojo, Miyazaki 885-0023, Japan",
+      "place_id": "ChIJ6ZDwKuMmPzURy_AqwsfOQ78"
+    }
+  }
+}

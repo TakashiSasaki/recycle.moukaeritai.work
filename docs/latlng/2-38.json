@@ -1,0 +1,238 @@
+{
+  "version": 1,
+  "generated_at": "2026-03-29T13:31:56+00:00",
+  "source_file": "docs/data/2-38.json",
+  "entries": {
+    "愛媛県愛媛県今治市北高下町１－１－２８": {
+      "normalized_address": "愛媛県愛媛県今治市北高下町１－１－２８",
+      "raw_prefecture": "愛媛県",
+      "raw_address": "愛媛県今治市北高下町１－１－２８",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:51+00:00",
+      "lat": 34.053207,
+      "lng": 133.012909,
+      "formatted_address": "1-chōme-1-28 Kitakōgechō, Imabari, Ehime 794-0812, Japan",
+      "place_id": "ChIJxb8Rl306UDURu0DCRnSFfLc"
+    },
+    "愛媛県愛媛県伊予市上三谷２８５５": {
+      "normalized_address": "愛媛県愛媛県伊予市上三谷２８５５",
+      "raw_prefecture": "愛媛県",
+      "raw_address": "愛媛県伊予市上三谷２８５５",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:51+00:00",
+      "lat": 33.7655605,
+      "lng": 132.7306358,
+      "formatted_address": "2855 Kamimitani, Iyo, Ehime 799-3104, Japan",
+      "place_id": "ChIJaWx8X9ztTzURYEFG7d8jGFM"
+    },
+    "愛媛県愛媛県伊予郡砥部町高尾田７０": {
+      "normalized_address": "愛媛県愛媛県伊予郡砥部町高尾田７０",
+      "raw_prefecture": "愛媛県",
+      "raw_address": "愛媛県伊予郡砥部町高尾田７０",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:51+00:00",
+      "lat": 33.7819535,
+      "lng": 132.792121,
+      "formatted_address": "70 Takooda, Tobe, Iyo District, Ehime 791-2101, Japan",
+      "place_id": "ChIJh-67wynpTzUR4m_RcZsySpU"
+    },
+    "愛媛県愛媛県八幡浜市保内町宮内１－２６０": {
+      "normalized_address": "愛媛県愛媛県八幡浜市保内町宮内１－２６０",
+      "raw_prefecture": "愛媛県",
+      "raw_address": "愛媛県八幡浜市保内町宮内１－２６０",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:52+00:00",
+      "lat": 33.4833532,
+      "lng": 132.4076468,
+      "formatted_address": "1 Honaichō Miyauchi, Yawatahama, Ehime 796-0111, Japan",
+      "place_id": "ChIJK0dSo0aDRTURembxl7lf5Sg"
+    },
+    "愛媛県愛媛県八幡浜市北浜１－１－１": {
+      "normalized_address": "愛媛県愛媛県八幡浜市北浜１－１－１",
+      "raw_prefecture": "愛媛県",
+      "raw_address": "愛媛県八幡浜市北浜１－１－１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:52+00:00",
+      "lat": 33.4628935,
+      "lng": 132.4233856,
+      "formatted_address": "1-chōme-1-1 Kitahama, Yawatahama, Ehime 796-0048, Japan",
+      "place_id": "ChIJA9DKUn2DRTURmhJgLX_AlNY"
+    },
+    "愛媛県愛媛県八幡浜市若山９－４０": {
+      "normalized_address": "愛媛県愛媛県八幡浜市若山９－４０",
+      "raw_prefecture": "愛媛県",
+      "raw_address": "愛媛県八幡浜市若山９－４０",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:52+00:00",
+      "lat": 33.4268131,
+      "lng": 132.450547,
+      "formatted_address": "9-40 Wakayama, Yawatahama, Ehime 796-8035, Japan",
+      "place_id": "ChIJRa49H0eERTURlQFyg6B8oLI"
+    },
+    "愛媛県愛媛県喜多郡内子町内子２２９０": {
+      "normalized_address": "愛媛県愛媛県喜多郡内子町内子２２９０",
+      "raw_prefecture": "愛媛県",
+      "raw_address": "愛媛県喜多郡内子町内子２２９０",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:52+00:00",
+      "lat": 33.55452289999999,
+      "lng": 132.6551014,
+      "formatted_address": "2290 Uchiko, Kita District, Ehime 791-3301, Japan",
+      "place_id": "ChIJeZ0jGLGFTzURE6HnkeAEgck"
+    },
+    "愛媛県愛媛県大洲市若宮７６９－２": {
+      "normalized_address": "愛媛県愛媛県大洲市若宮７６９－２",
+      "raw_prefecture": "愛媛県",
+      "raw_address": "愛媛県大洲市若宮７６９－２",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:53+00:00",
+      "lat": 33.522275,
+      "lng": 132.5508816,
+      "formatted_address": "769-2 Wakamiya, Ozu, Ehime 795-0052, Japan",
+      "place_id": "ChIJe1P_dCp-RTURK9sy6QJ66gc"
+    },
+    "愛媛県愛媛県大洲市長浜甲２６５": {
+      "normalized_address": "愛媛県愛媛県大洲市長浜甲２６５",
+      "raw_prefecture": "愛媛県",
+      "raw_address": "愛媛県大洲市長浜甲２６５",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:53+00:00",
+      "lat": 33.6150921,
+      "lng": 132.4835044,
+      "formatted_address": "Nagahama, Ozu, Ehime 799-3401, Japan",
+      "place_id": "ChIJLXu_XWR8RTURX7CzZSkQIec"
+    },
+    "愛媛県愛媛県宇和島市三間町宮野下８３５": {
+      "normalized_address": "愛媛県愛媛県宇和島市三間町宮野下８３５",
+      "raw_prefecture": "愛媛県",
+      "raw_address": "愛媛県宇和島市三間町宮野下８３５",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:53+00:00",
+      "lat": 33.2910477,
+      "lng": 132.6078775,
+      "formatted_address": "835 Mimachō Miyanoshita, Uwajima, Ehime 798-1112, Japan",
+      "place_id": "ChIJ90DoDxVjTzURW3b1q8dEGBU"
+    },
+    "愛媛県愛媛県宇和島市吉田町東小路甲１０６": {
+      "normalized_address": "愛媛県愛媛県宇和島市吉田町東小路甲１０６",
+      "raw_prefecture": "愛媛県",
+      "raw_address": "愛媛県宇和島市吉田町東小路甲１０６",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:53+00:00",
+      "lat": 33.2802674,
+      "lng": 132.540541,
+      "formatted_address": "Yoshidacho Higashikoji, Uwajima, Ehime 799-3703, Japan",
+      "place_id": "ChIJSfdwVe-JRTURMWxq8B2R_Sw"
+    },
+    "愛媛県愛媛県宇和島市津島町高田丁１６５－３": {
+      "normalized_address": "愛媛県愛媛県宇和島市津島町高田丁１６５－３",
+      "raw_prefecture": "愛媛県",
+      "raw_address": "愛媛県宇和島市津島町高田丁１６５－３",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:54+00:00",
+      "lat": 33.1408624,
+      "lng": 132.5184993,
+      "formatted_address": "165-3 Tsushimachō Takata, Uwajima, Ehime 798-3302, Japan",
+      "place_id": "ChIJFx8v2871RTUR9t8Ufz3eYOQ"
+    },
+    "愛媛県愛媛県新居浜市一宮町１－１４－１": {
+      "normalized_address": "愛媛県愛媛県新居浜市一宮町１－１４－１",
+      "raw_prefecture": "愛媛県",
+      "raw_address": "愛媛県新居浜市一宮町１－１４－１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:54+00:00",
+      "lat": 33.9585255,
+      "lng": 133.2849991,
+      "formatted_address": "1-chōme-14-1 Ikkuchō, Niihama, Ehime 792-0025, Japan",
+      "place_id": "ChIJPQVYyNvOUTURBBMsIO2wqA8"
+    },
+    "愛媛県愛媛県松山市久万ノ台４０２－１": {
+      "normalized_address": "愛媛県愛媛県松山市久万ノ台４０２－１",
+      "raw_prefecture": "愛媛県",
+      "raw_address": "愛媛県松山市久万ノ台４０２－１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:54+00:00",
+      "lat": 33.8624588,
+      "lng": 132.7495611,
+      "formatted_address": "402-1 Kumanodai, Matsuyama, Ehime 791-8016, Japan",
+      "place_id": "ChIJ4Rsc-ablTzUR9Tw63s1hBYQ"
+    },
+    "愛媛県愛媛県松山市堀江町甲１５２５": {
+      "normalized_address": "愛媛県愛媛県松山市堀江町甲１５２５",
+      "raw_prefecture": "愛媛県",
+      "raw_address": "愛媛県松山市堀江町甲１５２５",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:54+00:00",
+      "lat": 33.9035605,
+      "lng": 132.7507296,
+      "formatted_address": "1525 Horiechō, Matsuyama, Ehime 799-2651, Japan",
+      "place_id": "ChIJX-o1ZHzkTzURgjbn42NW2Tg"
+    },
+    "愛媛県愛媛県松山市天山２－６－１６": {
+      "normalized_address": "愛媛県愛媛県松山市天山２－６－１６",
+      "raw_prefecture": "愛媛県",
+      "raw_address": "愛媛県松山市天山２－６－１６",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:55+00:00",
+      "lat": 33.8205584,
+      "lng": 132.7769497,
+      "formatted_address": "2-chōme-6-16 Amayama, Matsuyama, Ehime 790-0951, Japan",
+      "place_id": "ChIJ0f_-ulDvTzUR8tHi432JfOk"
+    },
+    "愛媛県愛媛県松山市室町１－２－１": {
+      "normalized_address": "愛媛県愛媛県松山市室町１－２－１",
+      "raw_prefecture": "愛媛県",
+      "raw_address": "愛媛県松山市室町１－２－１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:55+00:00",
+      "lat": 33.8292026,
+      "lng": 132.7653786,
+      "formatted_address": "1-chōme-2-1 Muromachi, Matsuyama, Ehime 790-0026, Japan",
+      "place_id": "ChIJP5m5bmDvTzUREHLqmEMwZg8"
+    },
+    "愛媛県愛媛県松山市平和通２－６－１２": {
+      "normalized_address": "愛媛県愛媛県松山市平和通２－６－１２",
+      "raw_prefecture": "愛媛県",
+      "raw_address": "愛媛県松山市平和通２－６－１２",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:55+00:00",
+      "lat": 33.8477111,
+      "lng": 132.7708473,
+      "formatted_address": "2-chōme-6-12 Heiwadōri, Matsuyama, Ehime 790-0807, Japan",
+      "place_id": "ChIJ9Yqk9MHlTzURIWYw290_gZQ"
+    },
+    "愛媛県愛媛県松山市来住町１２９７－３": {
+      "normalized_address": "愛媛県愛媛県松山市来住町１２９７－３",
+      "raw_prefecture": "愛媛県",
+      "raw_address": "愛媛県松山市来住町１２９７－３",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:55+00:00",
+      "lat": 33.8069801,
+      "lng": 132.7952343,
+      "formatted_address": "1297-3 Kishimachi, Matsuyama, Ehime 791-1102, Japan",
+      "place_id": "ChIJMTtMerDoTzURHjlGYm9W26s"
+    },
+    "愛媛県愛媛県松山市衣山３－１－１７": {
+      "normalized_address": "愛媛県愛媛県松山市衣山３－１－１７",
+      "raw_prefecture": "愛媛県",
+      "raw_address": "愛媛県松山市衣山３－１－１７",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:56+00:00",
+      "lat": 33.8507421,
+      "lng": 132.7400119,
+      "formatted_address": "3-chōme-1-17 Kinuyama, Matsuyama, Ehime 791-8025, Japan",
+      "place_id": "ChIJBTE5nXDlTzURElEvQc69ios"
+    },
+    "愛媛県愛媛県西条市喜多川３１６－１": {
+      "normalized_address": "愛媛県愛媛県西条市喜多川３１６－１",
+      "raw_prefecture": "愛媛県",
+      "raw_address": "愛媛県西条市喜多川３１６－１",
+      "status": "ok",
+      "updated_at": "2026-03-29T13:31:56+00:00",
+      "lat": 33.9130531,
+      "lng": 133.1730134,
+      "formatted_address": "316-1 Kitagawa, Saijo, Ehime 793-0042, Japan",
+      "place_id": "ChIJCz6JGistUDURCsZLSGAdObU"
+    }
+  }
+}
